@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-noidung.css">
+    <script src="js/toan man hinh.js"></script>
+    
+    <title>KIẾN TRÚC CỔ VIỆT NAM</title>
+</head>
+<body>
+    <div><button id="pre-page" style="transform: rotate(-90deg);"><a href="Chương 4.html"><img id="muiten-do" src="icon/muiten do.png" alt=""></a></button></div>
+	<div><button id="next-page" style="transform: rotate(90deg);"><a href="Chương 6.html"><img id="muiten-do" src="icon/muiten do.png" alt=""></a></button></div>
+    <header>
+            <div id="btn-trangchu" style="padding: 30px 20px;">
+            <a id="a-header" href="index.html"><img id="icon-header" src="icon/iocn index.png" alt=""></a>
+            </div>
+            <div id="btn-mucluc" style="padding: 35px 10px;">
+                <button id="btn-header" onclick="toggleTable('muc-luc')"><img id="icon-header" src="icon/icon mucluc.png" alt=""></button>
+            </div>
+            <div id="muc-luc">
+                <span class="close-btn" onclick="toggleTable('muc-luc')">&#9746;</span>
+                <br>
+                <br>
+                <nav>
+                    <ul id="menu1" style="list-style: none;padding: 0px;">
+                        <li><a href="Bìa sách.html">BÌA SÁCH</a></li>
+                        <li><a href="Trang trách nhiệm.html">TRANG TRÁCH NHIỆM</a></li>
+                        <li><a href="Lời nói đầu.html">LỜI NÓI ĐẦU</a></li>
+                        <li><a href="Chương 1.html">CHƯƠNG I: PHỤC DỰNG THÁP TƯỜNG LONG - ĐỒ SƠN, HẢI PHÒNG TỪ CÁI NHÌN KHẢO CỔ HỌC</a>
+                            <ul id="menu2">
+                                <li><a href="Chương 1.html#1.1">1. NHỮNG ĐIỀU ĐÃ BIẾT</a></li>
+                                <li><a href="Chương 1.html#1.2">2. DẤU VẾT CỦA THÁP TƯỜNG LONG</a></li>
+                                <li><a href="Chương 1.html#1.3">3. ĐI TÌM NHỮNG ĐIỀU CÒN CHƯA BIẾT VỀ THÁP TƯỜNG LONG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 2.html">CHƯƠNG II: KIẾN TRÚC NHÀ CỬA THỜI TRẦN</a>
+                            <ul id="menu3">
+                                <li><a href="Chương 2.html#2.1">1. NHỮNG MÔ HÌNH NHÀ TÌM THẤY TRONG CÁC MỘ CỔ.</a></li>
+                                <li><a href="Chương 2.html#2.2">2. TÊN GỌI CỦA VÌ ĐƯỢC GỌI THEO ĐẶC TRƯNG LIÊN KẾT CỘT. </a></li>
+                                <li><a href="Chương 2.html#2.3">3. MỘT PHÁC THẢO VỀ KIẾN TRÚC NHÀ CỬA THỜI TRẤN </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 3.html">CHƯƠNG III: CHÙA VĨNH NGHIÊM - MỘT TRUNG TÂM PHẬT GIÁO ĐÃ 700 TUỔI</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 3.html#3.1">1. ĐẤT BIÊN ẢI CỦA MỘT DÒNG SỬ THI VÀ HUYỀN THOẠI VIỆT</a></li>
+                                <li><a href="Chương 3.html#3.2">2. MỘT TRUNG TÂM PHẬT GIÁO 700 NĂM TRƯỚC</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 4.html">CHƯƠNG IV: ĐÌNH LÀNG - ĐIỂM LẠI BƯỚC ĐI BAN ĐẦU.</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 4.html#4.1">1. VẤN ĐỀ NIÊN ĐẠI</a></li>
+                                <li><a href="Chương 4.html#4.2">2. ĐẤT DỰNG ĐÌNH</a></li>
+                                <li><a href="Chương 4.html#4.3">3. MẶT BẰNG TỔNG THỂ</a></li>
+                                <li><a href="Chương 4.html#4.4">4. KẾT CẤU BÊN NGOÀI: BỘ MÁI</a></li>
+                                <li><a href="Chương 4.html#4.5">5. KẾT CẤU BÊN TRONG: BỘ KHUNG</a></li>
+                                <li><a href="Chương 4.html#4.6">6. ĐIÊU KHẮC ĐÌNH LÀNG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 5.html">CHƯƠNG V: ĐÌNH LÀNG - HÌNH TƯỢNG</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 5.html#5.1">1. CÁC TƯ TƯỞNG CHỦ ĐẠO ĐẶC THÙ CỦA NGÀNH KIẾN TRÚC. </a></li>
+                                <li><a href="Chương 5.html#5.2">2. LÀNG NITA TRÊN ĐẢO FLORES VÀ LÀNG HỒI QUAN </a></li>
+                                <li><a href="Chương 5.html#5.3">3. CÂY THƯỚC TẦM TRONG NỀN KIẾN TRÚC CỔ VIỆT NAM</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 6.html">CHƯƠNG VI: THẨM ĐỊNH LẠI GIÁ TRỊ KIẾN TRÚC VĂN MIẾU - HÀ NỘI</a></li>
+                        <li><a href="Thư mục tham khảo.html">THƯ MỤC THAM KHẢO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="btn-gioithieu" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="Giới thiệu.html">Giới thiệu</a></button>
+            </div>
+            <div id="btn-lienhe" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="Liên hệ.html">Liên hệ</a></button>
+            </div>
+            <div id="tensach">
+                <h1 id="h1-header">KIẾN TRÚC CỔ VIỆT NAM<br/>Từ cái nhìn khảo cổ học</h1>
+            </div>
+            <div id="btn-cochu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('sizeTable')" style="font-size: 35px;">Aa</button>
+            </div>
+            <div id="btn-mauchu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('colorTable')"><img id="icon-header" src="icon/icon mau.png" alt=""></button>
+            </div>
+            <div id="btn-nhac" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('nhac')" ><img id="icon-header" src="icon/icon nhac.png" alt=""></button>
+            </div>
+            <div id="btn-tmh" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleFullScreen()"><img id="icon-header" src="icon/icon tmh.png" alt=""></button>
+            </div>
+            <div id="colorTable">
+                <span class="close-btn" onclick="toggleTable('colorTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn btn-default" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', 'white')">Mặc định</button></td>
+                        <td><button class="btn btn-white-black" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#000', '#BEB6F2')">Đen - Tím</button></td>
+                        <td><button class="btn btn-white-purple" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#7B2924', '#edb561')">Đỏ - Cam</button></td>
+                        <td><button class="btn btn-black-yellow" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', '#FEFFC8')">Đen - Vàng</button></td>
+                        <td><button class="btn btn-white-green" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('Black', '#0CC0DF')">Đen - Xanh</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="sizeTable">
+                <span class="close-btn" onclick="toggleTable('sizeTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFontSize('18px')">Aa</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('18.5px')"><span style="font-size: 18.5px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('19px')"><span style="font-size: 19px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('20px')"><span style="font-size: 20px;">Aa</span></button></td>
+                    </tr>
+                </table>
+                <table style="margin: 20px 0;">
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Times New Roman')">Times New Roman</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Arial')">Arial</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Courier New')">Courier New</button></td>
+                    </tr>
+                </table>
+                <table> 
+                    <tr>
+                        <tr>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="highlight">Đánh dấu</button></td>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="remove-highlight">Bỏ đánh dấu</button></td>
+                        </tr>
+                    </tr>
+                </table>
+            </div>
+            <div id="nhac">
+                <span class="close-btn" onclick="toggleTable('nhac')">&#9746;</span>
+                <div id="box-nhac">
+                <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                <div class="audio-player" data-audio="audio1">
+                    <button class="play-pause play"></button>
+                    <audio id="audio1" loop src="mp3/Nhạc đồng quê nhẹ nhàng - nhạc nền video.mp3"></audio>
+                </div>
+                </div> 
+                <div id="box-nhac">
+                    <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                    <div class="audio-player" data-audio="audio2">
+                        <button class="play-pause play"></button>
+                        <audio id="audio2" loop src="mp3/Thịnh Vượng Việt Nam Sáng Ngời - Buitruonglinh.mp3"></audio>
+                    </div> 
+                    </div> 
+                
+            </div>
+    </header>
+    <main>
+        <div id="content">
+            <img id="anh-dau-chuong" src="IMG/anhtrencungcuasach.png" alt="">
+            <h1>CHƯƠNG V: ĐÌNH LÀNG - HÌNH TƯỢNG
+            </h1>
+            <p>Hơn bất cứ loại hình nghệ thuật nào - kiến trúc có khả năng biểu đạt cái chung nhất về các mặt kỹ thuật và mĩ thuật của từng thời đại. Cũng như những nghệ sĩ thuộc mọi ngành nghệ thuật khác, người nghệ sĩ - kiến trúc có khát vọng làm sao cho công trình của mình biểu hiện được một cách thật cụ thể, trong sáng và sáng tạo những tư tưởng chủ đạo của thời đại. Đặc trưng này càng thể hiện rõ trên những công trình tiêu biểu còn sót lại từ từng giai đoạn lịch sử đã qua.
+            </p>
+            <h2 id="5.1">1. CÁC TƯ TƯỞNG CHỦ ĐẠO ĐẶC THÙ CỦA NGÀNH KIẾN TRÚC. 
+            </h2>
+            <p>Hình tượng ấy thể hiện lên trong bố cục của không gian kiến trúc, trong mối quan hệ giữa công trình kiến trúc và môi trường quanh nó, trong tỉ lệ của kết cấu kiến trúc, trong hình dáng của từng thành phần kiến trúc, trong cả hiệu năng của từng loại hình nghệ thuật khác có mặt trong công trình để hỗ trợ cho kiến trúc bằng cách tôn hình tượng nghệ thuật lên... Vì lẽ đó, mỗi công trình kiến trúc xưa là một hồ sơ quý giá nó không chỉ chứa đựng những giá trị về mặt kỹ thuật và mĩ thuật mà còn có thể là chiếc chìa khóa giúp người đời sau "đọc" lên trong muôn một các tư tưởng thẩm mĩ của thời trước.
+            </p>
+            <p>Mấy điều cơ bản ghi trên lẽ ra phải được đem quy chiếu vào đình làng từ lâu. Nhưng trên bước đi ban đầu trong tám mươi năm qua, chưa ai nghĩ đến việc đó. Là người đi sau, trong một thời gian dài chúng tôi cũng không dám tự đặt cho mình nhiệm vụ đi tìm hình tượng của kiến trúc đình làng. Bằng chứng là những cảm quan khoa học nhạy bén và thơ mộng của V. Gloubev về nhà ở của người Sema Naga không khơi dậy trong tôi nguồn cảm hứng nào "Theo kiểu mẫu của nhà ở, các mộ táng ẩn náu dưới một "mái thuyền" bằng rơm rạ. Và đôi khi người ta có ý muốn so sánh một làng của người Sema Naga trải dài ra trên đỉnh tròn của một khu đồi xanh với một đoàn thuyền, to nhỏ, chiếc nào cũng đang chèo về một hướng. Có thể rằng, những ngôi nhà Đông Sơn cũng như vậy”.
+            </p>
+            <p>Mãi sau này, sau nhiều cuộc lần tìm về những ngôi đình, những nhận xét độc đáo trên đây, một hôm, bỗng vang lên trong tôi như một tiếng reo, làm dấy lên một nguồn cảm hứng thực sự. Việc này đã xảy ra tại đình làng Hồi Quan (Tiên Sơn - Bắc Ninh), một làng quê êm đềm của xứ Kinh Bắc xưa.
+            </p>
+            <p>Như các làng quê khác trong miền châu thổ Bắc Bộ, Hồi Quan có một ngôi đình bề thế đặt trên khu đất ở ngay giữa làng. Cột bia bốn mặt còn tại đình cho biết "Vào giờ Dậu (5 đến 7 giờ chiều) ngày 18 tháng 11 năm Giáp Ngọ (1714) các phường thợ dựng đình làm lễ phạt mộc; đến giờ Ngọ (12 giờ trưa) ngày 19 tháng Chạp cùng năm làm "lễ thượng lương". Sau đó bảy tháng vào tháng 5 năm Ất Mùi (1715) đã ra đời một ngôi đình bề thế, nền móng vững bền, thật đẹp, thật xinh, cột rường lộng lẫy”.
+            </p>
+            <p>Từ ngày đó đến tận bây giờ đình Hồi Quan vẫn còn giữ được khá nguyên vẹn những thành phần kiến trúc của ngày khởi tạo bên cạnh một số bộ phận do các thời đại sau thêm vào. Trên mặt bằng kiến trúc đình Hồi Quan hôm nay có hai khối nhà: Tiền tế và Đại đình.
+            </p>
+            <p>Tiền tế đình Hồi Quan là một tòa nhà hình vuông, bốn mặt đều thông thoáng, không có vách ngăn. Niên đại (ghi trên một thành phần kiến trúc), cùng với phong cách trang trí, cho phép quy nó vào thế kỉ XVIII. Đại đình gồm hai phần ghép vào nhau theo hình thước thợ, tòa ngang phía trước là đại đình (đích thực), tòa dọc phía sau là hậu cung. Ta nhìn thấy đình từ xa, với bốn tàu mái cong rộng xòe ra, rồi vút lên ở bốn góc đao cong. Cũng từ xa, có thể nhận ra ngay rằng đình được dựng theo kiểu tàu đao, lá mái, cũng gọi là kiểu chân tàu.
+            </p>
+            <p>Như hầu hết các đình làng ra đời hồi hai thế kỉ XVI, XVII và nửa đầu thế kỉ XVIII, bộ khung được tạo nên bởi các vì kiểu chồng rường - kẻ hiên hay còn gọi thượng rường - hạ kẻ. Hầu hết các thành phần kiến trúc trong đình đều được chạm khắc hình rồng, mây, hoa, lá, và một số hoạt cảnh dân gian (dấu vật, trai gái tự tình, gảy đàn...). Đã vượt qua ngưỡng cửa thế kỉ XVIII được 15 năm, phong cách nghệ thuật trang trí đình đã có những cựa mình theo thời đại, nhưng vẫn chưa ra khỏi vòng tay nghệ thuật của thế kỷ trước. Nửa phía Đông của lòng đình vẫn còn giữ được ván sàn của ngày khởi tạo.
+            </p>
+            <p>Mùa hè 1974, một năm trước khi chúng tôi đến đây, khu vực Nam của tỉnh Hà Bắc bị ngập lụt. Tất nhiên, nước lụt cũng tràn vào Hồi Quan. Điều đập ngay vào mắt tôi lúc bấy giờ là ngấn bùn trên các cột đình lại cao những 2 mét so với mặt chân tảng. Tôi hỏi về mực nước trong làng, người già cho biết cao hơn 1 mét. Vẫn theo lời các cụ, thì khu đất dựng đình là nơi thấp nhất làng.
+            </p>
+            <p>-	Sao dân làng không rời đình đến một nơi cao ráo?
+            </p>
+            <p>Không thể rời đình đi bất cứ nơi nào khác. Đất làng chúng tôi là một con thuyền. Đình làng nằm ở khu vực lòng thuyền, nó là cái lầu thuyền, ai lại rời lầu thuyền tới mũi hay lái thuyền?
+            </p>
+            <p>Sau đó, có lẽ để củng cố niềm tin cho tôi, các cụ đã dẫn tôi tới những khu đất mang tên đồng "Mũi thuyền", đồng "Cột buồm", đồng "Bánh lái". Lời các cụ làm tôi vừa ngạc nhiên vừa thú vị. Thăm hỏi thêm, tôi hy vọng tìm thấy bóng dáng của một nền văn minh sông nước trong quan niệm của người Hồi Quan qua ngôi đình của họ.
+            </p>
+            <p>Từ đó đến nay, sau bao chuyến đi về với các đình quê, tôi vẫn chưa gặp lại quan niệm ấy ở một làng nào khác. Những cái lối đặt đình vào nơi thấp nhất của làng, thì tôi còn thấy ở một hai nơi khác cũng trong xứ Kinh Bắc xưa: Phù Lưu (Tiên Sơn), Thổ Hà (Yên Phong). Thực ra, trong trường hợp cả hai làng này, sau nhiều lần lụt lội, người ta đã tôn cao nên đình lên rồi. Riêng đình Thổ Hà thì mãi tới năm 1973, Nhà nước, với mục đích bảo vệ các di sản văn hóa, mới nàng cao nền đình lên 2 mét nữa. Tôn nền đình là một hiện tượng không phải hiếm hoi. Ngay ở Hà Nội, đình làng Thụy Phương (Chèm) cũng đã có lần được tôn lên tới gần 1 mét.
+            </p>
+            <p>Nếu như hiện tượng đồng nhất khu đất tụ cư của làng với hình con thuyền chưa được ghi lại ở đâu khác trên đồng bằng Bắc Bộ, ngoài Hồi Quan, thì quan niệm này lại phổ biến hơn trên các hải đảo Thái Bình Dương. Một ví dụ: trên đảo Flores có làng Nita xưa kia được xây dựng theo hai hình vòng cung, và có lẽ định thể hiện hình một chiếc thuyền, bởi vì có một xóm mang tên là Cột buồm (Mangan) và Cánh buồm (Bozar). Xóm này không lượn hình vòng cung như những xóm khác, mà lại ở vào khoảng giữa. khác nào vị trí của cột buồm và cánh buồm trong một chiếc thuyền. Theo những di tích còn lại của các làng khác, thì hình như những làng này cũng đã có vị trí như làng Nita.
+            </p>
+            <h2 id="5.2">2. LÀNG NITA TRÊN ĐẢO FLORES VÀ LÀNG HỒI QUAN 
+            </h2><p> Chúng tôi không có được trong tay đủ bản đó để đối chứng. Nhưng, nếu mở rộng vấn đề ra mối tương quan giữa hình ảnh con thuyền và kết cấu kiến trúc đình làng, thì ta có thể xuất trình thêm nhiều bằng chứng.
+            </p>
+            <p>Trước khi đi vào tài liệu cụ thể, có lẽ cũng nên lưu ý tới một thuật ngữ được dùng để chỉ nhiều bộ phận trong kiến trúc đình: đó là chữ tàu. Thuyền là một từ Hán - Việt. Việt hơn là từ tàu. Cho đến nay, dẫu đã có một bước phát triển dài trong ngôn ngữ Việt để phân biệt các phương tiện giao thông trên mặt nước, nhưng nếu ta nói tàu bè hoặc thuyền bè, thì ai cũng hiểu rằng cả hai từ kép trên đều diễn đạt một ý nghĩa.
+            </p>
+            <p>Hãy đi vào bộ mái đình. Người ta gọi các phần mái là các tàu mái. Thuật ngữ này rất ít được dùng để chỉ các mái của ngôi nhà dân dụng thông thường. Mái các ngôi đình cổ thường được thực hiện theo kiểu tàu dao - lá mái, cũng gọi là kiểu chân tàu (tàu thực) để dễ phân biệt với kết cấu tàu hộp kiểu Trung Hoa.
+            </p>
+            <p>Trong kết cấu tàu đao - lá mái, bao giờ cũng có một tấm gỗ chạy dọc theo rìa mái, vuông góc với lá mái (ván lát dưới lớp ngói ở rìa mái), để rồi cùng vươn lên theo độ cong của góc đao. Tấm gỗ ấy được là là tàu. Đoạn giữa là tàu được gọi là mạn tàu, hai đầu là mũi tàu. Tên gọi đã thế, đặc biệt hình dáng của lá tàu càng gợi hình ảnh của một chiếc thuyền trải dài, chúng tôi muốn nói thuyền đua của những ngày hội, con thuyền thân dài và hẹp, lòng chỉ đủ cho người chèo ngồi, mũi thuyền được tạo thành hình đầu rồng ngẩng cao, đuôi hình rồng. Còn nếu đứng ở một vị trí đối diện với bất cứ góc dao nào, ta sẽ thấy hai mũi tàu ở hai mái chạy về góc đao hệt như hai mạn hợp lại thành một mũi thuyền đang rẽ sóng lướt tới. Hình tượng này, chúng tôi đã đem ra hỏi rất nhiều người mà chúng tôi có dịp gặp bên các mái đình. Chúng tôi chưa hề gặp một người nào không cảm nhận được ngay, mỗi khi chúng tôi nêu lên hình tượng nói trên của đao đình. Nhân đây, xin nhắc lại rằng, đao đình được gọi là tàu đao. Còn có thể nêu lên đây một bằng chứng gián tiếp. Gián tiếp vì không gắn với một thuật ngữ nào có liên quan đến thuyền bè, nhưng cũng là một bằng chứng: dưới mắt của hầu hết các cụ già ở làng quê, thì mái đình đồ sộ lợp ngói mũi hài gợi lên hình ảnh mặt nước lãn tân gợn sóng.
+            </p>
+            <p>Qua những cuộc thảo luận về tính dân tộc trong việc xây dựng một số công trình quan trọng của Nhà nước ta, nhiều người đã cho rằng tàu dao là hình tượng của những cánh sen, với vẻ đẹp cao quý mà truyền thống thẩm mỹ dân tộc vốn gán cho hình tượng ấy. Đáng tiếc rằng, những người nêu lên cách nhìn rất lãng mạn này lại chẳng đưa ra một bằng chứng nào cả. Chẳng có gì khác, đấy chỉ là một biểu hiện của phương pháp ngoại suy hiện đại trong khoa học lịch sử. Thực ra, từ tên gọi cho đến những bằng chứng sẽ được trình bày tiếp sau, không một sự kiện nào cho phép khẳng định rằng tàu đao là một cánh sen.
+            </p>
+            <p>Sau bộ mái đến bộ khung: ở đây từ tàu được thay thế bằng từ thuyền.
+            </p>
+            <p>Vì kèo kẻ truyền là kiểu vì kèo mang những đặc điểm dân tộc nhất, cả về kỹ thuật lẫn mặt dáng hình. Ngôi đình hay ngôi nhà được tạo dựng bằng kiểu vì nay mang tên: nhà lòng thuyền. Tên gọi chứa chất một hình ảnh khá sinh động: những đôi kẻ ngăn chia lòng đình hay lòng nhà thành nhiều gian nhắc nhở đến các xương thuyền hình cung trong lòng thuyền. Điều khá lý thú là, theo lời những ai từng sống trên dòng sông Cầu xưa, có một loại thuyền 8 xương, 7 khoang. Hệt thế, không gian đình làng được 8 bộ vì kèo phân thành 7 gian.
+            </p>
+            <p>Nếu như hệ thống các vì kẻ chuyền là một lòng thuyền, thì bộ mái đình phải được xem như là một con thuyền úp ngược. Vẫn theo G. Vorlage, trên đảo Manggarai, đền thờ vật tổ mang tên Brulempang, và người bản địa cũng cho rằng mái đền ấy là con thuyền úp ngược. Quan niệm này khá phổ biến trên khu vực Nam Thái Bình Dương. Còn trên đất nước ta, nó không phải không còn để lại đôi chút vết tích.
+            </p>
+            <p>Trên một bình diện khác, chúng tôi cũng đã từng gặp nó. Trước Cách mạng tháng 8, cứ vào dịp tháng 2 âm lịch, nhân dân xã Cửu Cao (Văn Giang) nô nức mở hội đua thuyền trên sông Kim Ngưu (con sông, như tên gọi nêu rõ, gắn với sự tích con trâu vàng phổ biến trên hầu khắp đồng bằng Bắc Bộ). Khác hẳn với người ở các địa phương khác, người Cửu Cao đua thuyền úp: mỗi người dự thi vác trên vai một con thuyền nan; sau hồi trống lệnh, các đấu thủ vừa bơi vừa dùng sức kéo theo chiếc thuyền úp sấp trên vai mà về đích. Tôi không hề muốn nói rằng, cách đua thuyền ở Cửu Cao và mái đình làng là hai biểu hiện đồng nghĩa. Tôi chỉ nghĩ rằng, chiếc thuyền úp ngược là hình tượng thẩm mĩ mà không chỉ các nhà kiến trúc mới lựa chọn: ở Cửu Cao, nó xuất hiện trên một bình diện khác với bình diện kiến trúc.
+            </p>
+            <p>Trong số những đình làng ra đời từ nửa đầu thế kỉ XVIII trở về trước, chúng tôi chưa gặp một ngôi nào không có sàn ván. Kết cấu sàn của đình làng khá lạ. Nó được phân thành 3 cấp theo chiều cao. Gian chính giữa không có sàn ván: sàn của gian này chính là mặt nền lát gạch của đình. Bốn gian bên có sàn ván, và mặt ván cao hơn mặt nền gạch khoảng từ 0.40m đến 0.50m. Sàn ván của hai gian hồi còn được nâng lên một cấp nữa: nó cao hơn sàn ván của bốn gian vừa nêu khoảng 0,20m. Trên những bước đường điền dã, chúng tôi chưa gặp được cụ nào giải thích nổi lý do của kết cấu 3 cấp ấy. Theo chúng tôi, có thể xuất phát từ chính tên gọi để mong tìm ra một lời giải đáp. Phần lòng đình không có sàn ván được gọi là lòng thuyền. Nếu so sánh hệ thống sàn đình với sạp thuyền, ta sẽ thấy nó hoàn toàn đồng dạng với cách lát ván của loại thuyền ba khoang rất phổ biến ở vùng đồng bằng Bắc Bộ: thân tuyển gồm nhiều tấm ván ghép lại, và yếu tố liên kết là các xương gỗ, chỗ tiếp giáp giữa các tấm ván ghép được miết lại bằng sơn đen có trộn mạt cưa. Sạp ván của loại thuyền này cũng chia thành 2 cấp: ở mũi và đuôi thuyền có ván ghép hai mạn lại; dưới cấp này là sạp ván, và đây là chỗ đứng của người cầm chèo. Người ta để trống khoang giữa: trên đò ngang, đây là nơi để hàng, chở khách. Đối với những người sống trên sông nước, khoảng trống này là trung tâm sinh hoạt của gia đình. Nó cũng được gọi là lòng thuyền.
+            </p>
+            <p>Tuyệt! Người xưa khi xây đình làng đã thể hiện được trọn vẹn cái biểu tượng họ muốn phô diễn, bằng một bố cục vô cùng hợp lý. Là phương tiện di chuyển trên sông nước, con thuyền đã đi vào ngôi đình - phương tiện cư trú. Đi từ giao thông vào kiến trúc, từ thế giới kỹ thuật vào thế giới biểu tượng, mà vẫn giữ nguyên được tính chất gợi cảm của hình ảnh ban đầu, đồng thời không vì ý nghĩa tượng trưng mà gây phiền phức cho các chức năng kĩ thuật.
+            </p>
+            <p>Nếu coi bộ mái đình là con thuyền úp ngược thì cái sàn đình, một phần của hình ảnh con thuyền, lại gợi ra hình ảnh một con thuyền thứ hai, đối lập với con thuyền thứ nhất. Và thế là vũ trụ quan lưỡng hợp, vốn còn được gìn giữ trong nhiều biểu hiện của nền văn hóa Đông Nam Á - lại hiện lên, tuyệt vời, trong ngôi đình Việt Nam.
+            </p>
+            <p>Cũng trong phạm trù lưỡng hợp, ngôi đình còn một lần nữa tự biểu hiện: trong không gian nội thất của nó. Ở đình làng, chúng tôi thấy tồn tại hai không gian kiến trúc đối lập nhau: đại đình và hậu cung. Đại đình là ngôi nhà làng, là nơi hội họp, mỗi khi làng có việc, toàn bộ các "bức tường" của đại đình (chúng tôi muốn nói các cửa bức bàn) được mở ra. Cho nên đai đình là không gian mở. Còn tòa hậu cung thì không chỉ kín về hình thức, chỉ có một cửa, mà còn kín cả về nội dung, vì không phải bất cứ thành viên nào trong cộng đồng cũng được vào đây. Hậu cung là không gian hữu hạn. Một điều khá lý thú: bộ vì dẫn vào hậu cung bao giờ cũng là vì kẻ chuyên, chứ không bao giờ là vì chồng rường, và hai chiếc kẻ của bộ vì, trong vị trí nói đây, lại tạo ra một hình vòm... như tiếng vang xa của một cửa hang.
+            </p>
+            <p>Như vậy, phải chăng kiến trúc đình làng còn nhắc nhở đến sự hòa hợp giữa miền cao và miền thấp, vì qua tạo dáng, không gian kiến trúc lại mô phỏng hai hình thức cư trú cội nguồn: thuyền và hang?
+            </p>
+            <p>Quanh hình tượng kiến trúc đình làng, ta thấy, bên cạnh những "thông báo" dễ "đọc" - dễ đọc, vì được diễn đạt thành hệ thống quanh một nghĩa trung tâm, kiến trúc đình làng còn "phát ra" những thông báo gián tiếp, tản mạn hơn mà chúng tôi thử gạn nhặt lại sau đây.
+            </p>
+            <p>Trong quá trình dựng mái, khi đặt rui, người thợ phải tuân thủ một quy tắc đã được tổng kết thành một câu châm ngôn có đúc: "gốc biển, ngọn nguồn". Theo quy tắc này, người thợ phải đặt phần gốc của cây gỗ xuống dưới, tức phía rìa mái, còn ngọn lên trên, phía bờ nóc. Quy tắc này có thể được nói lên một cách trực tiếp và gián đơn: "góc dưới, ngọn trên". Thế nhưng, không hiểu sao nó lại được diễn đạt theo lối ẩn dụ, khiến cho người mới nghe khó lòng hiểu nổi. Chỉ có thể tạm hiểu câu châm ngôn trên như một "điển cổ" dân gian hướng về cội nguồn và nội dung của văn hóa Việt cổ; sự hòa hợp giữa miền cao (nguồn) và miền thấp (biển), mà mạch nối hẳn là con sông và thuyền bè đi lại trên sông. Mở rộng vấn đề chút ít từ bộ khung đình ra các công cụ của người thợ dựng đình ta thấy hộp mực dùng để đánh dấu sẵn những đường xẻ trên mặt gỗ gọi là tàu mực.
+            </p>
+            <p>Cuối cùng, không thể không nhắc lại những hoạt cảnh về cuộc sống trên sông nước, mà người nghệ sĩ dân gian tham gia công việc dựng đình đã khắc tạc, có khi đến độ thừa thãi, trên các thành phần kiến trúc (cảnh hợp sức chèo thuyền, chèo thuyền bắt cò, dựng cột buồm...) ở các đình Phù Lưu (Bắc Ninh), Cao Thượng (Bắc Giang), Cam Đà (Hà Tây), Hoành Sơn (Nghệ An)...
+            </p>
+            <p>Những tư liệu điền dã trên đây nêu bật hình tượng con thuyền trong kiến trúc đình làng. Nhưng chúng tôi hoàn toàn không muốn nói rằng, đó là hình tượng duy nhất. Đó chỉ là "thông báo" chính, "thông báo" chủ đạo. Ngoài con thuyền ra, còn những hình tượng khác, đã mờ nhạt nhiều qua khúc xạ, nhưng vẫn còn có khả năng được đọc ra. Một ví dụ là con trâu, một hình tượng có liên quan đến tín ngưỡng nông nghiệp. Chúng tôi không muốn nói đến những ngôi đình ra đời muộn, từ thế kỉ XIX trở lại đây, mà trên bờ nóc nổi lên mô típ "lưỡng long chầu nguyệt", hay motip hai con cá ngậm bờ nóc ở hai đầu cùng. Tại các đình xây dựng trong ba thế kỷ trước (XVI, XVII, XVIII), hai đầu tận cùng của bờ nóc là hai dải vữa cong như hai cặp sừng trâu. Đã nhạt đi qua khúc xạ, nó không được tả thực, như những cặp sừng ở đầu hồi nhà một số dân cư trên hải đảo Thái Bình Dương. Ở đây, sừng trâu đã được cách điệu hóa đến mức cao. Nhưng cũng trong bộ khung đình, ta lại gập thuật ngữ nghé kẻ: "nghé" có nghĩa là con trâu con.
+            </p>
+            <p>Đến đây, một câu hỏi được đặt ra: qua những điều chúng tôi đã trình bày, phải chăng có thể quy chủ nhân của những ngôi đình vào loại dân cư có nguồn gốc biển? Chúng tôi không nghĩ vậy, bài viết này không hàm ý ấy. Vì chủ nhân của ngôi đình là những người trồng lúa nước đích thực. Họ là chủ nhân của một nền văn minh nông nghiệp. Như vậy, phải chăng có điều bất thường, khi mà toàn bộ bài viết này chỉ nhằm nêu bật hình tượng con thuyền ẩn trong kiến trúc đình làng, kiến trúc trung tâm của người Việt? Để tìm cho điều "bất thường" ấy một lời giải đáp lọt được tai, cần có nhiều người gom công, góp sức. Ở đây, chúng tôi chỉ muốn nêu lên những giả thuyết, hay đúng hơn là những suy nghĩ dấy lên từ tư liệu điền dã.
+            </p>
+            <p>Như chúng ta đều biết, từ các thiên niên kỷ thứ III và thứ II trước Công nguyên, với sự ra đời của kĩ thuật luyện kim, đồng, rồi đến thiên niên kỷ I trước Công nguyên, là sắt đã tạo cho người Việt một sức mạnh to lớn để dân chiếm lĩnh rồi làm bá chủ các bình nguyên ngập nước dọc các dòng sông giăng chằng chịt khắp miền châu thổ Bắc Bộ. Trong hoàn cảnh cụ thể đó, chắc chắn con thuyền đã đóng vai trò quan trọng vào công cuộc chinh phục đồng bằng ngập lụt, hoang sơ buổi ấy.
+            </p>
+            <p>Bên cạnh đó, còn có thể tính thêm một số yếu tố khác đã khiến cho hình tượng của con thuyền càng tăng thêm "nồng độ": sự gia nhập của các yếu tố biển vào văn hóa Việt.
+            </p>
+            <p>Bản đồ khảo cổ học thời sơ sử đã dựng lên được vị trí và phạm vi phân bố của các loại hình văn hóa khác nhau có mặt trên đồng bằng Bắc Bộ trong ba thiên niên kỷ trước Công nguyên. Đến nay, khảo cổ học cũng đã nắm được những tài liệu xác thực về sự "có mặt của biển" ở ngay giữa ruộng đồng lúa nước, vào một thời đã khá xa xôi: thuộc giai đoạn đầu của thời đại đồng thau, trên đồng bằng và vùng trung du Bắc Bộ, có hàng loạt các di tích thuộc loại hình Gò Con Lợn (Phú Thọ) và Mà Đồng (Hà Tây). Chủ nhân của nhóm di tích này là những người sử dụng loại rìu bôn có vai và đồ gốm xốp mang những đặc trưng của loại hình văn hóa biển. Những tộc người này đã tụ cư trong thế cài răng lược với những cư dân thuộc nhóm di tích Phùng Nguyên - Gò Bồng, chủ nhân của nền văn hóa trồng lúa nước. Thế rồi, từ các ngả đường mang tính địa phương, người người đã tụ hội nhau lại, đem các hương sắc khác nhau của mọi miền góp thành một nền văn hóa Đông Sơn rực rỡ mà ngày nay, ta đã có thể "đọc" lên được nội dung cơ bản, dù còn phải dè dặt đôi chút: đó là một nền văn hóa nông nghiệp - sông biển.
+            </p>
+            <p>Bản chất này đã được các cư dân Đông Sơn thể hiện một cách tuyệt vời trên những đồ đồng lớn tiêu biểu của họ: trống đồng và thạp đồng. Ở đấy, bản sắc văn hóa của họ hiện lên, cô đúc qua hình mặt trời ở trung tâm, qua những đoàn thuyền bơi quanh thân trống, thân thạp, mang theo những đoàn người đang thực hiện những nghi lễ bí hiểm chưa dễ giải mã.
+            </p>
+            <p>Như vậy, bằng vào những tài liệu chưa phải đã quá xa xưa, những tài liệu thời Đông Sơn, con thuyền đã trở thành một trong những hình tượng nghệ thuật trung tâm. Bắt nguồn từ cuộc sống lao động, sản xuất và chiến đấu, con thuyền đã đi vào nghệ thuật với một vị trí xứng đáng như chính cuộc sống thực của nó trên sông, trên biển.
+            </p>
+            <p>Tiếp nối truyền thống tự ngàn xưa của tổ tiên, những người thợ dựng đình đã đưa hình tượng thẩm mĩ độc đáo - con thuyền vào công trình của mình. Trên những độ đường dõi tìm bóng dáng của con thuyền trong kiến trúc đình làng, chúng tôi đã thử kiểm tra trên các bình diện khác. Kết quả bất ngờ: trên mọi lĩnh vực của cuộc sống văn hóa, từ ca khúc, vũ đạo, hội hè, thần thoại... trong cả thế giới tâm linh huyền ảo, thơ mộng và quyến rũ.
+            </p>
+            <p>Những gì chúng tôi đã thấy được hai bên đường, ngoài lối nhỏ tôi đi, tất nhiên, không nằm trong phạm vi của bài viết này. 
+            </p>
+            <h2 id="5.3">3. CÂY THƯỚC TẦM TRONG NỀN KIẾN TRÚC CỔ VIỆT NAM
+            </h2>
+            <p>Đến với bất cứ ngôi nhà nào, dù ở nông thôn hay thành thị, được xây dựng theo kỹ thuật cổ truyền, có kết cấu kiểu sườn nhà chịu lực bằng tre gỗ ta đều thấy gác lên các vì của bộ khung nhà một thanh tre dài. Trên cả hai mặt của thanh tre này có khắc ghi những vạch và hình vẽ với độ dài ngắn khác nhau. Thanh tre ấy được gọi là "cây thước tấm" hay sào mực hoặc rui mực. Cái thước tâm hay rui mực (mètre à modules) đã là sợi chỉ đỏ nối liên tất cả các loại nhà vào một mối... mực thước ghi trên thước tấm rồi, người thợ cả đã có thể hướng dẫn việc làm kèo, cột nhà và đặt những mộng chính xác để dựng nên các căn nhà vững chãi”. Cùng với những nhận xét rất chính xác về cây thước tấm như trên, Ngô Huy Quỳnh đã trình bày tóm tắt những nội dung cơ bản của nó. Nhưng nếu chỉ dừng lại ở sự chỉ dẫn mà ông đã công bố, thì người nghiên cứu còn mất khá nhiều công sức nữa mới có thể tính toán được. Sau Ngô Huy Quỳnh, người cố đẩy thêm sự hiểu biết về cây thước tấm nhích thêm một chút nữa là Nguyễn Khắc Tụng. Trong cuốn "Nhà cửa các dân tộc ở Trung Du và Bắc Bộ Việt Nam" ông đã trình bày hai cách tính của các phường thợ.
+            </p>
+            <p>Những ai đã có ít nhiều thời gian dành cho cây thước tấm có thể nhận ra ngay, tác giả đã trình bày chân thật sự mách bảo của người thợ mà không dựa trên cơ sở toán học giản đơn của nó, nên đã có sự nhầm lẫn trong khi lập công thức.
+            </p>
+            <p>Trong bài viết ngắn tôi xin công bố một phần phương pháp tính toán của thước tấm.
+            </p>
+            <p>Để dựng một cây thước tầm - "bản thiết kế", của một căn nhà cổ truyền không đơn giản như Ngô Huy Quỳnh đã nói trong tác phẩm của ông "người thợ chỉ cần biết chiều cao từ mái hiên xuống mặt nền (trong kỹ thuật xây dựng cổ truyển chiều cao này gọi là giọt nước) và chiều rộng của lòng nhà. Trước khi dựng "bản thiết kế" (thước tầm) người thợ phải biết một loạt các thông số khác: vì nhà có mấy hàng cột; kiểu liên kết gì, độ dốc của mái, kích thước của hiên... tất cả các dữ kiện đó đều tham gia vào việc dựng thiết kế.
+            </p><img id="img1" src="IMG/h11.png" alt="">
+        </div>
+    </main>
+    
+    <button onclick="topFunction()" id="btn-btt" title="Go to top"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+    <button onclick="bottomFunction()" id="btn-btb" title="Go to bottom"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const playPauseButtons = document.querySelectorAll(".play-pause");
+
+    playPauseButtons.forEach(button => {
+        const audioId = button.parentElement.getAttribute("data-audio");
+        const audio = document.getElementById(audioId);
+        audio.volume = 0.1;
+        button.addEventListener("click", function() {
+            if (audio.paused) {
+                audio.play();
+                this.classList.remove("play");
+                this.classList.add("pause");
+            } else {
+                audio.pause();
+                this.classList.remove("pause");
+                this.classList.add("play");
+            }
+        });
+    });
+});
+
+
+</script>
+<script>
+    let btnTop = document.getElementById("btn-btt");
+    let btnBottom = document.getElementById("btn-btb");
+
+    window.onscroll = function() {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        } else {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        }
+
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            btnBottom.style.display = "block";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function bottomFunction() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+</script>
+<script>
+    function toggleTable(tableId) {
+        var table = document.getElementById(tableId);
+        if (table.style.display === 'none' || table.style.display === '') {
+            table.style.display = 'block';
+        } else {
+            table.style.display = 'none';
+        }
+    }
+
+    function changeColor(textColor, bgColor) {
+        document.getElementById('content').style.color = textColor;
+        document.getElementById('content').style.backgroundColor = bgColor;
+    }
+
+    function changeFontSize(size) {
+        var content = document.getElementById('content');
+        if (size.startsWith('+')) {
+            var currentSize = parseInt(window.getComputedStyle(content).fontSize);
+            var increment = parseInt(size.substring(1));
+            content.style.fontSize = (currentSize + increment) + 'px';
+        } else {
+            content.style.fontSize = size;
+        }
+    }
+    function changeFont(font) {
+            document.getElementById('content').style.fontFamily = font;
+        }
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const contentText = document.getElementById("content");
+        const highlightBtn = document.getElementById("highlight");
+        const removeHighlightBtn = document.getElementById("remove-highlight");
+
+        let highlighting = false;
+
+        const highlightCursor = document.createElement("div");
+        highlightCursor.classList.add("highlight-cursor");
+        document.body.appendChild(highlightCursor);
+
+        highlightBtn.addEventListener("click", function () {
+            if (!highlighting) {
+                highlighting = true;
+                highlightCursor.style.display = "block";
+                document.body.style.cursor = "crosshair";
+                document.addEventListener("mouseup", endHighlight);
+            } else {
+                highlighting = false;
+                highlightCursor.style.display = "none";
+                document.body.style.cursor = "auto";
+            }
+        });
+
+        removeHighlightBtn.addEventListener("click", function () {
+            let removingHighlight = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            document.addEventListener("mousemove", activateRemoveHighlight);
+
+            function activateRemoveHighlight(event) {
+                if (!removingHighlight) {
+                    highlightCursor.style.left = event.clientX + "px";
+                    highlightCursor.style.top = event.clientY + "px";
+                    highlightCursor.style.display = "block";
+                    document.body.style.cursor = "pointer";
+                    removingHighlight = true;
+                }
+            }
+
+            contentText.addEventListener("click", function (event) {
+                if (removingHighlight) {
+                    const target = event.target;
+                    if (target.classList.contains("highlighted")) {
+                        target.classList.remove("highlighted");
+                    }
+                    highlightCursor.style.display = "none";
+                    document.body.style.cursor = "auto";
+                    removingHighlight = false;
+                    document.removeEventListener("mousemove", activateRemoveHighlight);
+                }
+            });
+        });
+
+
+        document.addEventListener("mousemove", moveHighlightCursor);
+
+        function moveHighlightCursor(event) {
+            if (highlighting) {
+                highlightCursor.style.left = event.clientX + "px";
+                highlightCursor.style.top = event.clientY + "px";
+            }
+        }
+
+        function endHighlight() {
+            highlighting = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            const selection = window.getSelection();
+            const range = selection.getRangeAt(0);
+            if (range) {
+                if (contentText.contains(range.commonAncestorContainer)) {
+                    const span = document.createElement("span");
+                    span.className = "highlighted";
+                    range.surroundContents(span);
+                    selection.removeAllRanges();
+                }
+            }
+        }
+    });
+</script>
+</html>

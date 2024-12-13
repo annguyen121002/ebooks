@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-noidung.css">
+    <script src="js/toan man hinh.js"></script>
+    
+    <title>KIẾN TRÚC CỔ VIỆT NAM</title>
+</head>
+<body>
+    <div><button id="pre-page" style="transform: rotate(-90deg);"><a href="Chương 5.html"><img id="muiten-do" src="icon/muiten do.png" alt=""></a></button></div>
+	<div><button id="next-page" style="transform: rotate(90deg);"><a href="Thư mục tham khảo.html"><img id="muiten-do" src="icon/muiten do.png" alt=""></a></button></div>
+    <header>
+            <div id="btn-trangchu" style="padding: 30px 20px;">
+            <a id="a-header" href=""><img id="icon-header" src="icon/iocn index.png" alt=""></a>
+            </div>
+            <div id="btn-mucluc" style="padding: 35px 10px;">
+                <button id="btn-header" onclick="toggleTable('muc-luc')"><img id="icon-header" src="icon/icon mucluc.png" alt=""></button>
+            </div>
+            <div id="muc-luc">
+                <span class="close-btn" onclick="toggleTable('muc-luc')">&#9746;</span>
+                <br>
+                <br>
+                <nav>
+                    <ul id="menu1" style="list-style: none;padding: 0px;">
+                        <li><a href="Bìa sách.html">BÌA SÁCH</a></li>
+                        <li><a href="Trang trách nhiệm.html">TRANG TRÁCH NHIỆM</a></li>
+                        <li><a href="Lời nói đầu.html">LỜI NÓI ĐẦU</a></li>
+                        <li><a href="Chương 1.html">CHƯƠNG I: PHỤC DỰNG THÁP TƯỜNG LONG - ĐỒ SƠN, HẢI PHÒNG TỪ CÁI NHÌN KHẢO CỔ HỌC</a>
+                            <ul id="menu2">
+                                <li><a href="Chương 1.html#1.1">1. NHỮNG ĐIỀU ĐÃ BIẾT</a></li>
+                                <li><a href="Chương 1.html#1.2">2. DẤU VẾT CỦA THÁP TƯỜNG LONG</a></li>
+                                <li><a href="Chương 1.html#1.3">3. ĐI TÌM NHỮNG ĐIỀU CÒN CHƯA BIẾT VỀ THÁP TƯỜNG LONG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 2.html">CHƯƠNG II: KIẾN TRÚC NHÀ CỬA THỜI TRẦN</a>
+                            <ul id="menu3">
+                                <li><a href="Chương 2.html#2.1">1. NHỮNG MÔ HÌNH NHÀ TÌM THẤY TRONG CÁC MỘ CỔ.</a></li>
+                                <li><a href="Chương 2.html#2.2">2. TÊN GỌI CỦA VÌ ĐƯỢC GỌI THEO ĐẶC TRƯNG LIÊN KẾT CỘT. </a></li>
+                                <li><a href="Chương 2.html#2.3">3. MỘT PHÁC THẢO VỀ KIẾN TRÚC NHÀ CỬA THỜI TRẤN </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 3.html">CHƯƠNG III: CHÙA VĨNH NGHIÊM - MỘT TRUNG TÂM PHẬT GIÁO ĐÃ 700 TUỔI</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 3.html#3.1">1. ĐẤT BIÊN ẢI CỦA MỘT DÒNG SỬ THI VÀ HUYỀN THOẠI VIỆT</a></li>
+                                <li><a href="Chương 3.html#3.2">2. MỘT TRUNG TÂM PHẬT GIÁO 700 NĂM TRƯỚC</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 4.html">CHƯƠNG IV: ĐÌNH LÀNG - ĐIỂM LẠI BƯỚC ĐI BAN ĐẦU.</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 4.html#4.1">1. VẤN ĐỀ NIÊN ĐẠI</a></li>
+                                <li><a href="Chương 4.html#4.2">2. ĐẤT DỰNG ĐÌNH</a></li>
+                                <li><a href="Chương 4.html#4.3">3. MẶT BẰNG TỔNG THỂ</a></li>
+                                <li><a href="Chương 4.html#4.4">4. KẾT CẤU BÊN NGOÀI: BỘ MÁI</a></li>
+                                <li><a href="Chương 4.html#4.5">5. KẾT CẤU BÊN TRONG: BỘ KHUNG</a></li>
+                                <li><a href="Chương 4.html#4.6">6. ĐIÊU KHẮC ĐÌNH LÀNG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 5.html">CHƯƠNG V: ĐÌNH LÀNG - HÌNH TƯỢNG</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 5.html#5.1">1. CÁC TƯ TƯỞNG CHỦ ĐẠO ĐẶC THÙ CỦA NGÀNH KIẾN TRÚC. </a></li>
+                                <li><a href="Chương 5.html#5.2">2. LÀNG NITA TRÊN ĐẢO FLORES VÀ LÀNG HỒI QUAN </a></li>
+                                <li><a href="Chương 5.html#5.3">3. CÂY THƯỚC TẦM TRONG NỀN KIẾN TRÚC CỔ VIỆT NAM</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 6.html">CHƯƠNG VI: THẨM ĐỊNH LẠI GIÁ TRỊ KIẾN TRÚC VĂN MIẾU - HÀ NỘI</a></li>
+                        <li><a href="Thư mục tham khảo.html">THƯ MỤC THAM KHẢO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="btn-gioithieu" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="Giới thiệu.html">Giới thiệu</a></button>
+            </div>
+            <div id="btn-lienhe" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="Liên hệ.html">Liên hệ</a></button>
+            </div>
+            <div id="tensach">
+                <h1 id="h1-header">KIẾN TRÚC CỔ VIỆT NAM<br/>Từ cái nhìn khảo cổ học</h1>
+            </div>
+            <div id="btn-cochu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('sizeTable')" style="font-size: 35px;">Aa</button>
+            </div>
+            <div id="btn-mauchu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('colorTable')"><img id="icon-header" src="icon/icon mau.png" alt=""></button>
+            </div>
+            <div id="btn-nhac" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('nhac')" ><img id="icon-header" src="icon/icon nhac.png" alt=""></button>
+            </div>
+            <div id="btn-tmh" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleFullScreen()"><img id="icon-header" src="icon/icon tmh.png" alt=""></button>
+            </div>
+            <div id="colorTable">
+                <span class="close-btn" onclick="toggleTable('colorTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn btn-default" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', 'white')">Mặc định</button></td>
+                        <td><button class="btn btn-white-black" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#000', '#BEB6F2')">Đen - Tím</button></td>
+                        <td><button class="btn btn-white-purple" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#7B2924', '#edb561')">Đỏ - Cam</button></td>
+                        <td><button class="btn btn-black-yellow" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', '#FEFFC8')">Đen - Vàng</button></td>
+                        <td><button class="btn btn-white-green" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('Black', '#0CC0DF')">Đen - Xanh</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="sizeTable">
+                <span class="close-btn" onclick="toggleTable('sizeTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFontSize('18px')">Aa</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('18.5px')"><span style="font-size: 18.5px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('19px')"><span style="font-size: 19px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('20px')"><span style="font-size: 20px;">Aa</span></button></td>
+                    </tr>
+                </table>
+                <table style="margin: 20px 0;">
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Times New Roman')">Times New Roman</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Arial')">Arial</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Courier New')">Courier New</button></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <tr>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="highlight">Đánh dấu</button></td>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="remove-highlight">Bỏ đánh dấu</button></td>
+                        </tr>
+                    </tr>
+                </table>
+            </div>
+            <div id="nhac">
+                <span class="close-btn" onclick="toggleTable('nhac')">&#9746;</span>
+                <div id="box-nhac">
+                <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                <div class="audio-player" data-audio="audio1">
+                    <button class="play-pause play"></button>
+                    <audio id="audio1" loop src="mp3/Nhạc đồng quê nhẹ nhàng - nhạc nền video.mp3"></audio>
+                </div>
+                </div> 
+                <div id="box-nhac">
+                    <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                    <div class="audio-player" data-audio="audio2">
+                        <button class="play-pause play"></button>
+                        <audio id="audio2" loop src="mp3/Thịnh Vượng Việt Nam Sáng Ngời - Buitruonglinh.mp3"></audio>
+                    </div> 
+                    </div> 
+                
+            </div>
+    </header>
+    <main>
+        <div id="content">
+            <img id="anh-dau-chuong" src="IMG/anhtrencungcuasach.png" alt="">
+            <h1>CHƯƠNG VI: THẨM ĐỊNH LẠI GIÁ TRỊ KIẾN TRÚC </h1> <h1>VĂN MIẾU - HÀ NỘI<sup><a id="c6-ct11" style="scroll-margin-top:120px ;" href="#ct11">11</a></sup>  </h1>
+           
+            <p>Cách chúng ta hơn 9 thế kỷ, sử cũ ghi "Mùa thu tháng 9 làm Văn Miếu, đắp tượng Khổng Tử, Chu Công và Tứ phối, vẽ tượng Thất thập nhị hiền, bốn mùa cúng tế, Hoàng thái tử đến học. <sup><a id="c6-ct12" style="scroll-margin-top:120px ;" href="#ct12">12</a></sup> 
+            </p>
+            <p>Sáu năm sau cũng Đại Việt sử ký toàn thư lại chép “Bính Thìn năm Anh Vũ Chiêu Thắng thứ nhất (1076) tháng 4... lập nhà Quốc Tử Giám, tuyển các vân thân những người có học vấn vào đó”. Với hai sự kiện trên nhà Lý đã làm được việc khởi đầu quan trọng trong sự nghiệp phát triển giáo dục của đất nước. Dưới triều Trần vị trí của Văn miếu Quốc Tử Giám càng có địa vị cao. Năm 1253 Trần Thánh Tông đã đổi Quốc Tử Giám thành Quốc học viện làm nơi giảng dạy cho con em vua quan và cả con cái thường dân học giỏi trong cả nước.
+            </p>
+            <p>Quốc học viện ở thời Lê, thời Nho giáo thịnh trị đã được nâng lên tới mức Đại học với tên gọi Thái học viện. Suốt ba thế kỷ tồn tại Thái học viện đã không hề đổi chỗ rời ngôi và ngày càng phát triển. Mãi cho tới thời Nguyễn, khi các vua nhà Nguyễn dòi kinh đô vào Huế, Văn miếu Quốc Tử Giám cũng phải dời theo. Từ đó, trường xưa nay chỉ còn một chức năng duy nhất là Văn miếu nơi thờ Khổng Tử - ông tổ của Nho học. Chúng ta không hề có trong tay một trang sử cũ nào mô tả cấu trúc của Văn Miếu ở ngày khởi dựng và sự mở mang dưới các thời Trần, Lê. Hình như mô tả tổng thể các công trình kiến trúc cổ không phải là công việc quen làm của các sử gia phong kiến.
+            </p>
+            <p>Còn Văn miếu hiện đang cùng chúng ta đã được nhiều người giới thiệu. Người Pháp trước đây cũng đã cho đạc hoạ tỷ mỷ và gần đây nhất giáo sư Đỗ Văn Ninh đã giới thiệu một cách khá chi tiết ở bài mở đầu cho một loạt bài mang tên Quốc Tử Giám (Hà Nội) đăng trên Nghiên cứu Lịch sử từ số 2 năm 1986.<a id="c6-ct13" style="scroll-margin-top:120px ;" href="#ct13"><sup>13</sup></a>   Giới thiệu Quốc Tử Giám Văn miếu thì đã quá nhiều, song việc đánh giá các di tích ở Văn miếu thì lại quá ít.
+            </p>
+            <p>Ngay trong bài viết rất khoa học và nghiêm túc của giáo sư Ninh cũng chỉ dành đôi dòng cho việc đánh giá giá trị các di tích ở Văn miếu và cũng không tránh khỏi một công thức cổ truyền, giáo sư đã kết luận cho công trình nghiên cứu của mình như sau: “Cho dù bóng dáng kiến trúc thời Lý, thời Trần không còn dấu vết nơi đây, phần lớn các kiến trúc đều là sản phẩm thời Lê mạt. Quốc Tử Giám Văn miếu Hà Nội vẫn giữ được trọn vẹn giá trị của một khu di tích kiến trúc cổ Việt Nam<sup><a id="c6-ct14" style="scroll-margin-top:120px ;" href="#ct14">14</a></sup>”.
+            </p>
+            <p>Bỏ quên hoặc né tránh với một lý do nào đó trong việc đánh giá giá trị thực của Văn miếu đã dẫn tới việc giới thiệu các công trình kiến trúc hiện còn ở Văn miếu như là sản phẩm của ngày mới tạo dựng (năm 1070) và mang đặc trưng tiêu biểu cho nền kiến trúc cổ truyền của dân tộc.
+            </p>
+            <p>Xin trích dẫn ra một ví dụ gần đây nhất, trong bài: "Hãy xây dựng một tháp rùa mới" của kỹ sư Bùi Tuấn Nho có ý đồ sử dụng vào công trình của mình... “Mang biểu tượng về Khuê Văn các của Văn miếu được xây dựng từ năm 1070 là trường đại học đầu tiên ở nước ta…”.
+            </p>
+            <p>Để tránh những ngộ nhận như vậy, cần phải có sự đánh giá nghiêm túc hơn đối với các công trình kiến trúc Văn miếu.
+            </p>
+            <p>Trước hết, về mặt niên đại, phần lớn các kiến trúc hiện còn của Văn miếu không phải là sản phẩm của thời Lê mạt mà cơ bản là kiến trúc thời Nguyễn. Tôi xin được điểm danh niên dại các di tích hiện còn ở Văn miếu từ ngoài vào trong.
+            </p>
+            <p>Công trình kiến trúc Nguyễn gồm có: Văn miếu môn, Đại trung môn, Khuê Vân các (dựng năm 1805), nhà bia (tu sửa năm 1863 và xây mới vào những năm gần đây), Đại thành môn (sửa năm 1888), Bửu đình. Muộn hơn nữa là Tà vu và Hữu vu được sửa lại vào đầu thời thuộc Pháp nên không còn giữ lại một dáng vẻ nào của kiến trúc cổ Việt Nam.
+            </p>
+            <p>Chỉ có hai công trình còn lại, tất nhiên công trình chính là Bái đường và Thượng điện đã được nhiều người coi là sản phẩm của thời Lê mạt. Tuy không được để ghi niên đại, nhưng sự không đồng nhất về niên đại của các thành phần kiến trúc trong hai tòa nhà cho thấy nó không còn là sản phẩm của một thời. Dấu vết cổ nhất trên hai công trình này có lẽ là tấm vi ruồi ở nóc hồi nhà Thượng điện, hiên nhà Đại bái có phong cách nghệ thuật điêu khắc thế kỷ thứ XVII, một số mảng chạm khắc ở nhà Đại bái lại có phong cách nghệ thuật điêu khắc thế kỷ XVIII, còn con rồng trên nóc nhà Đại bái thì không ai không biết nó được đắp vào thời Nguyễn.
+            </p>
+            <p>Như vậy, niên đại chung cho các công trình kiến trúc ở Văn miếu là Nguyễn và phần còn lại cũng đã được tu sửa quan trọng dưới thời Nguyễn chứ không phải bất cứ thời đại lịch sử nào khác.
+            </p>
+            <p>Định niên đại cho các di tích ở Văn miếu là cần thiết, song việc đánh giá nó cũng không kém phần quan trọng. Có phải các công trình kiến trúc ở Văn miếu là hình ảnh tiêu biểu cho nền kiến trúc của dân tộc như lâu nay vẫn được nhiều người ngợi ca không? Theo tôi hoàn toàn không đúng như vậy. Và, ngược lại, có thể nói các công trình kiến trúc ở Văn miếu chịu ảnh hưởng nặng nề của kiến trúc Trung Hoa.
+            </p>
+            <p>Cũng lại cho phép tôi nhận diện cụ thể từng công trình.
+            </p>
+            <p>Ngay từ Văn miếu môn, người ta đã nhận ra ngay kiểu tam quan gạch có lầu là sản phẩm của kiến trúc Nguyễn nhập nội. Tam quan trong kiến trúc cổ truyền Việt Nam thường là các nhà bốn mái, ba gian không tường vách với tàu đao lợp ngói mũi hài, còn kiểu thức trụ thì chỉ có 4 trụ kiểu lòng đèn hộp không hề có tầng lầu.
+            </p>
+            <p>Kiến trúc lầu các không phải là hình ảnh của kiến trúc cổ truyền ở nước ta. 
+            </p>
+            <p>Các cửa Đại trung môn, Đại thành môn đều làm một kiểu vì kèo ba cột với các con rường chồng xếp lên nhau là diễn hình của kiểu thức vì kết cấu gỗ trong kiến trúc Trung Hoa. Kiểu vì nhập nội này được thấy trong tam quan chùa Kim Liên, xây dựng thời Quang Trung cuối thế kỷ XVIII, nhưng tam quan có niên đại thế kỷ XVI, nơi mà hệ vì của nó hoàn toàn xa lạ với kiến trúc truyền thống ở phía Bắc. Chúng chỉ khác các tam quan trong kiến trúc cổ Trung Quốc là trên mái của chúng đều lợp ngói hài chứ không phải là ngói ống mà thôi.
+            </p>
+            <p>Ảnh hưởng của kiến trúc Trung Hoa nặng nề nhất ở Văn miếu lại là Khuê Văn các. Không có bất kỳ một dẫn chứng khả dĩ tương đồng nào với Khuê Văn các trong kho tàng kiến trúc cổ Việt Nam các thời Lý, Trần, Lê.
+            </p>
+            <p>Kiểu thức: chồng diêm, ngói ống, không có bộ khung kết cấu kèo kẻ, con sơn nhiều tầng vuông góc với thân cột là những đặc trưng của kiến trúc Trung Hoa mà không một nhà nghiên cứu kiến trúc cổ nào dám phủ nhận nó. Đấy là, tôi chưa kể hết các chi tiết khác mà những người xây dựng Khuê Văn các đã tiếp thu kiến trúc ngoại lai khá là trung thực. Ở hai căn nhà cuối cùng, nơi ngay cả những người đã nhận ra các kiểu thức Trung Hoa ở các công trình tôi vừa kể trên vẫn bảo vệ nó là kiến trúc thuần Việt. Theo tôi, trên mình nó vẫn còn để lại sự giao thoa giữa hai nền kiến trúc.
+            </p>
+            <p>Bộ vì các gian chính của nhà Đại bái có sử dụng kẻ suốt, tứ hàng chân (bốn cột) - một đặc trưng rõ rệt của kiến trúc cổ Việt Nam, nhưng ở phần vì nóc lại vắng mặt cái kẻ ngồi và giá chiêng của nền kiến trúc dân tộc, thay vào đó là các con rường đỡ khoảng nóc. Còn ở hai vì hồi, cái kẻ mất hẳn, chỉ còn cái bẩy và các con rường ngự trị. Kết cấu rường cũng là kỹ thuật nhập nội của kiến trúc cổ Việt Nam.
+            </p>
+            <p>Tất nhiên, tôi cũng đồng ý là hai nhà Đại bái và Thượng điện ảnh hưởng của kiến trúc cổ Trung Hoa ít nhất và những yếu tố ngoại lai mà nó tiếp thu cũng đã được tuân thủ theo phương cách tính toán của kiến trúc cổ Việt Nam. Nhưng, điều đó lại làm tôi nghi ngờ trong việc xác định niên đại - Lê cho nó. Vì, cho đến nay, tôi chưa có may mắn được thấy trên đồng bằng Bắc Bộ một công trình kiến trúc có quy mô to lớn như nhà Đại bái có kết cấu kiểu vì "tứ trụ - lòng thuyền". Kiểu vì này đến thế kỷ XIX mới trở nên phổ biến ở Bắc Bộ. Tuy chưa có được những bằng chứng cụ thể, song tôi vẫn nghĩ, nhà Đại bái và Thượng điện đã được sửa chữa lớn dưới thời Nguyễn. Trong khi sửa chữa, người ta đã sử dụng lại một số vật liệu của công trình kiến trúc thời Lê nên nó không phải là hai công trình đích thực của thế kỷ XVII-XVIII trong quần thể kiến trúc ở Văn miếu.
+            </p>
+            <p>Sự có mặt của yếu tố kiến trúc cổ Trung Hoa ở Văn miếu hay cũng như bất kỳ ở một di tích nào là một điều không khó hiểu. Như mọi người đều biết, Việt Nam và Trung Quốc là hai nước láng giếng có quan hệ văn hoá rất lâu đời. Suốt trong 10 thế kỷ sau Công nguyên phong kiến phương Bắc đã tìm đủ mọi cách ra sức đồng hoá dân tộc ta. Trong cuộc đấu tranh kiên cường để bảo vệ nền văn hoá dân tộc, ông cha ta đã tiếp thu nhiều yếu tố của nền văn hoá Trung Hoa để làm giàu cho kho tàng văn hoá của mình.
+            </p>
+            <p>Ngay việc lập Văn miếu cũng là một biểu hiện của thực tế đó. Sau khi giành lại nến độc lập cho dân tộc các triều đại phong kiến Lý, Trần, Lê luôn luôn đề cao nền văn hoá dân tộc nên kiến trúc hai triều đại Lý - Trần chịu rất ít ảnh hưởng của kiến trúc Trung Hoa. Sang thời Lê trong các công trình kiến trúc như đình, chùa đã xuất hiện kiểu vì "thượng rường - hạ kẻ" nhưng các kiến trúc sư thời Lê đã đưa con rường vào hệ thức toán dựng vì hoàn toàn Việt Nam.
+            </p>
+            <p>Đến thời Nguyễn bước đi của nền kiến trúc dân tộc hoàn toàn khác với các triều đại trước. Cho đến nay, từ các nguồn tài liệu điền dã đã có thể nhận thấy các kiến trúc Nguyễn phát triển theo hai con đường hoàn toàn đối ngược nhau. Các công trình kiến trúc lớn có xu hướng mô phỏng kiến trúc Trung Hoa, còn trong dân gian nên kiến trúc dân tộc lại được bảo vệ vững chắc. Nhà "kẻ chuyến", "tứ trụ lòng thuyền" mang bản sắc hoàn toàn dân tộc ít gặp ở thời Lê, nay lại trở thành phổ biến trong kiến trúc dân gian thời Nguyễn.
+            </p>
+            <p>Văn miếu nằm trong khuynh hướng thứ nhất của nền kiến trúc Nguyễn. Do vậy, ngoài các công trình cũ còn lại, những cái gì sinh ra vào thời đại này không thoát ra khỏi trào lưu kiến trúc bấy giờ.
+            </p>
+            <p>Nếu chúng ta hiểu, hoàn cảnh địa lý và lịch sử Việt Nam cũng đều đã hiểu rằng, trong toàn bộ nền văn hoá của nhân loại. Không có một nền văn hoá nào không chứa đựng những yếu tố của nền văn hoá khác thì chúng ta không có gì hổ thẹn khi thấy các yếu tố của nền văn hoá Trung Hoa trong các kiến trúc của Văn miếu Quốc Tử Giám Hà Nội.
+            </p>
+            <p>Cái “mốt” cho mọi công trình kiến trúc cổ trên đất nước ta đều "mang tỉnh dân tộc độc đáo" là "bản sắc riêng của văn hoá dân tộc" mà ngày xưa nhiều người luôn luôn nói, thì từ nay tự nó cũng đã đến lúc phải thấy “không còn hợp thời trang” trong công cuộc đổi mới của đất nước. “Mốt” đó càng không nên sử dụng cho Văn miếu Quốc Tử Giám - trường đại học đầu tiên của đất nước.
+            </p>
+            <img id="img1" src="IMG/h12.png" alt="">
+            <h6>Khuê Văn Các – Văn Miếu Hà Nội.
+            </h6>
+            <img id="img1" src="IMG/h13.png" alt="">
+            <h6>Tam quan Văn Miếu – Hà Nội
+            </h6>
+            <hr/>
+            <p><sup><a href="#c6-ct11" id="ct11">11</a></sup>Bài đọc tại Hội thảo khoa học Văn Miếu Quốc Tử Giám Hà Nội. Hà Nội.1992.</p>
+            <p><sup><a href="#c6-ct12" id="ct12">12</a></sup>Đại Việt sử ký toàn thư. Tập I. Tr. 234. Nxb Khoa học xã hội, Hà Nội</p>
+            <p><sup><a href="#c6-ct13" id="ct13">13</a></sup>Đỗ Văn Ninh. Bia Nghè trường Giams. Nxb Khoa học xã hội. Và trí tuệ Việt Nam với Văn miếu Quốc Tử Giám</p>
+            <p><sup><a href="#c6-ct14" id="ct14">14</a></sup>Đỗ Văn Ninh. Sách đã dẫn</p>
+             
+        </div>
+    </main>
+    
+    <button onclick="topFunction()" id="btn-btt" title="Go to top"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+    <button onclick="bottomFunction()" id="btn-btb" title="Go to bottom"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const playPauseButtons = document.querySelectorAll(".play-pause");
+
+    playPauseButtons.forEach(button => {
+        const audioId = button.parentElement.getAttribute("data-audio");
+        const audio = document.getElementById(audioId);
+        audio.volume = 0.1;
+        button.addEventListener("click", function() {
+            if (audio.paused) {
+                audio.play();
+                this.classList.remove("play");
+                this.classList.add("pause");
+            } else {
+                audio.pause();
+                this.classList.remove("pause");
+                this.classList.add("play");
+            }
+        });
+    });
+});
+
+
+</script>
+<script>
+    let btnTop = document.getElementById("btn-btt");
+    let btnBottom = document.getElementById("btn-btb");
+
+    window.onscroll = function() {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        } else {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        }
+
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            btnBottom.style.display = "block";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function bottomFunction() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+</script>
+<script>
+    function toggleTable(tableId) {
+        var table = document.getElementById(tableId);
+        if (table.style.display === 'none' || table.style.display === '') {
+            table.style.display = 'block';
+        } else {
+            table.style.display = 'none';
+        }
+    }
+
+    function changeColor(textColor, bgColor) {
+        document.getElementById('content').style.color = textColor;
+        document.getElementById('content').style.backgroundColor = bgColor;
+    }
+
+    function changeFontSize(size) {
+        var content = document.getElementById('content');
+        if (size.startsWith('+')) {
+            var currentSize = parseInt(window.getComputedStyle(content).fontSize);
+            var increment = parseInt(size.substring(1));
+            content.style.fontSize = (currentSize + increment) + 'px';
+        } else {
+            content.style.fontSize = size;
+        }
+    }
+    function changeFont(font) {
+            document.getElementById('content').style.fontFamily = font;
+        }
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const contentText = document.getElementById("content");
+        const highlightBtn = document.getElementById("highlight");
+        const removeHighlightBtn = document.getElementById("remove-highlight");
+
+        let highlighting = false;
+
+        const highlightCursor = document.createElement("div");
+        highlightCursor.classList.add("highlight-cursor");
+        document.body.appendChild(highlightCursor);
+
+        highlightBtn.addEventListener("click", function () {
+            if (!highlighting) {
+                highlighting = true;
+                highlightCursor.style.display = "block";
+                document.body.style.cursor = "crosshair";
+                document.addEventListener("mouseup", endHighlight);
+            } else {
+                highlighting = false;
+                highlightCursor.style.display = "none";
+                document.body.style.cursor = "auto";
+            }
+        });
+
+        removeHighlightBtn.addEventListener("click", function () {
+            let removingHighlight = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            document.addEventListener("mousemove", activateRemoveHighlight);
+
+            function activateRemoveHighlight(event) {
+                if (!removingHighlight) {
+                    highlightCursor.style.left = event.clientX + "px";
+                    highlightCursor.style.top = event.clientY + "px";
+                    highlightCursor.style.display = "block";
+                    document.body.style.cursor = "pointer";
+                    removingHighlight = true;
+                }
+            }
+
+            contentText.addEventListener("click", function (event) {
+                if (removingHighlight) {
+                    const target = event.target;
+                    if (target.classList.contains("highlighted")) {
+                        target.classList.remove("highlighted");
+                    }
+                    highlightCursor.style.display = "none";
+                    document.body.style.cursor = "auto";
+                    removingHighlight = false;
+                    document.removeEventListener("mousemove", activateRemoveHighlight);
+                }
+            });
+        });
+
+
+        document.addEventListener("mousemove", moveHighlightCursor);
+
+        function moveHighlightCursor(event) {
+            if (highlighting) {
+                highlightCursor.style.left = event.clientX + "px";
+                highlightCursor.style.top = event.clientY + "px";
+            }
+        }
+
+        function endHighlight() {
+            highlighting = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            const selection = window.getSelection();
+            const range = selection.getRangeAt(0);
+            if (range) {
+                if (contentText.contains(range.commonAncestorContainer)) {
+                    const span = document.createElement("span");
+                    span.className = "highlighted";
+                    range.surroundContents(span);
+                    selection.removeAllRanges();
+                }
+            }
+        }
+    });
+</script>
+</html>

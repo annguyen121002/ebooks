@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-noidung.css">
+    <script src="js/toan man hinh.js"></script>
+    
+    <title>KIẾN TRÚC CỔ VIỆT NAM</title>
+</head>
+<body>
+    <div><button id="pre-page" style="transform: rotate(-90deg);"><a href="Chương 6.html"><img id="muiten-do" src="icon/muiten do.png" alt=""></a></button></div>
+	<div><button id="next-page" style="transform: rotate(90deg);"><a href=""></a></button></div>
+    <header>
+            <div id="btn-trangchu" style="padding: 30px 20px;">
+            <a id="a-header" href="index.html"><img id="icon-header" src="icon/iocn index.png" alt=""></a>
+            </div>
+            <div id="btn-mucluc" style="padding: 35px 10px;">
+                <button id="btn-header" onclick="toggleTable('muc-luc')"><img id="icon-header" src="icon/icon mucluc.png" alt=""></button>
+            </div>
+            <div id="muc-luc">
+                <span class="close-btn" onclick="toggleTable('muc-luc')">&#9746;</span>
+                <br>
+                <br>
+                <nav>
+                    <ul id="menu1" style="list-style: none;padding: 0px;">
+                        <li><a href="Bìa sách.html">BÌA SÁCH</a></li>
+                        <li><a href="Trang trách nhiệm.html">TRANG TRÁCH NHIỆM</a></li>
+                        <li><a href="Lời nói đầu.html">LỜI NÓI ĐẦU</a></li>
+                        <li><a href="Chương 1.html">CHƯƠNG I: PHỤC DỰNG THÁP TƯỜNG LONG - ĐỒ SƠN, HẢI PHÒNG TỪ CÁI NHÌN KHẢO CỔ HỌC</a>
+                            <ul id="menu2">
+                                <li><a href="Chương 1.html#1.1">1. NHỮNG ĐIỀU ĐÃ BIẾT</a></li>
+                                <li><a href="Chương 1.html#1.2">2. DẤU VẾT CỦA THÁP TƯỜNG LONG</a></li>
+                                <li><a href="Chương 1.html#1.3">3. ĐI TÌM NHỮNG ĐIỀU CÒN CHƯA BIẾT VỀ THÁP TƯỜNG LONG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 2.html">CHƯƠNG II: KIẾN TRÚC NHÀ CỬA THỜI TRẦN</a>
+                            <ul id="menu3">
+                                <li><a href="Chương 2.html#2.1">1. NHỮNG MÔ HÌNH NHÀ TÌM THẤY TRONG CÁC MỘ CỔ.</a></li>
+                                <li><a href="Chương 2.html#2.2">2. TÊN GỌI CỦA VÌ ĐƯỢC GỌI THEO ĐẶC TRƯNG LIÊN KẾT CỘT. </a></li>
+                                <li><a href="Chương 2.html#2.3">3. MỘT PHÁC THẢO VỀ KIẾN TRÚC NHÀ CỬA THỜI TRẤN </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 3.html">CHƯƠNG III: CHÙA VĨNH NGHIÊM - MỘT TRUNG TÂM PHẬT GIÁO ĐÃ 700 TUỔI</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 3.html#3.1">1. ĐẤT BIÊN ẢI CỦA MỘT DÒNG SỬ THI VÀ HUYỀN THOẠI VIỆT</a></li>
+                                <li><a href="Chương 3.html#3.2">2. MỘT TRUNG TÂM PHẬT GIÁO 700 NĂM TRƯỚC</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 4.html">CHƯƠNG IV: ĐÌNH LÀNG - ĐIỂM LẠI BƯỚC ĐI BAN ĐẦU.</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 4.html#4.1">1. VẤN ĐỀ NIÊN ĐẠI</a></li>
+                                <li><a href="Chương 4.html#4.2">2. ĐẤT DỰNG ĐÌNH</a></li>
+                                <li><a href="Chương 4.html#4.3">3. MẶT BẰNG TỔNG THỂ</a></li>
+                                <li><a href="Chương 4.html#4.4">4. KẾT CẤU BÊN NGOÀI: BỘ MÁI</a></li>
+                                <li><a href="Chương 4.html#4.5">5. KẾT CẤU BÊN TRONG: BỘ KHUNG</a></li>
+                                <li><a href="Chương 4.html#4.6">6. ĐIÊU KHẮC ĐÌNH LÀNG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 5.html">CHƯƠNG V: ĐÌNH LÀNG - HÌNH TƯỢNG</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 5.html#5.1">1. CÁC TƯ TƯỞNG CHỦ ĐẠO ĐẶC THÙ CỦA NGÀNH KIẾN TRÚC. </a></li>
+                                <li><a href="Chương 5.html#5.2">2. LÀNG NITA TRÊN ĐẢO FLORES VÀ LÀNG HỒI QUAN </a></li>
+                                <li><a href="Chương 5.html#5.3">3. CÂY THƯỚC TẦM TRONG NỀN KIẾN TRÚC CỔ VIỆT NAM</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 6.html">CHƯƠNG 6: THẨM ĐỊNH LẠI GIÁ TRỊ KIẾN TRÚC VĂN MIẾU - HÀ NỘI</a></li>
+                        <li><a href="Thư mục tham khảo.html">THƯ MỤC THAM KHẢO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="btn-gioithieu" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="">Giới thiệu</a></button>
+            </div>
+            <div id="btn-lienhe" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="">Liên hệ</a></button>
+            </div>
+            <div id="tensach">
+                <h1 id="h1-header">KIẾN TRÚC CỔ VIỆT NAM<br/>Từ cái nhìn khảo cổ học</h1>
+            </div>
+            <div id="btn-cochu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('sizeTable')" style="font-size: 35px;">Aa</button>
+            </div>
+            <div id="btn-mauchu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('colorTable')"><img id="icon-header" src="icon/icon mau.png" alt=""></button>
+            </div>
+            <div id="btn-nhac" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('nhac')" ><img id="icon-header" src="icon/icon nhac.png" alt=""></button>
+            </div>
+            <div id="btn-tmh" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleFullScreen()"><img id="icon-header" src="icon/icon tmh.png" alt=""></button>
+            </div>
+            <div id="colorTable">
+                <span class="close-btn" onclick="toggleTable('colorTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn btn-default" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', 'white')">Mặc định</button></td>
+                        <td><button class="btn btn-white-black" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#000', '#BEB6F2')">Đen - Tím</button></td>
+                        <td><button class="btn btn-white-purple" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#7B2924', '#edb561')">Đỏ - Cam</button></td>
+                        <td><button class="btn btn-black-yellow" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', '#FEFFC8')">Đen - Vàng</button></td>
+                        <td><button class="btn btn-white-green" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('Black', '#0CC0DF')">Đen - Xanh</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="sizeTable">
+                <span class="close-btn" onclick="toggleTable('sizeTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFontSize('18px')">Aa</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('18.5px')"><span style="font-size: 18.5px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('19px')"><span style="font-size: 19px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('20px')"><span style="font-size: 20px;">Aa</span></button></td>
+                    </tr>
+                </table>
+                <table style="margin: 20px 0;">
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Times New Roman')">Times New Roman</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Arial')">Arial</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Courier New')">Courier New</button></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <tr>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="highlight">Đánh dấu</button></td>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="remove-highlight">Bỏ đánh dấu</button></td>
+                        </tr>
+                    </tr>
+                </table>
+            </div>
+            <div id="nhac">
+                <span class="close-btn" onclick="toggleTable('nhac')">&#9746;</span>
+                <div id="box-nhac">
+                <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                <div class="audio-player" data-audio="audio1">
+                    <button class="play-pause play"></button>
+                    <audio id="audio1" loop src="mp3/Nhạc đồng quê nhẹ nhàng - nhạc nền video.mp3"></audio>
+                </div>
+                </div> 
+                <div id="box-nhac">
+                    <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                    <div class="audio-player" data-audio="audio2">
+                        <button class="play-pause play"></button>
+                        <audio id="audio2" loop src="mp3/Thịnh Vượng Việt Nam Sáng Ngời - Buitruonglinh.mp3"></audio>
+                    </div> 
+                    </div> 
+                
+            </div>
+    </header>
+    <main>
+        <div id="content">
+            <img id="anh-dau-chuong" src="IMG/anhtrencungcuasach.png" alt="">
+            <h1>THƯ MỤC THAM KHẢO
+            </h1>
+            <p>1. Engels. F. Nguồn gốc của gia đình, của chế độ tư hữu và nhà nước. Nhà xuất bản Khoa học xã hội (KHXH) Hà Nội 1973.
+            </p>
+            <p>2. Bộ Đại học. Kết cấu gỗ. Nhà xuất bản Đại học. Hà Nội 1975.
+            </p>
+            <p>3. Bezacier I. Relevé des monuments acients du Nord Vietnam. Paris, 1959.
+            </p>
+            
+            <p>7. Chic. A. Kiến trúc tiêu chuẩn và cái đẹp. Nhà xuất bản Khoa học và Kỹ thuật. Hà Nội 1980.
+            </p>
+            <p>8. Chu Quang Trứ. Chùa và dình trong sinh hoạt văn hoá của người Việt qua một làng trung du Bắc Bộ. Dân tộc học. Số 2 - 1980.
+            </p>
+            <p>9. Chu Quang Trứ. Kiến trúc Việt Nam. Kiến trúc số 4 - 1989.
+            </p>
+            <p>10. Chư Quang Trứ. Nhìn qua dình làng ở Huế. Kiến trúc. Số 4-1980.
+            </p>
+            <p>11. Chu Thái Sơn. Dấu vết nhà hình thuyền ở Tây Nguyên. Sưu tập Dân tộc học. 1970.
+            </p><p>12. Chu Thái Sơn. Những đặc điểm dân tộc học về nhà cửa và cư trú qua các không gian văn hoá. Dân tộc học. Số 4 - 1985.
+            </p>
+            <p>13. Clayes J. Y. Introduction à l' etude de l' Annam et Cham. Pakis. 1934.
+            </p>
+            <p>14. Đặng Thái Hoàng. Lược khảo nghệ thuật kiến trúc thế giới. Nhà xuất bản Văn hoá Hà Nôi, 1976.
+            </p>
+            <p>15. Đỗ Văn Ninh - Trịnh Cao Tường. Chùa Keo. Ty Văn hoá Thái Bình, 1972.
+            </p>
+            <p>16. Frolec V. Vareca J. Lidová architekture. Praha 1983 (Encyklopedie).
+            </p>
+            <p>17. Giran P. Magie et Religions Annamites. BEFEO. N" 1912.
+            </p>
+            <p>18. Golubev V. L' A Gouge du bronze du Tonkin et dans le Nord Annam. BEFEO N™ 1912.
+            </p>
+            <p>19. Golubev V. La maison de Đông Sơn. Cahiers de L' EFEO. N° 14 - 1938.
+            </p>
+            <p>20. Gourou P. Le Paysan du delta Tonkin. Paris 1936.
+            </p>
+            <p>21. Hà Văn Tấn. Lùng, liên làng và siêu làng. Thông báo khoa học. ĐHTH Số 1 - 1987.
+            </p>
+            <p>22. Hạ Nãi. Khảo cổ học Trung Quốc và lịch sử khoa học Trung Quốc. Khảo cổ học. Số 5-1984.
+            </p>
+            <p>23. Haino Ghendec R. Quê hương đầu tiên và cuộc thiên di sớm nhất của người Nam Đảo. Viễn cảnh châu Á. Số 5. Bản dịch tư liệu Viện khảo cổ học.
+            </p>
+            <p>24. Hội đồng nghiên cứu và biên soạn lịch sử tỉnh Hải Hưng. Nghề cổ truyền. Sở Văn hoá - Thông tin Hải Hưng 1984.
+            </p>
+            <p>25. Hoàng Đạo Kính. Bảo tồn và tu sửa di tích kiến trúc. VHNT. Số 97-1991.
+            </p>
+            <p>26. Huy Vu. Tìm hiểu kết cấu những hàng vì kèo người Việt ở nông thôn đồng bằng Bắc Bộ. Sưu tập Dân tộc học. Hà Nội 1981.
+            </p>
+            <p>27. Kim Định. Triết lý cái đình. Nhà xuất bản Lá Bối. Sài Gòn 1971.
+            </p>
+            <p>28. Koubi J. "Lambusolo" on descend du jew au sud - Toradja, Paris 1982.
+            </p>
+            <p>29. Lê Quý Đôn. Đại Việt thông sử. Nhà xuất bản KHXH. Hà Nội 1987. TIII.
+            </p>
+            <p>30. Lê Quý Đôn. Kiến văn tiểu lục.
+            </p>
+            <p>31. Lê Thị Nhâm Tuyết. Nghiên cứu hội làng Việt Nam, các loại hình hội làng trước cách mạng tháng Tám. Dân tộc học. Số 2 - 1976:
+            </p>
+            <p>32. Lê Văn Hảo. Mở đầu việc nghiên cứu ngôi đình về phương diện Dân tộc học. Hội những người nghiên cứu Đông Dương. Tập 38, số1. Pari 1962 (bộ mới). Bản dịch tư liệu Viện Khảo cổ học.
+            </p>
+            <p>33. Legeza. L. Decorative roof ceramic in Chinese architecture. Art of Asie,
+            </p>
+            <p>May Jun, 1982. 34. Li Ban D. Kết cấu xây dựng của các thời đại. Tư liệu Viện Khảo cổ học.
+            </p>
+            <p>35. Lưu Trần Tiêu. Di tích bản thông điệp của các thế hệ. Văn hoá nghệ thuật, số 97 - năm 1991.
+            </p>
+            <p>36. Mô-ric M. Lịch sử cương yếu những kỹ thuật. Tư liệu Viện Khảo cổ học.
+            </p>
+            <p>37. Moss M. L'historie et ses Méthodes. Ch. V - Technologie. Paris 1934.
+            </p>
+            <p>38. Novicob. Ph. Tìm tòi hình tượng kiến trúc. Tư liệu Viện Khảo cổ học.
+            </p>
+            <p>39. Ngô Huy Giao. Kiệu Đình. Báo Cứu quốc, ngày 19-12-1975.
+            </p>
+            <p>40. Ngô Huy Quỳnh. Những yếu tố khoa học kỹ thuật trong nên kiến trúc cổ truyền. Tìm hiểu khoa học kỹ thuật trong lịch sử. Nhà xuất bản KHXH Hà Nội 1982.
+            </p>
+            <p>41. Ngô Huy Quỳnh. Nền kiến trúc Việt Nam. Tài liệu in rônêô trường Đại học Kiến trúc Hà Nội, 1962.
+            </p>
+            <p>42. Nguyên Văn Huyen. Contribution à L' etude de l'habitation sur pilotis dans le Sud-Est Asiatique, 1934.
+            </p>
+            <p>43. Nguyễn Đăng Thục. Văn hoá đình làng. Tập san Tư tưởng. Sài Gòn số 7-1973.
+            </p><p>44. Nguyễn Đỗ Cung. Lời tựa cho cuốn sách ảnh Việt Nam điêu khắc dân gian thế kỷ XVI- XVII-XVIII. Hà Nội 1975.
+            </p>
+            <p>45. Nguyễn Bá Lăng. Cổ tích và danh thắng tỉnh Sơn Tây. Việt Nam Khảo cổ tập san. Số 5 - 1968.
+            </p>
+            <p>46. Nguyễn Bích. Đình Xốm. Khảo cổ học. Số 3-1984.
+            </p>
+            <p>47. Nguyễn Cao Luyện. Chùa Tây Phương một kiến trúc cổ độc đáo. Nhà xuất bản Xây dựng, Hà Nội 1988.
+            </p>
+            <p>48. Nguyễn Cao Luyện. Những mái nhà tranh cổ truyền. Nhà xuất bản Văn hoá. Hà Nội 1977.
+            </p>
+            <p>59. Nguyễn Cao Luyện. Những mái nhà tranh của chúng ta. Tác phẩm mới. Số 27 - 1973.
+            </p>
+            <p>50. Nguyễn Du Chi và Nguyễn Tiến Cảnh. Về niên đại ngôi đình Thổ Hà. Nghiên cứu Nghệ thuật. Số 3 - 1976.
+            </p>
+            <p>51. Nguyễn Du Chi. Thông báo về những di tích Mỹ thuật cổ còn lại ngàynay đã phát hiện trong 20 năm qua. Trong sách: 20 năm công tác nghiên cứu Mỹ thuật. Hà Nội. 1983.
+            </p>
+            <p>52. Nguyễn Duy Hinh. Thành hoàng.
+            </p>
+            <p>53. Nguyễn Duy Hinh. Về một số đặc điểm truyền thống của kiến trúc cổ Việt Nam. Trong sách: Góp phần nghiên cứu bản lĩnh, bản sắc dân tộc  Việt Nam. Nhà xuất bản Khoa học xã hội. Hà Nội 1982.
+            </p>
+            <p>54. Nguyễn Hồng Kiên. Bộ vì nóc của kết cấu nhà khung gỗ cổ truyền Việt Nam. Văn hoá Nghệ thuật. Số 7 - 1991.
+            </p>
+            <p>55. Nguyễn Hồng Phong. Một vài đặc điểm kỹ thuật của nhà Đông Sơn. Sưu tập Dân tộc học, 1981.
+            </p>
+            <p>56. Nguyễn Khắc Tụng. Nhà cửa của các dân tộc ở trung du Bắc Bộ Việt Nam. Nhà xuất bản Khoa học xã hội. Hà Nội, 1978.
+            </p>
+            <p>57. Nguyễn Khắc Tụng. Tìm hiểu về nhà cửa của người Mường vùng hỗn cư Việt Mường huyện Ba Vì. Dân tộc học. Số 4 -1974.
+            </p>
+            <p>58. Nguyễn Quân và Phan Cẩm Thượng. Mỹ thuật của người Việt. Hà Nội, 1989.
+            </p>
+            <p>59. Nguyễn Văn Khoan. Essai sur le Dinh et le culte du genie. Tutélaire des villagé au Tonkin. BEFEO XXX 1930.
+            </p>
+            <p>60. Palvan. La maison des Bugies. CDR ASEMI. Vol. Nº 1-1975.
+            </p>
+            <p>61. Pasquier P. L' Annam d'autrefois. Société d' edition. Pari 1929.
+            </p>
+            <p>62. Phêrenx. S. Xây dựng xưa và nay. Nhà xuất bản Khoa học - kỹ thuật. Hà Nội, 1975.
+            </p>
+            <p>63. Phương Anh. Nhà ở dân gian trong lịch sử. Kiến trúc. Số 3-4/1988.
+            </p>
+            <p>64. Phạm Đình Hổ. Vũ trung tuỳ bút. Nhà xuất bản Văn hoá. Hà Nội 1972.
+            </p>
+            <p>65. Phạm Văn Đồng. Tổ quốc ta, nhân dân ta, sự nghiệp ta và người nghệ sĩ. Nhà xuất bản Văn hoá. Hà Nội, 1984 (In lần thứ 5).
+            </p>
+            <p>66. Phan Huy Chú. Lịch triều hiến chương loại chí. Nhà xuất bản Khoa học xã hội. Hà Nội 1967 - 1968.
+            </p>
+            <p>67. Porée - Maspero.E. Etude sur les rites agraires des Cambodgiens La Haye Paris 1962.
+            </p>
+            <p>68. Przylusky J. Lesite de Dongtho. Contribution à l' etude du dieu du sol au Tonkin. BEFEO. X, 1910.
+            </p>
+            <p>69. Sở Văn hoá - Thông tin và Hội Văn nghệ Hà Nội. Hát cửa đình Lỗ Khê. Hà Nội, 1980.
+            </p>
+            <p>70. Tôn Đại. Các xu hướng dân tộc trong kiến trúc hiện đại Việt Nam. Kiến trúc. Số 4-1989.
+            </p>
+        </div>
+    </main>
+    
+    <button onclick="topFunction()" id="btn-btt" title="Go to top"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+    <button onclick="bottomFunction()" id="btn-btb" title="Go to bottom"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const playPauseButtons = document.querySelectorAll(".play-pause");
+
+    playPauseButtons.forEach(button => {
+        const audioId = button.parentElement.getAttribute("data-audio");
+        const audio = document.getElementById(audioId);
+        audio.volume = 0.1;
+        button.addEventListener("click", function() {
+            if (audio.paused) {
+                audio.play();
+                this.classList.remove("play");
+                this.classList.add("pause");
+            } else {
+                audio.pause();
+                this.classList.remove("pause");
+                this.classList.add("play");
+            }
+        });
+    });
+});
+
+
+</script>
+<script>
+    let btnTop = document.getElementById("btn-btt");
+    let btnBottom = document.getElementById("btn-btb");
+
+    window.onscroll = function() {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        } else {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        }
+
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            btnBottom.style.display = "block";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function bottomFunction() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+</script>
+<script>
+    function toggleTable(tableId) {
+        var table = document.getElementById(tableId);
+        if (table.style.display === 'none' || table.style.display === '') {
+            table.style.display = 'block';
+        } else {
+            table.style.display = 'none';
+        }
+    }
+
+    function changeColor(textColor, bgColor) {
+        document.getElementById('content').style.color = textColor;
+        document.getElementById('content').style.backgroundColor = bgColor;
+    }
+
+    function changeFontSize(size) {
+        var content = document.getElementById('content');
+        if (size.startsWith('+')) {
+            var currentSize = parseInt(window.getComputedStyle(content).fontSize);
+            var increment = parseInt(size.substring(1));
+            content.style.fontSize = (currentSize + increment) + 'px';
+        } else {
+            content.style.fontSize = size;
+        }
+    }
+    function changeFont(font) {
+            document.getElementById('content').style.fontFamily = font;
+        }
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const contentText = document.getElementById("content");
+        const highlightBtn = document.getElementById("highlight");
+        const removeHighlightBtn = document.getElementById("remove-highlight");
+
+        let highlighting = false;
+
+        const highlightCursor = document.createElement("div");
+        highlightCursor.classList.add("highlight-cursor");
+        document.body.appendChild(highlightCursor);
+
+        highlightBtn.addEventListener("click", function () {
+            if (!highlighting) {
+                highlighting = true;
+                highlightCursor.style.display = "block";
+                document.body.style.cursor = "crosshair";
+                document.addEventListener("mouseup", endHighlight);
+            } else {
+                highlighting = false;
+                highlightCursor.style.display = "none";
+                document.body.style.cursor = "auto";
+            }
+        });
+
+        removeHighlightBtn.addEventListener("click", function () {
+            let removingHighlight = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            document.addEventListener("mousemove", activateRemoveHighlight);
+
+            function activateRemoveHighlight(event) {
+                if (!removingHighlight) {
+                    highlightCursor.style.left = event.clientX + "px";
+                    highlightCursor.style.top = event.clientY + "px";
+                    highlightCursor.style.display = "block";
+                    document.body.style.cursor = "pointer";
+                    removingHighlight = true;
+                }
+            }
+
+            contentText.addEventListener("click", function (event) {
+                if (removingHighlight) {
+                    const target = event.target;
+                    if (target.classList.contains("highlighted")) {
+                        target.classList.remove("highlighted");
+                    }
+                    highlightCursor.style.display = "none";
+                    document.body.style.cursor = "auto";
+                    removingHighlight = false;
+                    document.removeEventListener("mousemove", activateRemoveHighlight);
+                }
+            });
+        });
+
+
+        document.addEventListener("mousemove", moveHighlightCursor);
+
+        function moveHighlightCursor(event) {
+            if (highlighting) {
+                highlightCursor.style.left = event.clientX + "px";
+                highlightCursor.style.top = event.clientY + "px";
+            }
+        }
+
+        function endHighlight() {
+            highlighting = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            const selection = window.getSelection();
+            const range = selection.getRangeAt(0);
+            if (range) {
+                if (contentText.contains(range.commonAncestorContainer)) {
+                    const span = document.createElement("span");
+                    span.className = "highlighted";
+                    range.surroundContents(span);
+                    selection.removeAllRanges();
+                }
+            }
+        }
+    });
+</script>
+</html>

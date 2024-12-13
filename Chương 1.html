@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-noidung.css">
+    <script src="js/toan man hinh.js"></script>
+    
+    <title>KIẾN TRÚC CỔ VIỆT NAM</title>
+</head>
+<body>
+    <div><button id="pre-page" style="transform: rotate(-90deg);"><a href="Lời nói đầu.html"><img id="muiten-do" src="icon/muiten do.png" alt=""></a></button></div>
+	<div><button id="next-page" style="transform: rotate(90deg);"><a href="Chương 2.html"><img id="muiten-do" src="icon/muiten do.png" alt=""></a></button></div>
+    <header>
+            <div id="btn-trangchu" style="padding: 30px 20px;">
+            <a id="a-header" href="index.html"><img id="icon-header" src="icon/iocn index.png" alt=""></a>
+            </div>
+            <div id="btn-mucluc" style="padding: 35px 10px;">
+                <button id="btn-header" onclick="toggleTable('muc-luc')"><img id="icon-header" src="icon/icon mucluc.png" alt=""></button>
+            </div>
+            <div id="muc-luc">
+                <span class="close-btn" onclick="toggleTable('muc-luc')">&#9746;</span>
+                <br>
+                <br>
+                <nav>
+                    <ul id="menu1" style="list-style: none;padding: 0px;">
+                        <li><a href="Bìa sách.html">BÌA SÁCH</a></li>
+                        <li><a href="Trang trách nhiệm.html">TRANG TRÁCH NHIỆM</a></li>
+                        <li><a href="Lời nói đầu.html">LỜI NÓI ĐẦU</a></li>
+                        <li><a href="Chương 1.html">CHƯƠNG I: PHỤC DỰNG THÁP TƯỜNG LONG - ĐỒ SƠN, HẢI PHÒNG TỪ CÁI NHÌN KHẢO CỔ HỌC</a>
+                            <ul id="menu2">
+                                <li><a href="Chương 1.html#1.1">1. NHỮNG ĐIỀU ĐÃ BIẾT</a></li>
+                                <li><a href="Chương 1.html#1.2">2. DẤU VẾT CỦA THÁP TƯỜNG LONG</a></li>
+                                <li><a href="Chương 1.html#1.3">3. ĐI TÌM NHỮNG ĐIỀU CÒN CHƯA BIẾT VỀ THÁP TƯỜNG LONG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 2.html">CHƯƠNG II: KIẾN TRÚC NHÀ CỬA THỜI TRẦN</a>
+                            <ul id="menu3">
+                                <li><a href="Chương 2.html#2.1">1. NHỮNG MÔ HÌNH NHÀ TÌM THẤY TRONG CÁC MỘ CỔ.</a></li>
+                                <li><a href="Chương 2.html#2.2">2. TÊN GỌI CỦA VÌ ĐƯỢC GỌI THEO ĐẶC TRƯNG LIÊN KẾT CỘT. </a></li>
+                                <li><a href="Chương 2.html#2.3">3. MỘT PHÁC THẢO VỀ KIẾN TRÚC NHÀ CỬA THỜI TRẤN </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 3.html">CHƯƠNG III: CHÙA VĨNH NGHIÊM - MỘT TRUNG TÂM PHẬT GIÁO ĐÃ 700 TUỔI</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 3.html#3.1">1. ĐẤT BIÊN ẢI CỦA MỘT DÒNG SỬ THI VÀ HUYỀN THOẠI VIỆT</a></li>
+                                <li><a href="Chương 3.html#3.2">2. MỘT TRUNG TÂM PHẬT GIÁO 700 NĂM TRƯỚC</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 4.html">CHƯƠNG IV: ĐÌNH LÀNG - ĐIỂM LẠI BƯỚC ĐI BAN ĐẦU.</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 4.html#4.1">1. VẤN ĐỀ NIÊN ĐẠI</a></li>
+                                <li><a href="Chương 4.html#4.2">2. ĐẤT DỰNG ĐÌNH</a></li>
+                                <li><a href="Chương 4.html#4.3">3. MẶT BẰNG TỔNG THỂ</a></li>
+                                <li><a href="Chương 4.html#4.4">4. KẾT CẤU BÊN NGOÀI: BỘ MÁI</a></li>
+                                <li><a href="Chương 4.html#4.5">5. KẾT CẤU BÊN TRONG: BỘ KHUNG</a></li>
+                                <li><a href="Chương 4.html#4.6">6. ĐIÊU KHẮC ĐÌNH LÀNG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 5.html">CHƯƠNG V: ĐÌNH LÀNG - HÌNH TƯỢNG</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 5.html#5.1">1. CÁC TƯ TƯỞNG CHỦ ĐẠO ĐẶC THÙ CỦA NGÀNH KIẾN TRÚC. </a></li>
+                                <li><a href="Chương 5.html#5.2">2. LÀNG NITA TRÊN ĐẢO FLORES VÀ LÀNG HỒI QUAN </a></li>
+                                <li><a href="Chương 5.html#5.3">3. CÂY THƯỚC TẦM TRONG NỀN KIẾN TRÚC CỔ VIỆT NAM</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 6.html">CHƯƠNG VI: THẨM ĐỊNH LẠI GIÁ TRỊ KIẾN TRÚC VĂN MIẾU - HÀ NỘI</a></li>
+                        <li><a href="Thư mục tham khảo.html">THƯ MỤC THAM KHẢO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="btn-gioithieu" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="Giới thiệu.html">Giới thiệu</a></button>
+            </div>
+            <div id="btn-lienhe" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="Liên hệ.html">Liên hệ</a></button>
+            </div>
+            <div id="tensach">
+                <h1 id="h1-header">KIẾN TRÚC CỔ VIỆT NAM<br/>Từ cái nhìn khảo cổ học</h1>
+            </div>
+            <div id="btn-cochu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('sizeTable')" style="font-size: 35px;">Aa</button>
+            </div>
+            <div id="btn-mauchu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('colorTable')"><img id="icon-header" src="icon/icon mau.png" alt=""></button>
+            </div>
+            <div id="btn-nhac" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('nhac')" ><img id="icon-header" src="icon/icon nhac.png" alt=""></button>
+            </div>
+            <div id="btn-tmh" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleFullScreen()"><img id="icon-header" src="icon/icon tmh.png" alt=""></button>
+            </div>
+            <div id="colorTable">
+                <span class="close-btn" onclick="toggleTable('colorTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn btn-default" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', 'white')">Mặc định</button></td>
+                        <td><button class="btn btn-white-black" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#000', '#BEB6F2')">Đen - Tím</button></td>
+                        <td><button class="btn btn-white-purple" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#7B2924', '#edb561')">Đỏ - Cam</button></td>
+                        <td><button class="btn btn-black-yellow" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', '#FEFFC8')">Đen - Vàng</button></td>
+                        <td><button class="btn btn-white-green" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('Black', '#0CC0DF')">Đen - Xanh</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="sizeTable">
+                <span class="close-btn" onclick="toggleTable('sizeTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFontSize('18px')">Aa</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('18.5px')"><span style="font-size: 18.5px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('19px')"><span style="font-size: 19px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('20px')"><span style="font-size: 20px;">Aa</span></button></td>
+                    </tr>
+                </table>
+                <table style="margin: 20px 0;">
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Times New Roman')">Times New Roman</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Arial')">Arial</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Courier New')">Courier New</button></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <tr>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="highlight">Đánh dấu</button></td>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="remove-highlight">Bỏ đánh dấu</button></td>
+                        </tr>
+                    </tr>
+                </table>
+            </div>
+            <div id="nhac">
+                <span class="close-btn" onclick="toggleTable('nhac')">&#9746;</span>
+                <div id="box-nhac">
+                <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                <div class="audio-player" data-audio="audio1">
+                    <button class="play-pause play"></button>
+                    <audio id="audio1" loop src="mp3/Nhạc đồng quê nhẹ nhàng - nhạc nền video.mp3"></audio>
+                </div>
+                </div> 
+                <div id="box-nhac">
+                    <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                    <div class="audio-player" data-audio="audio2">
+                        <button class="play-pause play"></button>
+                        <audio id="audio2" loop src="mp3/Thịnh Vượng Việt Nam Sáng Ngời - Buitruonglinh.mp3"></audio>
+                    </div> 
+                    </div> 
+                
+            </div>
+    </header>
+    <main>
+        <div id="content">
+            <img id="anh-dau-chuong" src="IMG/anhtrencungcuasach.png" alt="">
+            <h1>CHƯƠNG I: PHỤC DỰNG THÁP TƯỜNG LONG - ĐỒ SƠN</h1><h1> HẢI PHÒNG TỪ CÁI NHÌN KHẢO CỔ HỌC<sup><a style="scroll-margin-top:120px ;" id="c1-ct1" href="#ct1">1</a></sup>
+            </h1>
+            <img id="img1" src="IMG/h1.png" alt="">
+            <h6>Góc đao ở đình Sừng (Nghệ An)</h6>
+            <p>Năm 1987, tôi có vinh hạnh được trao nhiệm vụ khai quật tháp Tường Long . Đó là những tháng ngày không thể nào quên. Tôi còn nhớ, dạo ấy, có một nguồn tin không hiểu xuất phát từ đâu đã làm cho cả Đồ Sơn náo nức trong niềm vui: Nhà nước đang chuẩn bị xây dựng lại tháp Tường Long. Chúng tôi đã ra sức cải chính, nhưng không một ai tin. Mãi đến lúc chia tay, mọi người mới tin là điều đó chưa xảy ra. Vì vậy, trên các gương mặt dạn dày phong ba biến cả của các lão ngư chẳng một ai giấu nổi nỗi buồn của mình. Để làm vơi đi phần nào nỗi buồn của họ, tôi đã nói, chắc chắn có một ngày tháp Tường Long<sup><a style="scroll-margin-top:120px ;" id="c1-ct2" href="#ct2">2</a></sup> sẽ được xây dựng lại. Khi nói điều đó, thú thật, tôi cũng không hiểu, cái ngày đó đến tận bao giờ.
+            </p>
+            <p>Nhưng hôm nay, niềm mơ ước của bao thế hệ người Đồ Sơn đang có cơ may trở thành hiện thực. Cũng như họ, tôi cũng chờ đợi đến nao lòng, vì một lẽ đơn giản là, tôi không muốn thấy lại nỗi buồn trên gương mặt của các lão ngư đã ám ảnh tôi non hai chục năm qua một lần nữa.
+            </p>
+            <p>Nhưng trong niềm vui chờ đợi, tôi cũng thấy ngay được trách nhiệm nặng nề của các nhà khảo cổ học. Bởi, tư liệu khảo cổ học đã trở thành nguyên liệu chính, nếu không nói là duy nhất của công cuộc phục dựng lại tháp Tường Long. Với tinh thần trách nhiệm đó, chúng tôi xin phép được cung cấp những thông tin chính - theo chúng tôi, đó là những thông tin cần thiết cho các kiến trúc sư, các nhà bảo tàng học - nếu như họ được trao nhiệm vụ phục dựng ngôi tháp này.
+            </p>
+            <h2 id="1.1">1. NHỮNG ĐIỀU ĐÃ BIẾT</h2>
+            
+            <p>Trên đỉnh núi Tháp không phải chỉ có một ngọn tháp Tường Long đơn độc, mà ở phía Bắc tháp còn có một nền chùa hình chữ nhật có kích thước 26 x 6m. Nên này được bó vỉa bằng đá xanh. Trong khu vực nền và quanh đó đã tìm thấy các vật liệu như ngói mũi hài, tượng thú... mang phong cách nghệ thuật trang trí trên bộ mái của các phế tích kiến trúc thời Lý như chùa Phật Tích (Hà Bắc), chùa Lạng (Hải Dương)... Như vậy, trên mặt bằng tổng thể của phế tích tại đỉnh núi Tháp vẫn còn nguyên dấu tích của cả chùa và tháp. Vị trí của cả hai kiến trúc đó có thể hoạch định được một cách rõ ràng.
+            </p>
+            <h2 id="1.2">2. DẤU VẾT CỦA THÁP TƯỜNG LONG
+            </h2><p>Tháp Tường Long hiện còn là một phế tích đổ nát. Nhưng, những gì còn lại đến hôm nay là minh chứng cho sự hiện diện của nó trong quá khứ. Dưới đây là những dấu vết - theo chúng tôi, rất cần cho công cuộc tái hiện bức chân dung đã mất của nó.
+            </p>
+            <p><b>Sân tháp
+            </b></p><p>Sân tháp là một mặt bằng hình vuông mỗi cạnh dài 4m. Đây là một sân đất nện bằng đất đồi laterit trộn với sỏi nhỏ được bó vỉa khá cẩn thận: bên ngoài kè đá hộc, bên trong có lát via gạch. Dấu vết gạch lát sân còn để lại rất rõ ở phần phía Đông rộng khoảng 2m.
+            </p>
+            <p><b>Móng tháp
+            </b></p><p>Cuộc khai quật năm 1978 đã làm lộ rõ hoàn toàn phần móng dưới nền tháp. Móng tháp có ba tầng hình vuông, rỗng lòng, xây giật cấp chồng lên nhau. Tầng dưới cùng mỗi cạnh dài 7,86m, táng thứ hai 7,36m, tầng trên cùng 6.92m. Như vậy, mỗi vạt tường xây hẹp vào từ 0,50m 0,56m. Bề mặt vạt tường trên cùng là 2m. Bên trong 4 vạt tường là lòng tháp hình vuông mỗi cạnh là 2,9m. Bề mặt của móng tháp không bằng phẳng mà uốn cong ở bốn góc kiểu đao đình. Sở dĩ chúng tôi xác định đây là phần móng tháp bởi toàn bộ đều nằm dưới nền sân tháp và không thấy có một viên gạch trang trí nào.
+            </p>
+            <p><b>Vật liệu xây dựng
+            </b></p><p>Căn cứ vào kỹ thuật xây dựng các tháp đất nung của cả Việt Nam và Trung Quốc chúng tôi phân gạch xây tháp thành hai loại. Loại I là gạch lòng tháp. Loại II là gạch trang trí mặt ngoài tháp.
+            </p>
+            <p>Loại I. Chia làm hai phụ loại: 
+            </p><p>a) Gạch góc có kích thước 40×24×23×5cm. Loại gạch này có một mặt phẳng, một mặt hơi nhô lên ở một góc để tạo thành đường cong nơi góc tháp.
+            </p>
+            <p>b) Gạch hình chữ nhật, cả hai mặt đều phẳng. Có khoảng 5 viên kích thước 56×23×5cm và 28×20×5cm còn tuyệt đại đa số có kích thước 40×28×5cm. Ngoại trừ những viên biệt lệ, tất cả các viên khác trên một mặt đều có một khung hình chữ nhật lõm xuống kích thước 15×3cm. Trong khung này có in nổi hai hàng chữ Hán “Lý gia đệ tam đế Long Thụy Thái Bình tứ niên tạo”, nghĩa là: Gạch làm vào triều vua Lý thứ ba, niên hiệu Long Thụy Thái Bình năm thứ tư - Tức là đời vua Lý Thánh Tông năm 1057.
+            </p>
+            <p>Loại II: Gạch trang trí mặt ngoài tháp có 3 viên, nói một cách chính xác hơn là mảnh của 3 viên. Loại gạch này thực chất là những mảng phù điêu ốp ở mặt ngoài giữa hai tầng tháp. Mặt phía ngoài của những viên gạch này có trang trí hoa chanh, hoa dây đắp nổi. Mặt bên trong có khắc chữ Hán ghi rõ vị trí viên gạch trên cây tháp. Ví dụ “đệ tử tầng đệ tam” (tầng thứ 4, hàng thứ 3)... Viên gạch ở tầng cao nhất còn sót lại ở tầng thứ 4. Rất tiếc không còn viên nào nguyên vẹn để thấy kích thước và các mô típ trang trí một cách đầy đủ.
+            </p>
+            <p>Ngoài vật liệu xây tháp, cuộc khai quật còn tìm thấy một số di vật khác có liên quan đến cấu trúc và bài trí trong tháp.
+            </p>
+            <p>- Hai chiếc cối cửa bằng đá - một chiếc phát hiện trước khai quật, một chiếc phát hiện ngay ở cạnh phía Nam của tháp. Phát hiện này có một ý nghĩa rất quan trọng, nó khẳng định tháp chỉ có một cửa, cửa này quay về hướng Nam. Cửa có thể có cánh bằng gỗ và trọng lượng không phải là nhẹ.
+            </p>
+            <p>- Cuộc khai quật năm 1978 cũng đã phát hiện thêm tầng đáy của chiếc bệ sen nổi tiếng đã tìm thấy trong lớp gạch phế tích tháp trước đây. Cùng với tầng đáy của bệ là một phần của một pho tượng đá được đoán định là tượng Adiđà - cùng phong cách với pho tượng đá chùa Phật Tích (Bắc Ninh). Chắc chúng ta đều nhớ, cũng vào thời vua Lý Thánh Tông đã cho xây dựng trên núi Lạn Kha - ta quen gọi là chùa Phật Tích, một tháp gạch. Người ta cũng đã phát hiện rất nhiều gạch xây tháp với những dòng chữ để ghi niên đại giống như gạch xây tháp Tường Long và pho tượng Adiđà ngồi trên bệ sen nổi tiếng nhất trong các di sản nghệ thuật Phật giáo nước nhà. Việc phát hiện ra chiếc bệ và một phần của pho tượng ở khu vực lòng tháp đã cho biết, bên trong lòng tháp có một bệ đá hoa sen, trên bệ có đặt tượng đá Adida. Đó là tất cả dấu tích vật chất của tháp Tường Long mà chúng tôi đã có trong tay.
+            </p>
+            <p>Tổng hợp nguồn tư liệu khảo cổ có được chúng tôi đã đưa ra một phác thảo chân dung tháp Tường Long: Đúng như đã được ghi trong thư tịch, năm 1057 vua Lý Thánh Tông đã cho xây trên đỉnh núi tháp một cụm kiến trúc Phật giáo bao gồm một ngôi chùa và một ngọn bảo tháp đã được đích thân nhà vua đặt tên là tháp Tường Long. Những tư liệu khảo cổ học còn lại cho phép ta nhận diện được nến móng chùa tháp, một số vật liệu xây tháp, chắc chắn tháp có một cửa mở về hướng Nam - cửa này là cửa của khám thờ, có cánh có thể mở được với các cối cửa làm bằng đá khá lớn. Trong lòng tháp có một bệ đá hoa sen, trên bệ có đặt tượng Phật Adiđà.
+            </p>
+            <p>Phải thú nhận rằng, nguồn tư liệu khảo cổ học trên núi Tháp như vậy là ít ỏi hay nói một cách khác là, chưa đủ cho phép có thể dựng lại một bức chân dung xác thực của tháp Tường Long.
+            </p>
+            <p>Những thông tin quan trọng nhất mà các kiến trúc sư rất cần được cung cấp mà chúng tôi không thể có là: Chiều cao của tháp? Số tầng tháp và độ cao của mỗi tầng? Gạch trang trí của mỗi tầng tháp?
+            </p>
+            <h5 style="text-align: center;">Bảng vật liệu khai quật dùng để xây tháp</h5>
+            <table>
+                <tr>
+                    <th>Tên</th><th>Vật liệu</th>
+                </tr>
+                <tr>
+                    <td>Cối cửa</td><td>Đá</td>
+                </tr>
+                <tr>
+                    <td>Cột nhà</td><td>Gỗ lim</td>
+                </tr>
+                <tr>
+                    <td>Tường nhà</td><td>Gạch tổ ong</td>
+                </tr>
+                <tr>
+                    <td>Đỉnh tháp</td><td>Đá hoa cương</td>
+                </tr>
+            </table>
+            
+            <h2 id="1.3">3. ĐI TÌM NHỮNG ĐIỀU CÒN CHƯA BIẾT VỀ THÁP TƯỜNG LONG
+            </h2>
+            <p>Rất may là, trong khi nguồn tư liệu trực tiếp đã không cho chúng ta có được lời giải cho ba vấn đề then chốt trên thì chúng ta vẫn có thể tìm ra được câu trả lời từ nguồn tư liệu gián tiếp - đó là những ngôi tháp cổ hiện đang còn trên đất nước ta trong đó tài liệu quan trọng nhất theo chúng tôi là tháp Bình Sơn. Như chúng ta đã biết, tháp Bình Sơn là một tháp đất nung được xây dựng dưới thời Trần, đã được sửa chữa dưới thời Lê. So sánh dấu vết để lại của tháp Tường Long và tháp Bình Sơn ta thấy kỹ thuật xây dựng cơ bản giống nhau, kể cả phương pháp ghi vị trí của các viên gạch trên mỗi tầng tháp. Đó cũng là kỹ thuật chung cho các tháp gạch Phật giáo ở Việt Nam và Trung Quốc.
+            </p>
+            <p>Nếu như lấy nguồn tư liệu tháp Bình Sơn bổ sung cho tháp Tường Long, có thể được xem là hợp lý còn vì hai triều đại Lý - Trần đều lấy Phật giáo làm quốc giáo. Nghệ thuật và kiến trúc Lý - Trần trên căn bản không có khác biệt lớn. Có lẽ, chỉ khác nhau về chi tiết. Ví dụ lối trang trí Lý thường có họa tiết mềm mại và dày đậm, còn trang trí thời Trần thường không sợ các khoảng trống, đường nét khỏe khoắn hơn. Con rồng thời Lý thân hình mảnh dẻ, uốn khúc theo dạng túi, con rồng thời Trần thân hình mập mạp hơn, khúc uốn rộng hơn... Những chi tiết này thì tháp Tường Long cũng đã để lại những chỉ dẫn đủ để cho biết phong cách thời đại của nó. Nếu tổng hợp các nguồn tư liệu gián tiếp có thể giúp ta tìm ra lời giải cho những điều còn chưa biết của tháp Tường Long.
+            </p>
+            <p><b>Về chiều cao của tháp
+            </b></p>
+            <p>Tháp Tường Long cao khoảng 18m đến 20m. Những con số này dựa trên hai luận cứ. Một là, độ cao của các tháp cổ hiện còn trên đất nước ta đều không quá 20m. Tháp Phổ Minh dựng năm Hưng Long thứ 13 (năm 1305) cao 17m. Tháp Bình Sơn (Lập Thạch - Phú Thọ), theo Nguyễn Duy Hình hiện còn cao 15m, có thể “Ban đầu cao 20m”, tháp Bút chùa Ninh Phúc (Thuận Thành - Bắc Ninh) dựng năm 1674 - thời Lê, cao 13m05. Trong nến cảnh chung như vậy, lại được xây trên đỉnh núi cao, ven biển phải chịu nhiều phong ba bão táp, tháp Tường Long khó có thể có độ cao hơn các tháp được xây dựng sâu trong đất liền như đã kể trên. Ngoài ra, còn có thể đoán định được độ cao tuyệt đối của tháp qua một ngả đường khác. Trước đây, khi nghiên cứu tháp cổ Việt Nam, L. Bezacier cho biết, chiều cao của tháp thường gấp 2,5 lần chiều dài cạnh đáy. Theo công thức này, ta lấy cạnh đáy của tháp Tường Long là 7,36m nhân với 2,5 thì độ cao của tháp là 18,4m. Với hai lý do trên chúng tôi cho rằng, 18,4m là một con số có sức thuyết phục.
+            </p>
+            <p><b>Số tầng và độ cao của mỗi tầng tháp</b>
+            </p><p>Chúng ta chỉ có trong tay viên gạch thứ tư của tầng tháp. Nhưng so sánh kích thước của móng tháp với các tháp hiện còn cho phép ta khẳng định tháp không chỉ có 4 tầng.
+            </p>
+            <p>Song, xác định số tầng tháp đúng là không đơn giản. Trong tác phẩm của mình Nguyễn Duy Hinh cho biết số tầng của tháp Phật giáo rất khác nhau: Tháp xá lị Phật 13 tầng, tháp Bích chi Phật 11 tầng, tháp Phật theo các văn bản Tiểu thừa 9 tầng, tháp Ala Hán cao 4 tầng... Như vậy, vấn đề ta phải chọn một trong 4 loại trên. Rất may, từ lâu ở Đồ Sơn người ta vẫn lưu truyền chùm thơ chữ Hán “Đồ Sơn bát vịnh” (Vịnh tám cảnh đẹp ở Đồ Sơn) tương truyền của nhà thơ Hoàng Miễu Trai (chúng tôi chưa có điều kiện tìm hiểu lý lịch của nhà thơ này). Một trong tám cảnh đẹp trong thơ Hoàng Miễu Trai là tháp Tường Long với bài: Tháp sơn hoài cổ, bài thơ có câu:
+            </p>
+            <p style="text-align: center;">“Nghìn cân chuông Phật vang sông réo.
+            </p><p style="text-align: center;">Chín đợt tháp cao hóa bụi bay…”
+            </p>
+            <p>Theo như lời thơ trên thì tháp Tường Long có 9 tầng. Theo tôi, đây là con số có thể chấp nhận được, bởi nó không chỉ phù hợp với thông lệ tháp Phật như Nguyễn Duy Hinh đã cho biết mà, niềm tin chúng ta còn được củng cố hơn bởi một bảo tháp nổi tiếng khác của thời Lý đã được mô tả trong văn bia chùa Linh Xứng “... Trên sân chùa xây bảo tháp đất nung tên là Chiêu Ân, chín tầng chót vót, đều trưng bày lưới…”
+            </p>
+            <p>Sau khi đã có độ cao và số tầng tháp vấn đề còn lại là xác định kích thước của các tầng tháp. Dựa theo cấu trúc của tháp Bình Sơn và Phổ Minh - tính từ dưới lên trên, tháp có các thành phần sau: bệ tháp - khám thờ - các tầng tháp - chỏm tháp.
+            </p>
+            <p>Trong hoàn cảnh không có một nguồn tư liệu nào có thể cho biết được độ cao của các tầng tháp theo chúng tôi chúng ta có thể dựa trên diễn biến tỉ lệ của tháp Bình Sơn để phân chia tỉ lệ cho tháp Tường Long. Nhưng trên thực tế lại có rất nhiều số đo khác nhau về các tầng tháp. Dưới đây chúng tôi xin giới thiệu hai trong những số đo đã được công bố.<sup><a style="scroll-margin-top:120px ;" id="c1-ct3" href="#ct3">3</a></sup>
+            </p>
+            <p>1. Số đo kích thước các cạnh và chiều cao của mỗi tầng tháp của Bộ Văn hóa trong lần trùng tu tháp đã được Nguyễn Duy Hinh sử dụng trong tác phẩm của mình (tính từ dưới lên).
+            </p>
+            
+            <table>
+                <tr>
+                    <th>Tầng</th> <th>Kích thước<br/>cạnh tầng</th> <th>Tỉ lệ<br/>tăng giảm</th> <th>Chiều cao<br/>Mỗi tầng</th> <th>Tỉ lệ<br/>tăng giảm</th>
+                </tr>
+                <tr>
+                    <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td>
+                </tr>
+                <tr>
+                    <td>Đế</td> <td>4.4m</td> <td></td> <td>1.62m</td> <td></td>
+                </tr>
+                <tr>
+                    <td>Khám</td> <td>3.3m</td> <td></td> <td>2.7m</td> <td></td>
+                </tr>
+                <tr>
+                    <td>1</td> <td>2.7m</td> <td>Giảm 0.26m</td> <td></td> <td></td>
+                </tr>
+                <tr>
+                    <td>2</td> <td>2.44m</td> <td>Giảm 0.06m</td> <td>1.27m</td> <td>Giảm 0.41m</td>
+                </tr>
+                <tr>
+                    <td>3</td> <td>2.38m</td> <td>Giảm 0.13m</td> <td>1.23m</td> <td>Giảm 0.04m</td>
+                </tr>
+                <tr>
+                    <td>4</td> <td>2.25m</td> <td>Giảm 0.05m</td> <td>1.05m</td> <td>Giảm 0.18m</td>
+                </tr>
+                <tr>
+                    <td>5</td> <td>2.20m</td> <td>Giảm 0.15m</td> <td>1.10m</td> <td>Tăng 0.05m</td>
+                </tr>
+                <tr>
+                    <td>6</td> <td>2.05m</td> <td>Giảm 0.15m</td> <td>1.05m</td> <td>Giảm 0.05m</td>
+                </tr>
+            </table>
+            <p>2. Số đo trên bản vẽ của Bezacier (tính từ ngọn tháp xuống). Tỉ lệ 1/300</p>
+            <table>
+                <tr>
+                    <td rowspan="2">Tầng thấp</td> <td>Cao</td> <td colspan="2">Rộng</td>
+                </tr>
+                <tr>
+                    <td>Đo trên bản vẽ</td> <td>Đo trên bản vẽ</td>
+                </tr>
+                <tr>
+                    <td>Bệ</td> <td>4.8</td> <td>12.85</td> 
+                </tr>
+                <tr>
+                    <td>Khám</td> <td>9.15</td> <td>9.4</td> 
+                </tr>
+                <tr>
+                    <td>Tầng 1</td> <td>3.2</td> <td>7.6</td> 
+                </tr>
+                <tr>
+                    <td>Tầng 2</td> <td>3.3</td> <td>7.75</td> 
+                </tr>
+                <tr>
+                    <td>Tầng 3</td> <td>3.25</td> <td>7.15</td>
+                </tr>
+                <tr>
+                    <td>Tầng 4</td> <td>3.15</td> <td>6.85</td> 
+                </tr>
+                <tr>
+                    <td>Tầng 5</td> <td>3</td> <td>6.55</td> 
+                </tr>
+                <tr>
+                    <td>Tầng 6</td> <td>3</td> <td>6.35</td> 
+                </tr>
+                <tr>
+                    <td>Tầng 7</td> <td>2.75</td> <td>6</td> 
+                </tr>
+                <tr>
+                    <td>Tầng 8</td> <td>2.7</td> <td>5.9</td> 
+                </tr>
+                <tr>
+                    <td>Tầng 9</td> <td>2.35</td> <td>5.55</td> 
+                </tr>
+                <tr>
+                <td>Tầng 10</td> <td>2.1</td> <td>5.1</td> 
+                </tr>
+                <tr>
+                    <td>Tổng</td> <td>42.75</td> <td>87.05</td> 
+                </tr>
+            </table>
+            
+            <p>Theo tôi, để phân chia kích thước các tầng cho tháp Tường Long ta nên sử dụng số đo trên bản vẽ của L. Bezacier. Bởi, những bản vẽ của ông đã thực hiện trước khi tháo được tu sửa non nửa thế kỷ, hẳn là, khi đó tháp chưa bị hư hại nhiều như lúc chúng ta tiến hành tu sửa nên diễn biến tỷ lệ các tầng phần nào thể hiện có trật tự hơn những con số mà Nguyễn Duy Hinh đã công bố.
+            </p>
+            <p>Điều cuối cùng mà chúng ta còn băn khoăn là gạch trang trí của các tầng tháp. Đúng là trong tay chúng ta không có một viên nào nguyên vẹn, nhưng từng phần của các viên gạch khác nhau lại đủ để ta có thể phục dựng một cách đầy đủ những mảng trang trí cần thiết.
+            </p><p>Ngoài ra, chúng ta còn có thể tham khảo những viên gạch đã phát hiện ở những tháp thời Lý khác đã được khai quật và nghiên cứu như: Phật Tích (Bắc Ninh), Chương Sơn (Vạn Phong Thành Thiện), Đọi Sơn (Chiêu Ân) thuộc Hà Nam ngày nay. Đối với những phần còn thiếu, chúng ta có thể tham khảo từ tư liệu tháp Bình Sơn về bố cục chung, còn các họa tiết hoàn toàn có thể khôi phục được từ những tư liệu mà tháp Tường Long và các bảo tháp thời Lý khác còn để lại.
+            </p>
+            <p>Tuy chúng tôi không thể cung cấp đầy đủ những tư liệu cho phép phục dựng lại bức chân dung xác thực của tháp Tường Long, nhưng tổng hợp tất cả những nguồn tư liệu, chúng ta sẽ làm được tới mức tối đa những gì còn có thể làm được trong việc khôi phục chân dung của nó. Tất nhiên để làm tốt được công việc này đòi hỏi phải có sự nỗ lực của nhiều ngành khoa học.
+            </p>
+            <p>Việc phục dựng lại tháp Tường Long là một công việc mang tầm vóc lịch sử không phải chỉ riêng của nhân dân Đồ Sơn, nhân dân thành phố Cảng, mà chắc chắn còn là của cả đất nước. Bởi, nếu như lần giở bản đồ phân bố mộ gạch 10 thế kỷ sau Công nguyên ta sẽ thấy, suốt cả một vùng cửa biển rộng lớn từ Quảng Ninh, Hải Phòng kéo dài về tận Thuận Thành, Bắc Ninh - nơi đầu não của chính quyền đô hộ, có hàng ngàn ngôi mộ gạch của những kẻ xâm lược như một bức tường thành khóa chặt con đường ra biển của người Việt. Không có mối giao lưu với biển cả, người Việt đã mất đi một nguồn sức mạnh to lớn của mình.
+            </p>
+            <p>Có lẽ, cha ông ta đã nhận rõ được âm mưu gian hiểm đó của kẻ thù nên, ngay sau khi giành lại được nến độc lập cho dân tộc, sau đêm trường nghìn năm thuộc Bắc, các ông vua triều Lý đã lập tức trở về ngay với biển: thương cảng Vân Đồn đã được mở, tháp cao đỏ rực dựng trên núi Rồng Đồ Sơn... như những ví dụ sống động cho ý tưởng lớn lao đó, đồng thời đó cũng có thể được coi là một tuyên ngôn - nước Đại Việt từ đây đã có thêm sức mạnh của thế Rồng ra biển lớn. Vì lẽ đó, việc chúng ta dựng lại tháp Tường Long chính là chúng ta đã làm sống lại lời tuyên ngôn, niềm tự hào của cha ông hơn 1000 năm trước. Thời điểm mà chúng ta chọn cho việc phục dựng tháp hôm nay dường như là một sự gặp gỡ kì diệu của lịch sử - đất nước sau thắng lợi vẻ vang của cuộc đấu tranh giành độc lập, thống nhất, đang bước vào công cuộc đổi mới - hướng ra biển lớn, hội nhập với một Đông Nam Á phát triển thịnh vượng.
+            </p><p>Tháp Tường Long cũng chính là một tuyên ngôn của thời đại mới, đồng thời cũng là một thông điệp của chúng ta gửi tới cha ông - cháu con đã, đang và mãi mãi giữ gìn truyền thống Đại Việt trên những tầm cao.
+            </p><p style="text-align: right;"><i>Hà Nội mùa Thu, tháng Tám.</i>
+            </p>
+            <img id="img1" src="IMG/h2.png" alt="">
+            <h6>Tháp Bình Sơn</h6>
+            <hr/>
+            <p><sup><a id="ct1" href="#c1-ct1">1</a></sup>Bài đọc trong Hội nghị phục dựng tháp Tường Long. Sở Văn hóa Hải Phòng. Năm 1998 (Tạp chí Kiến trúc Việt Nam. Số 5/1997).
+            </p><p><a id="ct2" href="#c1-ct2"><sup>2</sup></a>Trịnh Cao Tưởng và Nguyễn Vân Sơn. Khai quật tháp Tường Long ở Đồ Sơn (Hải Phòng). KCH số 4/1979.
+            </p><p><a id="ct3" href="#c1-ct3"><sup>3</sup></a>Nguyễn Duy Hình. Tháp cổ Việt Nam. Nxb - KHXH. Hà Nội 1993.
+            </p>
+        </div>
+    </main>
+    
+    <button onclick="topFunction()" id="btn-btt" title="Go to top"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+    <button onclick="bottomFunction()" id="btn-btb" title="Go to bottom"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const playPauseButtons = document.querySelectorAll(".play-pause");
+
+    playPauseButtons.forEach(button => {
+        const audioId = button.parentElement.getAttribute("data-audio");
+        const audio = document.getElementById(audioId);
+        audio.volume = 0.1;
+        button.addEventListener("click", function() {
+            if (audio.paused) {
+                audio.play();
+                this.classList.remove("play");
+                this.classList.add("pause");
+            } else {
+                audio.pause();
+                this.classList.remove("pause");
+                this.classList.add("play");
+            }
+        });
+    });
+});
+
+
+</script>
+<script>
+    let btnTop = document.getElementById("btn-btt");
+    let btnBottom = document.getElementById("btn-btb");
+
+    window.onscroll = function() {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        } else {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        }
+
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            btnBottom.style.display = "block";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function bottomFunction() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+</script>
+<script>
+    function toggleTable(tableId) {
+        var table = document.getElementById(tableId);
+        if (table.style.display === 'none' || table.style.display === '') {
+            table.style.display = 'block';
+        } else {
+            table.style.display = 'none';
+        }
+    }
+
+    function changeColor(textColor, bgColor) {
+        document.getElementById('content').style.color = textColor;
+        document.getElementById('content').style.backgroundColor = bgColor;
+    }
+
+    function changeFontSize(size) {
+        var content = document.getElementById('content');
+        if (size.startsWith('+')) {
+            var currentSize = parseInt(window.getComputedStyle(content).fontSize);
+            var increment = parseInt(size.substring(1));
+            content.style.fontSize = (currentSize + increment) + 'px';
+        } else {
+            content.style.fontSize = size;
+        }
+    }
+    function changeFont(font) {
+            document.getElementById('content').style.fontFamily = font;
+        }
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const contentText = document.getElementById("content");
+        const highlightBtn = document.getElementById("highlight");
+        const removeHighlightBtn = document.getElementById("remove-highlight");
+
+        let highlighting = false;
+
+        const highlightCursor = document.createElement("div");
+        highlightCursor.classList.add("highlight-cursor");
+        document.body.appendChild(highlightCursor);
+
+        highlightBtn.addEventListener("click", function () {
+            if (!highlighting) {
+                highlighting = true;
+                highlightCursor.style.display = "block";
+                document.body.style.cursor = "crosshair";
+                document.addEventListener("mouseup", endHighlight);
+            } else {
+                highlighting = false;
+                highlightCursor.style.display = "none";
+                document.body.style.cursor = "auto";
+            }
+        });
+
+        removeHighlightBtn.addEventListener("click", function () {
+            let removingHighlight = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            document.addEventListener("mousemove", activateRemoveHighlight);
+
+            function activateRemoveHighlight(event) {
+                if (!removingHighlight) {
+                    highlightCursor.style.left = event.clientX + "px";
+                    highlightCursor.style.top = event.clientY + "px";
+                    highlightCursor.style.display = "block";
+                    document.body.style.cursor = "pointer";
+                    removingHighlight = true;
+                }
+            }
+
+            contentText.addEventListener("click", function (event) {
+                if (removingHighlight) {
+                    const target = event.target;
+                    if (target.classList.contains("highlighted")) {
+                        target.classList.remove("highlighted");
+                    }
+                    highlightCursor.style.display = "none";
+                    document.body.style.cursor = "auto";
+                    removingHighlight = false;
+                    document.removeEventListener("mousemove", activateRemoveHighlight);
+                }
+            });
+        });
+
+
+        document.addEventListener("mousemove", moveHighlightCursor);
+
+        function moveHighlightCursor(event) {
+            if (highlighting) {
+                highlightCursor.style.left = event.clientX + "px";
+                highlightCursor.style.top = event.clientY + "px";
+            }
+        }
+
+        function endHighlight() {
+            highlighting = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            const selection = window.getSelection();
+            const range = selection.getRangeAt(0);
+            if (range) {
+                if (contentText.contains(range.commonAncestorContainer)) {
+                    const span = document.createElement("span");
+                    span.className = "highlighted";
+                    range.surroundContents(span);
+                    selection.removeAllRanges();
+                }
+            }
+        }
+    });
+</script>
+</html>

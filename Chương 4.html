@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-noidung.css">
+    <script src="js/toan man hinh.js"></script>
+    
+    <title>KIẾN TRÚC CỔ VIỆT NAM</title>
+</head>
+<body>
+    <div><button id="pre-page" style="transform: rotate(-90deg);"><a href="Chương 3.html"><img id="muiten-do" src="icon/muiten do.png" alt=""></a></button></div>
+	<div><button id="next-page" style="transform: rotate(90deg);"><a href="Chương 5.html"><img id="muiten-do" src="icon/muiten do.png" alt=""></a></button></div>
+    <header>
+            <div id="btn-trangchu" style="padding: 30px 20px;">
+            <a id="a-header" href="index.html"><img id="icon-header" src="icon/iocn index.png" alt=""></a>
+            </div>
+            <div id="btn-mucluc" style="padding: 35px 10px;">
+                <button id="btn-header" onclick="toggleTable('muc-luc')"><img id="icon-header" src="icon/icon mucluc.png" alt=""></button>
+            </div>
+            <div id="muc-luc">
+                <span class="close-btn" onclick="toggleTable('muc-luc')">&#9746;</span>
+                <br>
+                <br>
+                <nav>
+                    <ul id="menu1" style="list-style: none;padding: 0px;">
+                        <li><a href="Bìa sách.html">BÌA SÁCH</a></li>
+                        <li><a href="Trang trách nhiệm.html">TRANG TRÁCH NHIỆM</a></li>
+                        <li><a href="Lời nói đầu.html">LỜI NÓI ĐẦU</a></li>
+                        <li><a href="Chương 1.html">CHƯƠNG I: PHỤC DỰNG THÁP TƯỜNG LONG - ĐỒ SƠN, HẢI PHÒNG TỪ CÁI NHÌN KHẢO CỔ HỌC</a>
+                            <ul id="menu2">
+                                <li><a href="Chương 1.html#1.1">1. NHỮNG ĐIỀU ĐÃ BIẾT</a></li>
+                                <li><a href="Chương 1.html#1.2">2. DẤU VẾT CỦA THÁP TƯỜNG LONG</a></li>
+                                <li><a href="Chương 1.html#1.3">3. ĐI TÌM NHỮNG ĐIỀU CÒN CHƯA BIẾT VỀ THÁP TƯỜNG LONG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 2.html">CHƯƠNG II: KIẾN TRÚC NHÀ CỬA THỜI TRẦN</a>
+                            <ul id="menu3">
+                                <li><a href="Chương 2.html#2.1">1. NHỮNG MÔ HÌNH NHÀ TÌM THẤY TRONG CÁC MỘ CỔ.</a></li>
+                                <li><a href="Chương 2.html#2.2">2. TÊN GỌI CỦA VÌ ĐƯỢC GỌI THEO ĐẶC TRƯNG LIÊN KẾT CỘT. </a></li>
+                                <li><a href="Chương 2.html#2.3">3. MỘT PHÁC THẢO VỀ KIẾN TRÚC NHÀ CỬA THỜI TRẤN </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 3.html">CHƯƠNG III: CHÙA VĨNH NGHIÊM - MỘT TRUNG TÂM PHẬT GIÁO ĐÃ 700 TUỔI</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 3.html#3.1">1. ĐẤT BIÊN ẢI CỦA MỘT DÒNG SỬ THI VÀ HUYỀN THOẠI VIỆT</a></li>
+                                <li><a href="Chương 3.html#3.2">2. MỘT TRUNG TÂM PHẬT GIÁO 700 NĂM TRƯỚC</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 4.html">CHƯƠNG IV: ĐÌNH LÀNG - ĐIỂM LẠI BƯỚC ĐI BAN ĐẦU.</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 4.html#4.1">1. VẤN ĐỀ NIÊN ĐẠI</a></li>
+                                <li><a href="Chương 4.html#4.2">2. ĐẤT DỰNG ĐÌNH</a></li>
+                                <li><a href="Chương 4.html#4.3">3. MẶT BẰNG TỔNG THỂ</a></li>
+                                <li><a href="Chương 4.html#4.4">4. KẾT CẤU BÊN NGOÀI: BỘ MÁI</a></li>
+                                <li><a href="Chương 4.html#4.5">5. KẾT CẤU BÊN TRONG: BỘ KHUNG</a></li>
+                                <li><a href="Chương 4.html#4.6">6. ĐIÊU KHẮC ĐÌNH LÀNG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 5.html">CHƯƠNG V: ĐÌNH LÀNG - HÌNH TƯỢNG</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 5.html#5.1">1. CÁC TƯ TƯỞNG CHỦ ĐẠO ĐẶC THÙ CỦA NGÀNH KIẾN TRÚC. </a></li>
+                                <li><a href="Chương 5.html#5.2">2. LÀNG NITA TRÊN ĐẢO FLORES VÀ LÀNG HỒI QUAN </a></li>
+                                <li><a href="Chương 5.html#5.3">3. CÂY THƯỚC TẦM TRONG NỀN KIẾN TRÚC CỔ VIỆT NAM</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 6.html">CHƯƠNG VI: THẨM ĐỊNH LẠI GIÁ TRỊ KIẾN TRÚC VĂN MIẾU - HÀ NỘI</a></li>
+                        <li><a href="Thư mục tham khảo.html">THƯ MỤC THAM KHẢO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="btn-gioithieu" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="Giới thiệu.html">Giới thiệu</a></button>
+            </div>
+            <div id="btn-lienhe" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="Liên hệ.html">Liên hệ</a></button>
+            </div>
+            <div id="tensach">
+                <h1 id="h1-header">KIẾN TRÚC CỔ VIỆT NAM<br/>Từ cái nhìn khảo cổ học</h1>
+            </div>
+            <div id="btn-cochu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('sizeTable')" style="font-size: 35px;">Aa</button>
+            </div>
+            <div id="btn-mauchu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('colorTable')"><img id="icon-header" src="icon/icon mau.png" alt=""></button>
+            </div>
+            <div id="btn-nhac" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('nhac')" ><img id="icon-header" src="icon/icon nhac.png" alt=""></button>
+            </div>
+            <div id="btn-tmh" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleFullScreen()"><img id="icon-header" src="icon/icon tmh.png" alt=""></button>
+            </div>
+            <div id="colorTable">
+                <span class="close-btn" onclick="toggleTable('colorTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn btn-default" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', 'white')">Mặc định</button></td>
+                        <td><button class="btn btn-white-black" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#000', '#BEB6F2')">Đen - Tím</button></td>
+                        <td><button class="btn btn-white-purple" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#7B2924', '#edb561')">Đỏ - Cam</button></td>
+                        <td><button class="btn btn-black-yellow" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', '#FEFFC8')">Đen - Vàng</button></td>
+                        <td><button class="btn btn-white-green" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('Black', '#0CC0DF')">Đen - Xanh</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="sizeTable">
+                <span class="close-btn" onclick="toggleTable('sizeTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFontSize('18px')">Aa</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('18.5px')"><span style="font-size: 18.5px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('19px')"><span style="font-size: 19px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('20px')"><span style="font-size: 20px;">Aa</span></button></td>
+                    </tr>
+                </table>
+                <table style="margin: 20px 0;">
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Times New Roman')">Times New Roman</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Arial')">Arial</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Courier New')">Courier New</button></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <tr>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="highlight">Đánh dấu</button></td>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="remove-highlight">Bỏ đánh dấu</button></td>
+                        </tr>
+                    </tr>
+                </table>
+            </div>
+            <div id="nhac">
+                <span class="close-btn" onclick="toggleTable('nhac')">&#9746;</span>
+                <div id="box-nhac">
+                <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                <div class="audio-player" data-audio="audio1">
+                    <button class="play-pause play"></button>
+                    <audio id="audio1" loop src="mp3/Nhạc đồng quê nhẹ nhàng - nhạc nền video.mp3"></audio>
+                </div>
+                </div> 
+                <div id="box-nhac">
+                    <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                    <div class="audio-player" data-audio="audio2">
+                        <button class="play-pause play"></button>
+                        <audio id="audio2" loop src="mp3/Thịnh Vượng Việt Nam Sáng Ngời - Buitruonglinh.mp3"></audio>
+                    </div> 
+                    </div> 
+                
+            </div>
+    </header>
+    <main>
+        <div id="content">
+            <img id="anh-dau-chuong" src="IMG/anhtrencungcuasach.png" alt="">
+            <h1>CHƯƠNG IV: ĐÌNH LÀNG - ĐIỂM LẠI BƯỚC ĐI BAN ĐẦU.
+            </h1>
+            <p>Công trình kiến trúc chiếm vị trí hàng đầu trong mối quan tâm của nhiều người nghiên cứu lịch sử và văn hóa Việt Nam là ngôi đình. Nếu coi P. Giran là người đầu tiên chú ý đến nó trong thế kỷ này, kể từ công trình mà ông công bố cách đây gần 80 năm thì, từ đó đến nay, có thể nói đình làng vẫn là một đề tài nóng hổi.
+            </p>
+            <p>Đằng sau lòng nhiệt thành tìm hiểu ấy không có lý do bí ẩn nào cả, đình làng vốn là nơi "thực hiện mọi sự kiện của đời sống xã hội Việt Nam" (P. Giran). Đó là nơi thờ Thành hoàng, vị thần bảo trợ của làng, là trụ sở hành chính của xã thôn, nơi hội họp của hội đồng kì mục để bổ bán binh dịch, phân chia công điền công thổ, đặt khoán ước, giải quyết các vụ tranh chấp, thu thuế, thúc sưu... cũng là nơi phạt vạ, ăn khao. Trong những ngày giỗ Thành hoàng đình trở thành trung tâm văn hóa của làng. Tất cả kho tàng văn hóa, tích lũy từ đời này qua đời khác được trình diễn nơi đây, với sự tham gia tự nguyện của dân làng.
+            </p>
+            <p>Về mặt tạo hình, mọi người nghiên cứu ngôi đình có thể dễ dàng nhất trí với nhau xem đây là gương mặt của nền kiến trúc cổ Việt Nam. Nó không chỉ là công trình oai nghiêm và đồ sộ nhất trong khung cảnh làng quê Việt Nam nghèo nàn thời phong kiến, mà còn là nơi bảo tồn khá trọn vẹn những đặc điểm của nền kiến trúc dân tộc, ít chịu ảnh hưởng của nền kiến trúc bên ngoài. Những phát hiện trong hơn mười năm qua cong đưa từ không gian tranh tối tranh sáng của đình làng ra trước dư luận nghệ thuật cả một kho tàng bất ngờ những tác phẩm điêu khắc gỗ dân gian Việt Nam qua ba thế kỉ XVI, XVII, XVIII. Ở đây, người ta không chỉ tìm thấy những tư tưởng tự do vượt lên không khí ngột ngạt của vương quyền và thân quyền, mà còn đứng trước bức tranh sống động về nhiều khía cạnh của cuộc sống làng quê thuở trước.
+            </p>
+            <p>Tuy nhiên, quanh ngôi đình, nhiều câu hỏi khoa học chưa được nêu lên, hoặc còn chờ lời đáp: Nguồn gốc, lịch sử phát triển, tuổi và cách đột nhập của Thành hoàng vào đình làng, các kết cấu kỹ thuật... Từ góc độ khảo cổ học, cũng đã ra đời một vài công trình khái quát, nhưng, ở đây, tính khảo cổ học chưa thật rõ nét, và, đặc biệt, phần niên đại cụ thể chưa được thực sự chú ý. Nói một cách khác, công trình tập thể tìm hiểu đình làng sau 80 năm, vẫn chưa hoàn toàn kết thúc bước ban đầu.
+            </p>
+            <p>Trong hoàn cảnh đó bài báo này không hề có tham vọng đưa ra những lời giải cho mọi ẩn số về đình làng. Bên cạnh một vài nhận xét riêng của tác giả, nó chỉ nhằm tập hợp lại những tư liệu đã có trong tay, rồi từ cơ sở đó đặt lại, thậm chí đặt thêm một số câu hỏi. Gọi là góp một viên gạch nhỏ vào công việc lát lại nền, nghĩa là đặt lại vấn đề cho phần nào tổng hợp hơn trước kia.
+            </p>
+            <h2 id="4.1">1. VẤN ĐỀ NIÊN ĐẠI
+            </h2>
+            <p>Hầu như mọi người nghiên cứu đình làng đều có một tiên cảm chung: đình làng từng tồn tại trong nền văn hóa Việt cổ từ hàng ngàn năm trước, với tư cách là một ngôi nhà công cộng, nhà làng, tương tự "nhà rông" của người Ba Na ở Tây Nguyên.
+            </p>
+            <p>Cho đến nay, chúng ta đã biết được hàng trăm đình làng. Nhưng tài liêu  khảo cổ học và mĩ thuật học cho biết rằng có ba ngôi đình khởi dựng sớm nhất đều ra đời từ thế kỉ XVI². Chỉ thế thôi, nhưng ngay trong việc quy niên đại cho ba ngôi đình ấy, đâu phải không còn gì để bàn nữa. Thực ra, chúng ta chỉ biết niên đại chính xác của một trong ba ngôi: đình Lỗ Hạnh (Hiệp Hòa, Bắc Giang). Trên một thành phần kiến trúc của ngôi đình này, có ghi gần đủ năm tháng khởi dựng: "Sùng Khang (mất một chữ) niên chính nguyệt thất (mất hai chữ). Trên một bức cốn khác: "Tuế thứ Bính Tý mạnh xuân tân tạo". Phối hợp cả hai dòng chữ, có thể định được một cách chắc chắn rằng đình Lỗ Hạnh được khởi dựng vào năm 1576, dưới triều Mạc Mậu Hợp. Còn về hai đình Phù Lưu (Bắc Ninh) và Tây Đằng (Hà Tây) thì niên đại hoàn toàn dựa trên phong cách nghệ thuật trang trí. Ngoài ra, chưa có bất cứ tài liệu nào về khảo cổ học cho phép khẳng định rằng "nhà làng" là tiền thân của đình.
+            </p>
+            <p>Những đình làng bề thế nhất hiện còn gặp đều chủ yếu được xây dựng trong hai thế kỉ XVII và XVIII. Nhưng giữa hai thế kỉ ấy, thì số lượng trội hơn vẫn thuộc về thế kỉ XVII. Vì bắt đầu từ nửa cuối của thế kỉ XVIII, thì kiến trúc đình làng dần dần bị coi nhẹ. Cho đến năm 1954, niên đại được xem như thời điểm cáo chung của việc tạo dựng đình ở làng quê Việt Nam. Nói tóm lại, nếu thử lên một biểu đồ phản ánh lượng tư liệu hiện có về đình, thì 1576 sẽ là năm mở đầu, 1954 năm kết thúc, còn đỉnh của đường biểu thị sẽ là thế kỉ XVII.
+            </p>
+            <p>Những niên đại vừa nêu trên cần được hiểu theo một quan niệm rất rộng. Chúng chỉ là tương đối, bởi lẽ, ngay cả những đình có niên đại chính xác cũng không thể nào giữ nguyên được cho đến hôm nay đủ các thành phần kiến trúc của ngày khởi tạo. Nước ta là một nước nhiệt đới, kiến trúc đình làng là kiến trúc gỗ; mặc dầu được làm bằng các loại gỗ quý, đình vẫn dễ bị hủy hoại. Qua các thời nối tiếp nhau, người ta không ngừng thay thế các thành phần kiến trúc bị hư hỏng, nhờ kỹ thuật lắp ráp cực kì khéo léo gần với kiểu thức nhà trên cột. Còn một lý do nữa khiến việc định niên đại cho từng ngôi đình đã phức tạp càng phức tạp hơn: từ nguyên hình lúc khởi dựng, các thế hệ sau đã không ngừng thêm vào những thành phần kiến trúc mới…
+            </p>
+            <p>Như vậy, tất cả những niên đại được đưa ra một cách tổng quát - Đình được xây dựng vào những năm tháng nào đó, thế kỷ nào đó - mà không kèm theo những lời giải thích bổ sung, vẫn là mơ hồ, thiếu chính xác. Đáng tiếc là, khá nhiều thông báo về đình làng hiện vẫn được trình bày theo kiểu ấy. Cũng vậy, đối với các loại kiến trúc khác. Người ta giới thiệu rằng chùa Chiêu Thiên (chùa Láng) chẳng hạn, được xây dựng từ thời Lý, nhưng ở chùa Chiêu Thiên hôm nay, không thể nào tìm thấy bất kỳ dấu vết nào của ngày khởi tạo nữa. Thậm chí, dựa vào một số viên gạch thời Hán, được nhặt từ các mộ cổ quanh vùng về để xây một số đoạn tường chùa Dâu, có tác giả đã chứng minh rằng, ngôi chùa được xây lại vào thời Lê - Nguyễn này là di tích thời Hán. Y như lời sư Đàm Thiên nói với Ý Lan phu nhân, mà Thiên Uyển tập anh đã ghi lại.
+            </p>
+            <h2 id="4.2">2. ĐẤT DỰNG ĐÌNH
+            </h2>
+            <p>Trước chúng ta, L. Bezacier, một người có thể nói là sành về mỹ thuật Việt Nam cổ truyền, nhất là nếu người đọc ngày nay không quên quy chiếu vào tình hình tư liệu hết sức thiếu thốn thời ông viết (trước đại chiến thế giới lần thứ hai), đã lưu ý tới vị trí của ngôi đình làng. Ông viết: ... "Những giác độ địa lý có tính chất tôn giáo, ma thuật góp phần xác định cho nó (tức ngôi đình) được đặt theo một hướng nhất định, trong một cảnh trí bao gồm những bãi cỏ, những cây cối đẹp, những hồ ao, những lùm cây thiêng, những gò đống. Tất cả đều quy tụ vào việc tạo dựng nên cái không khí thanh tịnh và thần bí".
+            </p>
+            <p>Sau Bezacier, chưa thấy ai đi sâu vào những nhận xét của ông ta. Một ý kiến rất chung chung, nhưng thường gặp: đình được đặt ở trung tâm của làng.
+            </p>
+            <p>Từ thực hiện điền dã, chúng tôi thấy việc chọn đất dựng đình phức tạp hơn thế nhiều. Trước tiên, cũng phải có một lời ngắn ngủi về cái gọi là: vị trí trung tâm, một khái niệm tưởng chừng cụ thể, nhưng thực ra, khá mơ hồ. Tài liệu sưu tầm tại chỗ chưa cho chúng tôi thấy có một làng nào đặt đình vào chính giữa khu vực quần cư. Trung tâm, nếu cứ nhất thiết dùng khái niệm ấy, dù chỉ vì hàm nghĩa tinh thần của nó, thường không được tính theo chiều đọc: chúng tôi muốn nói rằng, trong tuyệt đại đa số các trường hợp, nhà ở của dân làng không bao giờ được ở phía trước của đình (trừ công trình thời nay, đương nhiên), mà chỉ có thể ở phía sau, và trên những khu đất từ hai đầu hồi đình kéo dài ra. Một điều kiêng kỵ mà cho đến nay chúng tôi vẫn chưa có được lời giải đáp lọn nghĩa: các nếp nhà chính của người trong làng không khi nào quay về góc đình (thành ngữ: góc ao, đao đình).
+            </p><p>Các giác độ địa lý có tính chất tôn giáo ma thuật của Bezacier, chắc chắn người đi diễn dã nào cũng từng gặp. Hơn nữa, các tiêu chí để chọn đất dựng đình, còn được ghi trong sách xưa. Nguyễn Bá Lăng dẫn một tài liệu khá lý thú, cuốn An tượng, do chùa Xiển Pháp (Hà Nội) ấn hành': "Đất lành là nơi bên trái nên rộng trống, hoặc có sông ngòi ao hồ ôm bọc, bên phải (tay hổ) nên cao dày, lớp lớp quay đầu lại, hoặc có hoa sen, tràng phan bảo cái, hoặc có rồng phượng rùa rắn chầu bài, ấy là đất dương cơ ưa tay hổ vậy. Cũng nên cưỡi đáo lại, như người cưỡi ngựa đi thì đầu phải ở phía trước, dòng nước phải chảy đảo sang phía trái. Nếu là đảo kỵ (cưỡi trở lại), mạch vào từ phía trước vậy. Trước mặt có minh đường hay không minh đường đều được cả. Đằng sau không nên có núi áp bức, thế là đất lành”.
+            </p>
+            <p>Thử nói bằng lời lẽ thông thường: đất lành là đất có sông hồ ôm bọc, hoặc có những gò đất bốn bề quần tụ, khác nào có rồng, phượng, rùa, rắn châu bái. Cuốn sách trên, tôi cũng đã được thấy trong tay một xã viên già, xưa vốn là thầy địa lý, ở thôn Bảo Tháp, xã Đông Cứu, huyện Gia Lương (Bắc Ninh)². Ngoài văn bản ra, sách còn nhiều hình vẽ rối rắm. Nhưng cũng chính thầy địa lý ấy đã cho tôi biết rằng, người Nam ta có cách chọn đất riêng, đã được tổng kết thành câu có vẫn rất dễ nhớ, chẳng phải tốn công học: Thè lè lưỡi trai, không sai được nó. Khum khum gọng vó, không nó thì ai". Thầy đã dẫn tôi đi thăm đất. Tất cả các thể lưỡi trai và gọng vó mà thầy cho là đất lành, dưới mắt tôi đều là bãi bồi của các dòng sông, dòng suối cổ. Không có gì lạ: thăm thú các làng quê ven sông, chúng ta sẽ thấy rằng đình làng nào cũng quay mặt trở ra bờ lõm của một khúc sông cong, bên bồi của dòng chảy.
+            </p>
+            <p>Quy tắc này chặt chẽ tới mức làng Đồng Kỵ (Bắc Ninh) đã dựng đình hẳn ra phía sau của khu vực cư trú, chỉ vì sông Ngũ Huyện chảy qua phía sau làng. Thế đất, với vị trí dành cho ngôi đình tại các làng ven sông, vốn là như thế, về sau các thầy địa lý phải giải thích tại sao cho hợp với những nguyên tắc của khoa phong thủy. Theo các thầy, khúc sông cong là nơi tụ thủy, khúc sông thẳng là nơi thoái thủy, làng mà dựng đình ở nơi tụ thủy sẽ làm ăn phát đạt. Và, ngược lại, nếu dựng đình ở nơi thoái thủy. Thực ra có thể đoán định như vậy, vị trí dựng đình được chọn theo một tinh thần riêng, nhưng khoa phong thủy nói rộng ra, là một yếu tố ý thức hệ được tiếp thu từ phương Bắc đã uốn nắn tinh thần ấy, bằng cách phủ lên nó một cách lý giải mới.
+            </p>
+            <p>Vấn đề còn tồn tại: nguyên tắc khởi nguyên quy định vị trí dựng đình? Phương pháp điền dã của dân tộc học có thể không còn khả năng tìm thấy lời đáp từ cửa miệng người già nữa. Chỉ còn có thể dựa trên tư liệu hiện có. Từng cộng đồng người xây đình đã dựng ngôi nhà, biểu tượng của mình trên mảnh đất đầu tiên họ đặt chân lên, trong khuôn khổ công cuộc lập làng, dựng xóm bên một dòng sông để trồng lúa nước. Những mảnh đất đầu tiên ấy thường là những bãi bồi. Thế rồi, cùng với thời gian, con người ngày càng có đủ kinh nghiệm và tri thức để mở rộng khu vực cư trú và canh tác ra khỏi những mảnh đất thuận lợi nhưng hạn hẹp ấy. Dù sao, nơi xuất phát vẫn là nơi xuất phát. Nếp hằn ở tầng sâu kín nhất của ký ức vẫn thôi thúc họ đặt ngôi nhà tinh thần của cộng đồng tại nơi khởi đầu cuộc sống. Hàng nghìn năm đã qua, những ý nghĩa, mục đích, không ai còn rõ nữa. Nhưng truyền thống thì chẳng chuyển lay, cách thức chọn đất dựng đình, được củng cố thành tập quán, hiện lên trước mắt các thế hệ sau cơ hồ như một bản năng vốn có. Phải chăng, chính vì thế mà những làng xa sông nước tại đào ao bán nguyệt trước đình để dựng lại một không gian cần phải có: bờ lõm của một khúc sông cong? Nếu quả vậy, thì những ao tròn trước đình hẳn có niên đại muộn hơn các ao bán nguyệt.
+            </p>
+            <p>Một thắc mắc khác, cũng quanh vị trí ngôi đình: tập quán đặt các kiến trúc công cộng của cộng đồng quay về phía nguồn nước phải chàng cũng là nét phổ biến của các nhóm dân cư thuộc ngữ hệ Nam Đảo (Malayo Polynésienne). Với tình trạng tư liệu hiện nay, chúng tôi chưa đủ điều kiện để tự cởi thắc mắc. Vì lời giải đáp câu hỏi nêu trên chỉ có thể là kết quả của một công trình so sánh dài hơi: so sánh với các tộc người ở Đông Nam Á lục địa và hải đảo, ở châu Đại Dương, cả với Hoa Nam nữa, trong chừng mực vùng đất này vốn dính líu đến nền văn minh Đông Nam Á xưa, vì là đất gốc của người Bách Việt. 
+            </p><img id="img1" src="IMG/h5.png" alt="">
+            <h6>Đình làng Hồi Quan - Bắc Ninh
+            </h6>
+            <img id="img1" src="IMG/h6.png" alt="">
+            <h6>Đình làng Đồng Kỵ - Bắc Ninh
+            </h6>
+            <p>Một tài liệu mà tôi may mắn tiếp xúc được cũng góp phần khẳng định điều vừa nói trên. Người Hồi Quan (Tiên Sơn - Bắc Ninh) đặt đình làng mình ở chính giữa và theo chiều dài của khu tụ cư, đấy là khu đất thấp nhất. Họ quan niệm rằng làng họ là một con thuyền. Rất thú vị là, địa vực làng còn mang nhiều địa danh hội về quan niệm đó: đồng Mũi thuyền, đồng Cột buồm, đồng Bánh lái, v.v.... và ngôi đình được coi như cái lầu thuyền trong con thuyền làng. Vì thế nên, suốt từ ngày khởi dựng (1715) đến nay, trải qua bao lần lụt lội, người Hồi Quan vẫn không dời đình làng họ tới nơi nào cao hơn: ai lại di dời lâu thuyền ra khỏi thuyền, nhưng ngay cả những ý tưởng được gìn giữ trọn vẹn như vậy ở Hồi Quan cũng không phải không được thuyết phong thủy biện giải lại.
+            </p>
+            <p>Dù sao, một vài tài liệu vừa nêu trên cũng đủ nói lên rằng, không thể không quan tâm tới vị trí của đình làng.
+            </p><h2 id="4.3">3. MẶT BẰNG TỔNG THỂ
+            </h2>
+            <p>Trong một bài khảo luận có giá trị về đình làng, Nguyễn Văn Khoan trình bày mặt bằng tổng thể của đình như sau: thường đình gồm có trước hết là một ngôi nhà hình chữ T ngược, mà thân chữ đứng thẳng là nơi thờ tự và gạch ngang là phòng trong ngày hội. Phòng này gọi là hậu cung, hay đình trong. Phía trước có một phòng gần như bao giờ cũng dài bằng phòng chính (3,5 hoặc 7 gian, tùy theo làng giàu, nghèo). Gian ngoài gọi là tiền tế (tức là gian dùng để làm lễ) hay còn gọi là đình ngoài, nơi các bô lão áo thụng xanh lề thần trong những ngày lễ. Có một khoảng sân nhỏ ngăn cách gian tiền tế với hậu cung. Sau đó là hai dãy nhà ngang xây bên phải, bên trái. Một khoảng sân trước nhà Tiền tế và hai hành lang này đối diện với nhau, chính ở trong gian này, người ta chuẩn bị các bữa cỗ ở đình. Sân đình có ba cửa chính nằm khoảng giữa hai đầu hồi của hành lang, thường sân đình không lợp mà vào sân đình có hai hay bốn cột xây, có khi có bức tường hoành xây nối ngang.
+            </p>
+            <p>Nguyễn Đăng Thục cũng sử dụng lại bình đồ trên và dựng nó trên một bản minh họa trong công trình của mình. Các nhà nghiên cứu sau Nguyễn Văn Khoan có thêm vào chút ít, nhưng, về cơ bản vẫn giới thiệu mặt bằng kiến trúc đình làng theo bình đồ ban đầu.
+            </p>
+            <p>Thực ra, lược đồ mà Nguyễn Đăng Thục gọi là: “một làng điển hình Bắc Ninh” chưa thật chính xác. Lược đồ đó thiếu hẳn một phần quan trọng không thể không có trong một tổng thể kiến trúc đình làng: ao đình, thứ nữa nếp nhà chữ T ngược mà ông gọi là hậu cung, chỉ có thể là cá biệt. Bởi, kiến trúc này gồm hai phân rõ rệt: phần ngoài, tức đại đình (hoặc đình chính); và phần sau (thân chữ T), mang tên hậu cung.
+            </p>
+            <p>Các sai sót nhỏ đó, chúng tôi chỉ muốn xem là những tiểu dị thôi, chưa có gì đáng nhấn mạnh cho lắm. Điều đáng lưu ý hơn là, những lược đồ được giới thiệu thiếu tính lịch sử. Vì, theo chúng tôi, mặt bằng tổng thể của Nguyễn Văn Khoan, và những tác giả theo gót ông, mới xuất hiện từ thế kỉ XVIII mà thôi. Chưa có bất cứ một tài liệu nào báo cho ta một niên đại sớm hơn. Theo đà phát triển của lịch sử, cụm kiến trúc đình làng ngày càng hoàn chỉnh hơn. Đấy là một quá trình mà chúng ta có thể theo dõi từng bước chính từ thế kỷ XVI trở về sau. Hãy bắt đầu từ công trình chính: dại đình và hậu cung.
+            </p>
+            <p>Nguyễn Bá Lăng, người sớm có sáng kiến phân loại kết cấu của ngôi nhà này, đã nêu lên 5 kiểu: chữ nhất, chữ nhị, chữ đình, chữ công, nhà chữ đỉnh - mái chữ công. Trong nhận xét rất tinh tế này ta vẫn chưa thấy ông đề ra được một niên đại lịch sử nào. Nếu không có niên đại tuyệt đối được khắc ghi trên các thành phần kiến trúc đình, cần phải nhận ra được phong cách trang trí của các thời đại ta mới có thể biết rõ hơn sự phát triển của kiến trúc đình làng. Tài liệu về mặt này, mà chúng ta hiện có trong tay, đã đủ sức để khẳng định rằng, đình làng buổi đầu chỉ có một tòa dại đình. Nguyễn Bá Lâng gọi dạng này là kiểu chữ nhất. Chúng ta gòn gặp khá nhiều ngôi đình thuộc kiểu ấy: Tây Đằng, Chu Quyến (Hà Tây) Cao Thượng (Bắc Giang)... Trong ba ngôi đình được khởi dựng từ thế kỷ XVI đã nêu trên kia, một ngôi không có hậu cung (Tây Đằng), còn hai ngôi sau thì hậu cung mới được làm vào thế kỷ này (XX). Hậu cung xây bổ sung sau cũng là trường hợp của đình Phù Lão. Dựa vào phong cách kiến trúc và trang trí, các nhà lịch sử mỹ thuật có thể định được độ chênh vẻ niên đại giữa đại đình và hậu cung. Đó là chưa nói đến những trường hợp mà người hiện vừa độ 50 tuổi cũng thuộc lớp người từng góp công xây dựng hậu cung.
+            </p>
+            <p>Chưa một tài liệu nào nói rằng, có những hậu cung được xây cất từ nửa đầu thế kỷ XVII trở về trước. Như vậy, có thể giả thiết rằng, từ nửa sau thế kỷ XVII. đình làng mới có thêm phần hậu cung. Khi bổ sung cho đình một phân mới, các kiến trúc sư thời xưa đã ra sức làm cho phần cũ - đại đình và phần mái hậu cuon đồng nhất về phong cách khiến người ngày nay không dễ nhận ra. Những nỗ lực ấy thường chỉ hiện lên ở ba cấu trúc: chữ đinh, chữ công và nhà chữ đỉnh mái chữ công. Mà, thực ra đấy cũng chỉ là nỗ lực của những người xây dựng đình hồi thế kỷ XVII và thế kỷ XVIII mà thôi. Từ thế kỷ XIX trở về sau, sự thống nhất về mặt phong cách giữa hai bộ phận kiến trúc nói trên không còn được đếm xỉa đến nữa. Những ngôi đình với hai bộ phận kiến trúc không thống nhất ấy đã cung cấp những bằng chứng xác thực và dễ nhận về niên đại muộn mần của các hậu cung. Và, cũng do xác định được niên đại chênh nhau hàng thế kỷ của các hậu cung mà ta có thể khẳng định rằng việc Thành hoàng đột nhập vào đình đã không xảy ra vào cùng một thời điểm ở tất cả các làng quê. Riêng các thành phần kiến trúc khác mà ta gặp trên lược đồ của Nguyễn Văn Khoan (tiền tế, hành lang, cổng trụ) thì chúng mới lần lượt xuất hiện từ thế kỷ XVIII trở về sau.
+            </p><h2 id="4.4">4. KẾT CẤU BÊN NGOÀI: BỘ MÁI
+            </h2>
+            <p>Tuyệt đại đa số các ngôi đình ra đời trong ba thế kỷ XVI, XVII và XVIII đều được xây dựng theo kiểu tàu đao lá mái, cũng gọi là chân tàu (tàu thực). Tàu đao là một đòn tay hình chữ nhật, bên trên có đính một mảnh ván mỏng gọi là lá mái, mà chức năng là đỡ hàng ngói cuối cùng. Đặc trưng kỹ thuật quan trọng này giúp ta phân biệt mái nhà kiểu tàu đao lá mái đang bàn với loại mái cũng cong nhưng được kết cấu theo kiểu tàu hộp: đường cong của mái kiểu tàu hộp được tạo giả bằng vữa trên bờ dải của các góc mái, do đó không có dao thực, và rất xa lạ với truyền thẳng kiến trúc cổ Việt Nam. Ông Nguyễn Văn Nhâm từng công bố 6 dạng trang trí góc mái đình; điều đáng tiếc là, cả 6 dạng đó đều được trích từ một tập bản vẽ chuyên khảo về kiến trúc Huế do L. Cadiere chủ trì chứ hoàn toàn không phải là tư liệu về đình, và đáng tiếc hơn cả là sáu dạng đều là tàu hộp. Không có dạng nào tuân thủ kiểu kiến trúc truyền thống như ông công bố.
+            </p>
+            <p>Ngoài tàu đao lá mái ra, mái đình còn có thể được xây dựng theo hai kiểu khác nữa: chồng mái (hay còn gọi là hồi diêm mái chảy) và dầu hồi bít dốc. Với kiểu chồng mái, ngoài bốn tàu mái, ở hai đầu hồi như trong kiểu tàu đao lá mái ra, người ta còn chồng thêm một tầng mái nhỏ nữa. Mái đình Niềm (Tạ Xá, Tiên Sơn, Bắc Ninh) được làm theo kiểu chồng mái. Trong kiểu này tầng trên gọi là mái thượng, tầng dưới là mái hạ. Còn với kiểu đầu hồi bít đốc, thì đình làng mất đứt hai tàu mái ở hai đầu hồi, chỉ còn lại hai tàu mái trước sau. Nhưng trong kiểu mái này, đầu hồi vẫn chưa đóng vai trò chịu lực. Vì sức nặng của tàu mái vẫn rơi vào các cột gỗ mà chúng tôi sẽ đề cập tới ở phần sau. Đa số các ngôi đình ra đời từ khoảng cuối thế kỷ XIX trở lại đây đều theo kiểu mái này.
+            </p>
+            <p>Bộ mái là một trong những yếu tố quan trọng, qua đó chúng ta có thể phân biệt đâu là các đặc điểm của kiến trúc dân tộc, đâu là những yếu tố kiến trúc được tiếp thu từ bên ngoài. Thế nhưng, từ trước tới nay, các công trình giới thiệu đình làng chưa chú ý đúng mức tới nó. Thiếu sót này đòi hỏi được bổ sung trong bước đi mới.
+            </p><h2 id="4.5">5. KẾT CẤU BÊN TRONG: BỘ KHUNG
+            </h2><p>Nguyên tắc kết cấu của bộ khung trong kiến trúc cổ Việt Nam - bao gồm cả bộ khung đình đã được những người nghiên cứu biết đến từ lâu rồi. Người ta tạo ra một bộ khung vững chãi bằng cách liên kết lại với nhau qua các hàng xà, ngạch và dầm. Làng nghèo, đình nhỏ, thì xây 3 gian (hai chái). Làng giàu, đình lớn thì xây năm gian (hai chái). Đình ba gian có 6 vì, đình 5 gian có 8 vì. Mỗi một vì bao gồm cột và hệ thống liên kết cột. Số cột của một vì, trong trường hợp nhà dân gian, dao động rất nhiều: từ 2, 3, 4, 5 đến 6 cột. Còn trong trường hợp đình làng, thì độ dao động thấp hơn nhiều: 4 cột hoặc 6 cột. Hệ thống liên kết cột trong cả hai trường hợp - đình làng và nhà dân gian - đều cùng có chung ba loại kèo: kèo, kẻ và con rường. Người ta có thể sử dụng một loại liên kết: kèo hoặc kẻ, nhưng cũng có thể kết hợp các yếu tố liên kết với nhau. Nghĩa là, trong một vì vừa có kẻ vừa có con rường liên kết các cột. Kiến trúc cổ Việt Nam rất coi trọng hệ thống liên kết cột. Và cũng chính hệ thống liên kết cột trình bày ra trước mắt nhà nghiên cứu cung cấp tên gọi cho đúng kiểu vì mà dựa vào nó ta có thể phân biệt được những đặc điểm của các nền kiến trúc khác nhau. Cũng như trong kiến trúc nhà ở cổ truyền, trong kiến trúc đình làng ta có thể gặp các kiểu vì sau đây: kèo cầu, kẻ chuyền, thượng rường - hạ kẻ, chồng rường - bảy hiên. Kiến trúc đình làng, trong suốt ba thế kỷ XVI, XVII, XVIII chỉ sử dụng mỗi một kiểu vì chồng rường - kẻ hiện (trên rừng, dưới kẻ). Còn các kiểu vì khác, chúng tôi chỉ gặp trong kiến trúc các ngôi đình có quy mô nhỏ, và được xây dựng kiến trúc đình làng: theo quan niệm của chúng tôi, đây là kiểu vì thể hiện ở mức mờ nhạt nhất tính dân tộc của nền kiến trúc cổ Việt Nam.
+            </p>
+            <p>Vẫn quanh kết cấu bộ khung, chúng tôi tán thành Ngô Huy Quỳnh, khi ông sơ kết lại kiểu thức của nền kiến trúc cổ Việt Nam thành công thức ba chữ cột - xà – ke”.
+            </p>
+            <p>Tồn tại: một số người nghiên cứu đình làng vẫn lầm lẫn giữa bẩy và kể. Chúng tôi đã có dịp phát biểu vấn đề này. Bảy và kẻ thực ra là hai thành phần kiến trúc hoàn toàn khác nhau. Nhích kể lại gần kèo có lý hơn nhiều: kèo bởi kết cấu quá ư giản đơn của nó, là một thành phần kiến trúc rất cổ. Kẻ khác kèo về hình thức, nhưng lại rất giống kèo về bản chất. Kẻ có thể kéo dài từ thượng lương (xà nóc) tới rìa mái, còn bẩy thì chỉ kéo từ cột hiện trở ra. Nói cho hình ảnh một tý, thì kẻ uốn cong lưng để chịu lực, còn bẩy thì ngửa bụng ra nâng lực lên. Với một đầu tì vào xà nách theo nguyên tắc đòn bẩy. Nếu đồng nhất bẩy với kẻ, thì sẽ không thể nào lý giải được kiểu vì tiền kẻ - hậu bẩy.
+            </p>
+            <p>Do thiếu mạch lạc khi phân tích các kiểu kết cấu kỹ thuật của vì, nên người ta đã ngộ nhận mà dưa một số yếu tố tiếp thu, như vì chồng rường, vào đặc trưng kỹ thuật của kiến trúc dân tộc. Ví dụ: Lối vì kèo chồng rường cũng là biểu hiện của xu hướng vững chắc trong điều kiện của khoa học ngày xưa, hoặc... để đỡ mái nhà của ta không dùng kiểu giàn treo, mà dùng hệ thống chồng rường gồm nhiều dâm ngắn đặt trên các cột con, tất cả đè trên xà chính của khung".
+            </p>
+            <p>Về mặt phân tích kiến trúc, có một nhược điểm trong quan điểm (chứ không phải trong kiến thức kỹ thuật), mà nhân đây chúng tôi muốn tranh thủ nêu lên, với hy vọng góp phần tránh những bước chuệch choạc, khi công trình nghiên cứu đình làng đang kêu gọi một buổi ra đi mới. Khi phân tích kiến trúc cổ truyền, ta hay xuất phát từ một hay vài công trình cụ thể, rồi vội vàng khái quát hóa, mà không đặt cái riêng trong dòng phát triển chung. Cũng chính vì thế, chồng rường chẳng hạn, được xem là đặc trưng của nền kiến trúc cổ Việt Nam. Thực ra ta ít gặp kết cấu chồng rường trong kiến trúc cổ, vì bao giờ chồng rường cũng phải có bẩy, hoặc kẻ tham gia vào các thành phần dựng vì. Hơn nữa, những kiến trúc có kết cấu vì kiểu chồng rường - kẻ hiên, nếu căn cứ vào những di tích hiện tổn, có sớm mấy cũng chỉ mới ra đời từ thế kỷ thứ XVI. Còn những yếu tố cổ hơn, mà chúng ta có thể nhận ra qua các kiến trúc dân gian, lại chẳng bao giờ có đặc trưng kỹ thuật này. Điều chắc chắn là, tất cả các kiểu vì hiện ta còn gặp trong kiến trúc đình làng đều có niên đại rất muộn. Một trong nhiều bằng chứng là cách gọi tên vì. Trong bài này chúng tôi dùng chữ vì một từ đơn điệu cho tiện. Thực ra. thế là nói tất, vì mọi người, kể cả thợ làm khung nhà, đều dùng từ kép vì kèo: vì kèo chông rường, vì kèo kẻ truyền... thế nhưng trong các kiểu vì này, không hề có mặt cái kèo. Vậy thì, cái kèo phải tồn tại trước. Để, khi đã biến mất khỏi các kiểu vì ra đời về sau, vẫn để lại tên đơn của nó trong tên kép của các kết cấu hậu sinh.
+            </p>
+            <p>Ngoài ra, rất ít tác giả chú ý tới số đo cần và đủ để dựng lại một bộ khung đình. Chúng ta đều biết rằng, mọi kích thước của khung nhà Việt Nam (kể cả khung đình) đều được ghi lại, mà ghi dưới dạng mã hóa theo một quy tắc riêng trên thước tẩm là bằng một thanh tre nhỏ. Nhưng hình như không còn đình làng nào giữ được hiện vật ấy. Ngày nay muốn tìm hiểu kích thước của một ngôi đình, nếu thiếu hai số đo cần thiết: lòng nhà và giọt nước thì không có cách nào hiểu được quy mô của nó. Như vậy thước tâm trở thành một đề tài nhỏ, trong khung cảnh của đề tài lớn: ngôi đình. Một nhà nghiên cứu không có điều kiện khảo sát tất cả các ngôi đình còn lại cho đến hôm nay. Vì thế, người nghiên cứu đình làng rất trân trọng và vui mừng khi có được bất cứ tài liệu nào được công bố về bất cứ ngôi đình nào. Thực ra, số công trình khảo tả từng ngôi đình chưa nhiều. Đoạn đường mới đang mở ra trước mắt những ai tìm hiểu đình làng đòi hỏi nhiều hơn nữa những công trình thuộc loại ấy. Tuy nhiên trong số ít đã được công bố, hiếm có trường hợp tác giả đưa ra được đủ dữ kiện cơ sở, cả những dữ kiện không thể thiếu, như kết cấu vì, và các số đo cần thiết đã nêu. Tôi nghĩ rằng, đây là lỗ hổng cần lấp trước tiên. 
+            </p><img id="img1" src="IMG/h7.png" alt="">
+            <h6>Bộ khung đình làng Đình Bảng (Bắc Ninh)
+            </h6>
+            <img id="img1" src="IMG/h8.png" alt="">
+            <h6>Mặt cắt Đình Làng Chu Quyến (Hà Tây)<br/>
+            Bản vẽ ghi của Lê Đại
+            </h6>
+            <h2 id="4.6">6. ĐIÊU KHẮC ĐÌNH LÀNG
+            </h2>
+            <p>Ngoại trừ những ngôi đình được xây dựng vào cuối thế kỷ XIX và trong thế kỷ XX, còn thì mọi ngôi đình ra đời vào các thời kỳ trước nữa, trên các thành phần kiến trúc, đều được trang trí bằng những mặt chạm rất công phu. Công cuộc tìm hiểu dài hơi, nghiêm túc, cần cù của họa sĩ Nguyễn Đỗ Cung và ê kíp các nhà nghiên cứu trẻ do ông đào tạo, đã phân định được phong cách nghệ thuật điêu khắc đình làng qua các thời đại. Dựa vào kết quả đó, giờ đây ta có thể đoán định niên đại tương đối của các ngôi đình cổ, trong trường hợp niên đại tuyệt đối không được ghi trên các thành phần kiến trúc. Không chỉ dừng lại ở niên đại, công trình do họa sĩ Nguyễn Đỗ Cung chỉ đạo còn chứa đựng nhiều ý nghĩa to lớn. Lần đầu tiên điêu khắc đình làng được công nhận là một dòng nghệ thuật, được chất vấn trong tư cách một nến nghệ thuật đích thực. Và, kết quả nghiên cứu bước đầu đã cho phép nhiều người nhận ra ở đây biểu hiện Việt Nam thuần khiết nhất, trong toàn bộ dòng suối thẩm mỹ của dân tộc.
+            </p>
+            <p>Trước những cống hiến của các nhà mĩ thuật, chúng tôi, những nhà nghiên cứu đình làng về các mặt khác, chỉ tiếc rằng, nếu xét đoán qua các công trình được công bố thì hình như công cuộc tìm hiểu điêu khắc đình làng có phần chững lại, từ khi họa sĩ Nguyễn Đỗ Cung qua đời. Mong rằng, những môn đệ của ông sẽ đẩy xa hơn nữa những cỗ xe mà thầy họ đã đành trao lại giữa đường. Những nhận xét sâu vào cấu trúc - điêu khắc chắc chắn sẽ góp phần soi sáng thêm, dưới những góc độ bất ngờ, những gì ta muốn biết về đình làng.
+            </p>
+            <p>Nói như vậy, chúng tôi không hề nghĩ rằng, toàn bộ điêu khắc đình làng, với mọi tác phẩm ra đời trong mọi thời, đều đẹp, đều có giá trị. Không phải đặt chân đến bất cứ đình làng nào còn được bảo lưu cho đến ngày nay, thì bất cứ ai, chỉ ngước mắt lên, đã thấy ngay rằng nghệ thuật điêu khắc đã làm cho các phiến gỗ nặng nề của các xà, các nghé, các kẻ trở thành những trang trí nhẹ nhàng gần như phi vật chất. 
+            </p>
+            <img id="img1" src="IMG/h9.png" alt="">
+            <h6>Phù Điêu trong đình Tây Đằng</h6>
+            <img id="img1" src="IMG/h10.png" alt="">
+            <h6>Đình Tây Đằng
+            </h6>
+            <p>Một nhận định về nghệ thuật, dù chủ yếu dấy lên từ trực giác thẩm mĩ, vẫn cần được kiểm chứng lại bằng con mắt lịch sử. Vì, điêu khắc đình làng cũng biến hóa theo thời gian: có một phong cách của thế kỷ XVI, một của thế kỉ XVII và một của thế kỉ XVIII, của thế kỉ XIX. Đó là chưa kể đến sự khác biệt giữa các hiệp thợ mà chúng tôi đang mong đợi các nhà mỹ thuật học lọc ra. Đứng trước những tấm cốn mê mang hình chạm con rồng gầy guộc, dữ tợn, những cánh lá rối rắm, chạm trên các thành phần kiến trúc của những ngôi đình ra đời vào cuối thế kỉ XIX, cũng khó có thể nói rằng, chúng nhẹ nhàng gần như phi vật chất. Nghiên cứu nghệ thuật, kể cả nghệ thuật điêu khắc đình làng, cũng phải hướng về chính xác, như nghiên cứu kỹ thuật. Trong trường hợp đang bàn đậy, kỹ thuật và mĩ thuật là một thể thống nhất. Nếu như khó có một ngôi đình còn giữ nguyên được các thành phần kiến trúc của ngày khởi tạo, thì nó cũng không thể nào còn giữ được nguyên các tác phẩm trên bề mặt của các thành phần kiến trúc. Trong nhiều trường hợp, điêu khắc đình làng mới hơn nhiều, so với ngôi đình hiện chứa nó. Qua các lần tu sửa đình, nó có thể được chuyển dịch, thậm chí được lắp ráp sai hẳn với vị trí ban đầu. Nếu không thận trọng, có thể lầm lẫn với đối tượng ca ngợi, và lời ngợi ca, dù có xuất phát từ một cảm quan thẩm mĩ nhạy bén, vẫn không bắn trúng đích.
+            </p>
+            <p>Quanh ngôi đình cổ, còn bao nhiêu điều đáng trao đổi. Năng lực biểu đạt nhiều mặt của nó còn đòi hỏi chúng ta bao sức lực để khám phá tìm tòi. Hành trình khảo cổ học vào đình hẳn sẽ không ngược đường, so với hướng đi của các ngành khác. Sắp xếp lại cho tương đối có hệ thống một vài hiểu biết chính xác về đình làng rút ra từ công sức của những người đi trước, thậm chí, dừng lại trước một ý kiến tưởng chừng đã được thời gian cố định, để làm cho vỡ lẽ, chúng tôi không nhằm mục đích nào khác ngoài việc tạo một chỗ đứng, để từ đó thử nhìn lại ngôi đình bằng con mắt tổng quan. Chỗ đứng ấy, nếu, rồi đây được cải chính, bổ sung, củng cố, có thể góp phần cung cấp một điểm xuất phát mới. Vì, trên con đường dẫn về đình làng, chúng ta mới chỉ đi tạm xong đoạn đầu.  
+            </p>
+        </div>
+    </main>
+    
+    <button onclick="topFunction()" id="btn-btt" title="Go to top"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+    <button onclick="bottomFunction()" id="btn-btb" title="Go to bottom"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const playPauseButtons = document.querySelectorAll(".play-pause");
+
+    playPauseButtons.forEach(button => {
+        const audioId = button.parentElement.getAttribute("data-audio");
+        const audio = document.getElementById(audioId);
+        audio.volume = 0.1;
+        button.addEventListener("click", function() {
+            if (audio.paused) {
+                audio.play();
+                this.classList.remove("play");
+                this.classList.add("pause");
+            } else {
+                audio.pause();
+                this.classList.remove("pause");
+                this.classList.add("play");
+            }
+        });
+    });
+});
+
+
+</script>
+<script>
+    let btnTop = document.getElementById("btn-btt");
+    let btnBottom = document.getElementById("btn-btb");
+
+    window.onscroll = function() {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        } else {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        }
+
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            btnBottom.style.display = "block";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function bottomFunction() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+</script>
+<script>
+    function toggleTable(tableId) {
+        var table = document.getElementById(tableId);
+        if (table.style.display === 'none' || table.style.display === '') {
+            table.style.display = 'block';
+        } else {
+            table.style.display = 'none';
+        }
+    }
+
+    function changeColor(textColor, bgColor) {
+        document.getElementById('content').style.color = textColor;
+        document.getElementById('content').style.backgroundColor = bgColor;
+    }
+
+    function changeFontSize(size) {
+        var content = document.getElementById('content');
+        if (size.startsWith('+')) {
+            var currentSize = parseInt(window.getComputedStyle(content).fontSize);
+            var increment = parseInt(size.substring(1));
+            content.style.fontSize = (currentSize + increment) + 'px';
+        } else {
+            content.style.fontSize = size;
+        }
+    }
+    function changeFont(font) {
+            document.getElementById('content').style.fontFamily = font;
+        }
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const contentText = document.getElementById("content");
+        const highlightBtn = document.getElementById("highlight");
+        const removeHighlightBtn = document.getElementById("remove-highlight");
+
+        let highlighting = false;
+
+        const highlightCursor = document.createElement("div");
+        highlightCursor.classList.add("highlight-cursor");
+        document.body.appendChild(highlightCursor);
+
+        highlightBtn.addEventListener("click", function () {
+            if (!highlighting) {
+                highlighting = true;
+                highlightCursor.style.display = "block";
+                document.body.style.cursor = "crosshair";
+                document.addEventListener("mouseup", endHighlight);
+            } else {
+                highlighting = false;
+                highlightCursor.style.display = "none";
+                document.body.style.cursor = "auto";
+            }
+        });
+
+        removeHighlightBtn.addEventListener("click", function () {
+            let removingHighlight = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            document.addEventListener("mousemove", activateRemoveHighlight);
+
+            function activateRemoveHighlight(event) {
+                if (!removingHighlight) {
+                    highlightCursor.style.left = event.clientX + "px";
+                    highlightCursor.style.top = event.clientY + "px";
+                    highlightCursor.style.display = "block";
+                    document.body.style.cursor = "pointer";
+                    removingHighlight = true;
+                }
+            }
+
+            contentText.addEventListener("click", function (event) {
+                if (removingHighlight) {
+                    const target = event.target;
+                    if (target.classList.contains("highlighted")) {
+                        target.classList.remove("highlighted");
+                    }
+                    highlightCursor.style.display = "none";
+                    document.body.style.cursor = "auto";
+                    removingHighlight = false;
+                    document.removeEventListener("mousemove", activateRemoveHighlight);
+                }
+            });
+        });
+
+
+        document.addEventListener("mousemove", moveHighlightCursor);
+
+        function moveHighlightCursor(event) {
+            if (highlighting) {
+                highlightCursor.style.left = event.clientX + "px";
+                highlightCursor.style.top = event.clientY + "px";
+            }
+        }
+
+        function endHighlight() {
+            highlighting = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            const selection = window.getSelection();
+            const range = selection.getRangeAt(0);
+            if (range) {
+                if (contentText.contains(range.commonAncestorContainer)) {
+                    const span = document.createElement("span");
+                    span.className = "highlighted";
+                    range.surroundContents(span);
+                    selection.removeAllRanges();
+                }
+            }
+        }
+    });
+</script>
+</html>

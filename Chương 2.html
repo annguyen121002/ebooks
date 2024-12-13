@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-noidung.css">
+    <script src="js/toan man hinh.js"></script>
+    
+    <title>KIẾN TRÚC CỔ VIỆT NAM</title>
+</head>
+<body>
+    <div><button id="pre-page" style="transform: rotate(-90deg);"><a href="Chương 1.html"><img id="muiten-do" src="icon/muiten do.png" alt=""></a></button></div>
+	<div><button id="next-page" style="transform: rotate(90deg);"><a href="Chương 3.html"><img id="muiten-do" src="icon/muiten do.png" alt=""></a></button></div>
+    <header>
+            <div id="btn-trangchu" style="padding: 30px 20px;">
+            <a id="a-header" href="index.html"><img id="icon-header" src="icon/iocn index.png" alt=""></a>
+            </div>
+            <div id="btn-mucluc" style="padding: 35px 10px;">
+                <button id="btn-header" onclick="toggleTable('muc-luc')"><img id="icon-header" src="icon/icon mucluc.png" alt=""></button>
+            </div>
+            <div id="muc-luc">
+                <span class="close-btn" onclick="toggleTable('muc-luc')">&#9746;</span>
+                <br>
+                <br>
+                <nav>
+                    <ul id="menu1" style="list-style: none;padding: 0px;">
+                        <li><a href="Bìa sách.html">BÌA SÁCH</a></li>
+                        <li><a href="Trang trách nhiệm.html">TRANG TRÁCH NHIỆM</a></li>
+                        <li><a href="Lời nói đầu.html">LỜI NÓI ĐẦU</a></li>
+                        <li><a href="Chương 1.html">CHƯƠNG I: PHỤC DỰNG THÁP TƯỜNG LONG - ĐỒ SƠN, HẢI PHÒNG TỪ CÁI NHÌN KHẢO CỔ HỌC</a>
+                            <ul id="menu2">
+                                <li><a href="Chương 1.html#1.1">1. NHỮNG ĐIỀU ĐÃ BIẾT</a></li>
+                                <li><a href="Chương 1.html#1.2">2. DẤU VẾT CỦA THÁP TƯỜNG LONG</a></li>
+                                <li><a href="Chương 1.html#1.3">3. ĐI TÌM NHỮNG ĐIỀU CÒN CHƯA BIẾT VỀ THÁP TƯỜNG LONG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 2.html">CHƯƠNG II: KIẾN TRÚC NHÀ CỬA THỜI TRẦN</a>
+                            <ul id="menu3">
+                                <li><a href="Chương 2.html#2.1">1. NHỮNG MÔ HÌNH NHÀ TÌM THẤY TRONG CÁC MỘ CỔ.</a></li>
+                                <li><a href="Chương 2.html#2.2">2. TÊN GỌI CỦA VÌ ĐƯỢC GỌI THEO ĐẶC TRƯNG LIÊN KẾT CỘT. </a></li>
+                                <li><a href="Chương 2.html#2.3">3. MỘT PHÁC THẢO VỀ KIẾN TRÚC NHÀ CỬA THỜI TRẤN </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 3.html">CHƯƠNG III: CHÙA VĨNH NGHIÊM - MỘT TRUNG TÂM PHẬT GIÁO ĐÃ 700 TUỔI</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 3.html#3.1">1. ĐẤT BIÊN ẢI CỦA MỘT DÒNG SỬ THI VÀ HUYỀN THOẠI VIỆT</a></li>
+                                <li><a href="Chương 3.html#3.2">2. MỘT TRUNG TÂM PHẬT GIÁO 700 NĂM TRƯỚC</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 4.html">CHƯƠNG IV: ĐÌNH LÀNG - ĐIỂM LẠI BƯỚC ĐI BAN ĐẦU.</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 4.html#4.1">1. VẤN ĐỀ NIÊN ĐẠI</a></li>
+                                <li><a href="Chương 4.html#4.2">2. ĐẤT DỰNG ĐÌNH</a></li>
+                                <li><a href="Chương 4.html#4.3">3. MẶT BẰNG TỔNG THỂ</a></li>
+                                <li><a href="Chương 4.html#4.4">4. KẾT CẤU BÊN NGOÀI: BỘ MÁI</a></li>
+                                <li><a href="Chương 4.html#4.5">5. KẾT CẤU BÊN TRONG: BỘ KHUNG</a></li>
+                                <li><a href="Chương 4.html#4.6">6. ĐIÊU KHẮC ĐÌNH LÀNG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 5.html">CHƯƠNG V: ĐÌNH LÀNG - HÌNH TƯỢNG</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 5.html#5.1">1. CÁC TƯ TƯỞNG CHỦ ĐẠO ĐẶC THÙ CỦA NGÀNH KIẾN TRÚC. </a></li>
+                                <li><a href="Chương 5.html#5.2">2. LÀNG NITA TRÊN ĐẢO FLORES VÀ LÀNG HỒI QUAN </a></li>
+                                <li><a href="Chương 5.html#5.3">3. CÂY THƯỚC TẦM TRONG NỀN KIẾN TRÚC CỔ VIỆT NAM</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 6.html">CHƯƠNG VI: THẨM ĐỊNH LẠI GIÁ TRỊ KIẾN TRÚC VĂN MIẾU - HÀ NỘI</a></li>
+                        <li><a href="Thư mục tham khảo.html">THƯ MỤC THAM KHẢO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="btn-gioithieu" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="Giới thiệu.html">Giới thiệu</a></button>
+            </div>
+            <div id="btn-lienhe" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="Liên hệ.html">Liên hệ</a></button>
+            </div>
+            <div id="tensach">
+                <h1 id="h1-header">KIẾN TRÚC CỔ VIỆT NAM<br/>Từ cái nhìn khảo cổ học</h1>
+            </div>
+            <div id="btn-cochu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('sizeTable')" style="font-size: 35px;">Aa</button>
+            </div>
+            <div id="btn-mauchu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('colorTable')"><img id="icon-header" src="icon/icon mau.png" alt=""></button>
+            </div>
+            <div id="btn-nhac" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('nhac')" ><img id="icon-header" src="icon/icon nhac.png" alt=""></button>
+            </div>
+            <div id="btn-tmh" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleFullScreen()"><img id="icon-header" src="icon/icon tmh.png" alt=""></button>
+            </div>
+            <div id="colorTable">
+                <span class="close-btn" onclick="toggleTable('colorTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn btn-default" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', 'white')">Mặc định</button></td>
+                        <td><button class="btn btn-white-black" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#000', '#BEB6F2')">Đen - Tím</button></td>
+                        <td><button class="btn btn-white-purple" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#7B2924', '#edb561')">Đỏ - Cam</button></td>
+                        <td><button class="btn btn-black-yellow" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', '#FEFFC8')">Đen - Vàng</button></td>
+                        <td><button class="btn btn-white-green" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('Black', '#0CC0DF')">Đen - Xanh</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="sizeTable">
+                <span class="close-btn" onclick="toggleTable('sizeTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFontSize('18px')">Aa</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('18.5px')"><span style="font-size: 18.5px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('19px')"><span style="font-size: 19px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('20px')"><span style="font-size: 20px;">Aa</span></button></td>
+                    </tr>
+                </table>
+                <table style="margin: 20px 0;">
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Times New Roman')">Times New Roman</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Arial')">Arial</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Courier New')">Courier New</button></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <tr>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="highlight">Đánh dấu</button></td>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="remove-highlight">Bỏ đánh dấu</button></td>
+                        </tr>
+                    </tr>
+                </table>
+            </div>
+            <div id="nhac">
+                <span class="close-btn" onclick="toggleTable('nhac')">&#9746;</span>
+                <div id="box-nhac">
+                <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                <div class="audio-player" data-audio="audio1">
+                    <button class="play-pause play"></button>
+                    <audio id="audio1" loop src="mp3/Nhạc đồng quê nhẹ nhàng - nhạc nền video.mp3"></audio>
+                </div>
+                </div> 
+                <div id="box-nhac">
+                    <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                    <div class="audio-player" data-audio="audio2">
+                        <button class="play-pause play"></button>
+                        <audio id="audio2" loop src="mp3/Thịnh Vượng Việt Nam Sáng Ngời - Buitruonglinh.mp3"></audio>
+                    </div> 
+                    </div> 
+                
+            </div>
+    </header>
+    <main>
+        <div id="content">
+            <img id="anh-dau-chuong" src="IMG/anhtrencungcuasach.png" alt="">
+            <h1>CHƯƠNG II: KIẾN TRÚC NHÀ CỬA THỜI TRẦN
+            </h1><p>So với các triều đại phong kiến trong lịch sử Việt Nam, thời Trần không có được nhiều thời gian thái bình để xây dựng đất nước. Trong 200 năm tồn tại của mình, riêng đối với phương Bắc, nhà Trần đã phải tổ chức toàn dân tiến hành cuộc chiến tranh giữ nước tới ba lần, để chống lại tên xâm lược hung hãn bậc nhất của thời đại. Sự tàn phá của giặc ngoại xâm thật vô cùng tàn bạo - có thể lấy một dẫn chứng khá điển hình được ghi lại trong sử biên niên là: mùa hè năm 1288 thượng hoàng Thánh Tông trở về Thăng Long đã phải ở lang thị vệ vì cung điện đã bị giặc đốt sạch. Trong một tờ biểu gửi Hốt Tất Liệt năm đó, Trần Nhân Tông đã tố cáo quân Nguyên: “đốt phá hết chùa miếu trong nước, khai quật phần mộ tổ tiên, cướp bóc dân gian, phá phách sản nghiệp trăm họ, mọi tàn ác không việc nào từ”.
+            </p>
+            <p>Sau kháng chiến thắng lợi, nhờ sự đóng góp to lớn của toàn dân, vua quan nhà Trần chưa ham xây dựng cho mình những lầu son gác tía. Lời Hưng Đạo, Vương Trần Quốc Tuấn can Trần Nhân Tông được tác giả Long thành dật sử<sup><a style="scroll-margin-top:120px ;" id="c2-ct4" href="#ct4">4</a></sup> ghi lại là “... hơn bốn năm qua, quân giặc hai lần tràn sang quấy phá, từ nơi núi rừng đến đồng ruộng đều bị tàn phá hầu hết”. Vì vậy: “... việc làm trước hết là chú ý ngay đến dân, những nơi nào bị tàn phá tùy tình trạng nặng nhẹ mà cứu tế, nơi nào bị tàn phá nặng có thể miễn tô thuế mấy năm”. Đó là những điều kiện thực tiễn lịch sử, khiến cho công việc xây dựng thời kỳ đầu của vương triều Trần bị hạn chế.
+            </p>
+            <p>Nhưng đến những năm tháng về sau khi mà Tứ hải dĩ thanh trần dĩ tĩnh<sup><a style="scroll-margin-top:120px ;" id="c2-ct5" href="#ct5">5</a></sup> (Bốn bề đã trong mù đã lặng), giai cấp quý tộc Trần bắt đầu xây dựng rầm rộ. Chùa chiền, cung điện, thái ấp, dinh thự... đua nhau mọc, khiến cho Nho thần Lê Quát đã để lại một tiếng kêu ai oán trên mặt bia đá chùa Thiên Phúc rằng: "Chỗ nào có người ở, tất có chùa Phật, bỏ đi rồi lại dựng lên, nát đi rồi lại dựng lại, lâu đài chiêng trống chiếm đến nửa phần so với dân cư…”.<sup><a style="scroll-margin-top:120px ;" id="c2-ct6" href="#ct6">6</a></sup>
+            </p><p>Đáng tiếc rằng, tất cả những công trình xây cất buổi ấy không còn để lại cho hôm nay một cái gì nguyên vẹn. Tình hình này, cũng đã được Nguyễn Dữ, một người sống vào cuối thời Trần, tác giả của Truyền kỳ mạn lục, ở thế kỷ XV, cho biết: “Đến đời vua Giản Định nhà Trần, binh lửa luôn năm, nhiều nơi bị đốt, số chùa chiền còn lại mười không được một, mà cái số còn lại ấy cũng mưa lay gió chuyển, đổ ngã xiêu nghiêng, tiêu điều đứng rũ ở giữa áng cỏ hoang, bụi rậm”.<a style="scroll-margin-top:120px ;" id="c2-ct7" href="#ct7"><sup>7</sup></a> 
+            </p>
+            <p>Từ những ngày "tiêu điều" mà Nguyễn Dữ nhìn thấy tới giờ đã gần 500 năm rồi, những kiến trúc đó nay càng trở nên hiếm hoi. Tài liệu trực tiếp để nghiên cứu về kiến trúc nhà cửa thời Trần đến nay chỉ còn có thể đếm được trên đầu ngón tay, chủ yếu chỉ dựa vào các dòng ghi chép trong sử biên niên. Không mấy ai dựa vào các tài liệu khảo cổ học để vạch nên dung mạo của kiến trúc thời kỳ này. Nhằm góp phần khắc phục hiện tình đó, chúng tôi xin trình bày một số tài liệu khảo cổ học về kiến trúc nhà cửa thời Trần. Nội dung có thể chia thành ba loại:
+            </p>
+            <p>- Những kiến trúc gỗ hiện còn (chủ yếu là chùa). - Những nền nhà (chủ yếu là các chùa cổ) do các cuộc khai quật mang lại.
+            </p>
+            <h2 id="2.1">1. NHỮNG MÔ HÌNH NHÀ TÌM THẤY TRONG CÁC MỘ CỔ.
+            </h2>
+            <p>Về nguồn tài liệu đầu tiên, chúng ta hiện biết có bốn ngôi chùa cổ còn mang những thành phần kiến trúc được làm thời Trần. Đó là: Cón giá chiêng (vì nóc) tòa thượng điện Dâu, huyện Thuận Thành (Bắc Ninh).
+            </p>
+            <p>- Vì nóc tòa thượng điện và góc đao chùa Bối Khê, huyện Thanh Oai (Hà Tây). Những chiếc cốn và vì nóc tòa thượng điện chùa Thái Lạc, huyện Văn Lâm (Hưng Yên).
+            </p>
+            <p>- Bộ cánh cửa chạm rồng chùa Phổ Minh (Nam Định).
+            </p>
+            <p>Những kiến trúc vừa kể là những công trình có chứa đựng lượng thông tin về cấu trúc nhà. Chúng tôi không kể tới những kiến trúc khác chỉ mới thấy từng phần như: Nền nhà của Trần Quốc Tuấn ở Kiếp Bạc (Hải Hưng); sân lát gạch hoa ở cung Đệ Tứ ở Tức Mạc (Nam Định)... Trong số bốn kiến trúc vừa kể, có ba chùa: Dâu, Bối Khê và Thái Lạc, có thể giúp cho ta hiểu được kết cấu của khung nhà,. Vì, vì nóc của cả ba chùa đều còn giữ nguyên được vật liệu của ngày tạo dựng. Chỉ có phần liên kết cột theo chiều chảy của mái là mới được trùng tu. Nguồn tài liệu về kiến trúc nhà cửa thời Trần đầu tiên mà chúng ta có được là những nếp chùa bốn mái, lợp ngói mũi hài và những bộ khung nhà làm bằng gỗ với cột là thành phần chịu lực. Đặc trưng kỹ thuật ở kiểu nhà kết cấu khung gỗ tạo thành một bộ "giàn trò". Đây là một đặc trưng chủ yếu, cơ bản của kiến trúc cổ truyền dân tộc. Để hiểu rõ tài liệu vừa kể, chúng tôi xin nhắc lại những đặc trưng kỹ thuật của kiểu nhà này. Nhà khung gỗ, dựa trên nguyên tắc của sự liên kết các vì lại để trở thành bộ khung, nhà càng dài thì số vì càng nhiều, còn độ sâu của lòng nhà tùy thuộc vào độ rộng của mỗi vì. Thành phần tổ chức một vì bao gồm cột và hệ thống liên kết cột.
+            </p><h2 id="2.2">2. TÊN GỌI CỦA VÌ ĐƯỢC GỌI THEO ĐẶC TRƯNG LIÊN KẾT CỘT. 
+            </h2>
+            <img id="img1" src="IMG/h3.jpg" alt="">
+            <h6>Chùa Viên Giác
+            </h6>
+            <p>Trong kiến trúc nhà của Việt Nam cổ truyền có hai loại vì cơ bản là: kẻ truyền - chồng rường và trên rường dưới kẻ. Chính những thành phần liên kết cột này đã phân rõ được sự khác biệt giữa các nền kiến trúc khác nhau. Nó là yếu tố chủ đạo, là thành phần quan trọng nhất trong kiến trúc cổ truyền.
+            </p>
+            <p>Cột và hệ thống liên kết cột tạo nên các vì. Sau đó, người ta nối các vì lại với nhau bằng hệ thống xà ăn mộng qua các cột. Như vậy là một hệ thống xà giằng các cột theo chiều dọc, một hệ thống xà khác giằng các cột theo chiều ngang. Chỗ gặp nhau đều ở bụng cột, để tạo nên một bộ khung vững chãi. Toàn bộ sức nặng của tòa nhà sẽ rơi vào chân cột. Như vậy, các chân tảng sẽ phải là nơi chịu lực và tường nhà chỉ làm nhiệm vụ ngăn che mưa nắng.
+            </p>
+            <p>Sự liên kết các thành phần trong bộ khung đều dùng một mộng hết sức tinh xảo, hoàn toàn không dùng đinh. Vì thế, bộ khung nhà cũng có thể dễ dàng tháo gỡ từng bộ phận, hoặc di chuyển từ địa điểm này sang địa điểm khác một cách hết sức thuận tiện.
+            </p>
+            <p>Truyền thống kiến trúc nhà khung gỗ khác hoàn toàn so với nhà xây tường chịu lực. Trong loại nhà xây tường chịu lực thì cột không phải là thành phần chịu lực chủ yếu nữa. Nó đã có các vạt tường hỗ trợ. Như vậy buộc phải đào móng cho các vạt tường.
+            </p>
+            <p>Chúng ta chưa khai quật được nhiều phế tích nhà cửa thời Trần. Viện Khảo cổ học đã khai quật hai địa điểm là chùa Lấm, huyện Cẩm Phả (Quảng Ninh), và chùa Lạng - Viên Giác tự, huyện Văn Lâm (Hưng Yên). Viện Bảo tàng Lịch sử khai quật đền Kiếp Bạc (Hải Hưng) và cung Đệ Tứ (Nam Định). Ở cả hai địa điểm khảo cổ do Bảo tàng Lịch sử khai quật, đều mới chỉ phát hiện được khoảng sân trước nhà. Do có những công trình hiện tại nằm trọn trên nền nhà xưa, nên cuộc khai quật hai địa điểm này chưa tiến hành tiếp tục được. Những cuộc khai quật của Viện Khảo cổ học tại chùa Lấm chẳng những đã cung cấp tài liệu tổng thể mặt bằng kiến trúc mà còn cung cấp đặc trưng kỹ thuật của công trình.
+            </p>
+            <p>Năm 1972, những người khai quật chùa Lấm (Quảng Ninh) đã vẽ được bản mặt bằng toàn thể của ngôi chùa trên một hòn đảo ngoài khơi xa của tổ quốc. Trên bản vẽ này, chúng ta thấy có ba nếp chùa sắp xếp theo hình chữ tam. Đặc biệt tòa thượng điện của chùa Lấm còn lại 11 hòn kê hàng lối rõ ràng (Lẽ ra phải là 16 hòn vì mất một hòn ở hàng giữa và bốn hòn ở hàng ngoài phía trước). Trong số này, có bốn hòn ở giữa làm bằng đá xanh lớn hơn cả. Ngoài tòa thượng điện, trên nền chùa Hộ hãy còn hai tảng kê chân cột giữ nguyên vị trí xưa, cũng nhờ kích thước của các hàng cột đó mà đã dự đoán được chiều rộng mỗi gian chùa Hộ chừng 2,5m và như vậy nếp chùa có cả thảy năm gian<sup><a style="scroll-margin-top:120px ;" id="c2-ct8" href="#ct8">8</a></sup>. 
+            </p><p>Trên cả ba nếp chùa chúng tôi không tìm thấy một vết tích của tường xây. Như vậy tài liệu Khảo cổ học ở chùa Lấm đã khẳng định rằng, những nếp chùa này đều tạo dựng theo kiểu nhà khung gỗ.
+            </p>
+            <p>Ba năm sau cuộc khai quật chùa Lâm, Viện Khảo cổ học lại tiến hành khai quật chùa Lạng ở Văn Lâm (Hải Hưng). Chùa được xây dựng từ thời Lý, sau đó nó đã nhiều lần được trùng tu. Trên nền chùa, chồng xếp nhiều I vật liệu kiến trúc của các thời đại khác nhau. Bằng sự nỗ lực và cẩn trọng, những người khai quật đã gắng bóc tách được 6 lớp văn hóa, trong đó có lớp văn hóa Trần. Ở lớp kiến trúc thời Trần, đã vẽ được một bình đồ thượng điện có mặt bằng kích thước theo hướng nam - bắc 8,2m, theo hướng đông- tây 10.4m, cao 0,30m.
+            </p>
+            <p>Những người khai quật chùa Lạng đã hai lần công bố những tư liệu tìm thấy, nhưng cả hai lần đều chưa đưa ra giả thuyết về kết cấu của các nếp chùa<a style="scroll-margin-top:120px ;" id="c2-ct9" href="#ct9"><sup>9</sup></a>. Các kết quả giám định hiện vật, cũng như việc xếp lớp kiến trúc đã được công bố còn phải bàn thêm. Nhưng, có một hiện thực là đã tìm thấy 17 chân tảng. "tạm chia làm ba loại: loại nhỏ trơn hai chiếc bằng đá vôi không hoa văn, kẻ thô.. Loại vừa có cánh sen, bằng đá cát, 11 chiếc, mặt tròn trơn nhẫn xung quanh có cánh sen, từ 14 đến 16 cánh, có chiếc có hai tai thay cho cánh sen... loại lớn có cánh sen, bốn chiếc bằng đá vôi, mặt tròn xung quanh mặt có 16 cánh sen<sup><a style="scroll-margin-top:120px ;" id="c2-ct10" href="#ct10">10</a></sup>”.
+            </p>
+            <p>Như vậy, dẫu chưa nhất trí về một số điểm như chúng tôi đã nói ở trên, nhưng sự hiện diện của các chân tảng trên nền kiến trúc chùa Lạng qua các thời, khiến chúng ta phải thừa nhận rằng: không tìm thấy ở đây - qua sáu lớp văn hóa từ Lý - Trần - Mạc - cuối Lê - đầu Nguyễn và trước 1956, những nếp chùa xây kiểu tường chịu lực, mà vẫn là những nếp chùa dựng bằng khung gỗ, dùng chân tảng chịu lực.
+            </p>
+            <p>Năm 1968, trong khi cải tạo đường xá nông thôn, nhân dân thôn Hải Triều, xã Phạm Lễ, huyện Hưng Hà (Thái Bình) đã đào được một mô hình nhà làm bằng đất nung, chôn ở góc một ngôi mộ cổ thời Trần. Đây là một tác phẩm thu nhỏ của một căn nhà có bố cục kiểu “Nội công ngoại quốc” (trong xây hình chữ công, ngoài có tường vây bọc như chữ quốc). Toàn bộ công trình này có 11 phiến, ghép lại thành mô hình hoàn chỉnh dài 1m, rộng 1,04m. Trong số 11 phiến có 8 phiến là tường vây, có hai căn nhà và một phần mái chưa lắp được đúng vị trí. Tường vây quanh tòa nhà cao 0,32m, đầu tường có lợp ngói, ở giữa có bờ nóc chạy dài. Bốn góc có tường có bờ giải tạo nên bốn góc đao ở bốn phía.
+            </p>
+            <p>Trên mái người ta dùng que khắc vạch diễn tả ngói lợp. Đây là kiểu ngói mũi hài ta thường thấy trong các kiến trúc cổ Việt Nam. Trên tường được trang trí kiểu khuôn án làm nổi lên các hoa chanh bốn cánh, ngăn cách với nhau bằng các đố dọc. Vòng tường vây chỉ để một cửa ra vào. Cụm kiến trúc nhà ở, được đặt vào khu trung tâm của tường vây có ba gian, một gian trước bị vỡ nát, còn gian “ông muống” và gian hậu, nổi nhau theo hình thước thợ. Gian ống muống hình chữ nhật, hẹp lòng. Tòa nhà phía sau ba mặt tường dầu bưng kín, chỉ mở một cửa thông qua gian ống muống. Nhà cao 35cm. chiều dài của nhà là 20cm.
+            </p>
+            <p>Biểu hiện những đặc điểm dân tộc rõ nét nhất của căn nhà này là bộ mái. Nhà làm kiểu bốn mái, mái lợp ngói mũi hài kép, trên đỉnh có bờ nóc võng cong ở giữa và tỏa ra bốn góc bốn bờ giải. Đến khoảng giữa tàu mái, bờ giải xoay ra thành một khúc nguỷnh chạy ra bốn góc đao.
+            </p>
+            <p>Phần hai tàu mái của tòa nhà gặp nhau, cũng có bờ nóc vuông góc với nhau, giống hệt với kiểu nhà có ống muống được xây cất vào thời Lê sau này. Mô hình nhà ở Phạm Lê. cho ta một nhận xét mới về kỹ thuật xây dựng - bên cạnh nhà khung gỗ, thời Trần có thể đã xuất hiện một yếu tố xây dựng khác là: nhà có tường chịu lực ra đời. Tuy nhiên bộ mái của nhà này vẫn tôn trọng những yếu tố dân tộc còn bảo lưu tới mãi sau này. Về kết luận này, chúng tôi cũng mới chỉ dám dừng lại ở giả thuyết. Vì, trong tổng số tài liệu về kiến trúc nhà cửa thời Trần tìm được, thì đây là một hiện tượng ngoại lệ. Rất có thể do bị lệ thuộc vào phương pháp mô hình, những người thể hiện đã buộc phải làm những vạt tường mới có thể nung được. Bởi vì, sẽ khó có thể thế hiện một mô hình bằng đất theo kiểu khung gỗ. Điều này, sẽ thấy được rõ hơn ở tài liệu thứ hai - các nghệ sĩ tạo mô hình đã phải vẽ các cột trên các vạt tường của mô hình.
+            </p>
+            <p>Hiện vật thứ hai của các loại tài liệu này hiện đang được tàng trữ tại kho Bảo tàng Nam Định phát hiện được tại Hiên Khánh, huyện Vụ Bản, Nam Định. Đây là mô hình tổng thể cụm kiến trúc của một ngôi chùa. Cụm kiến trúc này thể hiện rõ căn nhà có tường vây bọc. Tường vây làm bằng 8 mảnh ghép lại với nhau thành một khung kín, trong đó có bốn góc được làm viên có hình vuông góc. Còn bốn mảnh giữa thể hiện cửa ra vào lợp ngói, mái nhỏ lên cao hơn tường bên. Có một mặt công đã bị mất.
+            </p>
+            <p>Sáu căn nhà bên trong được bố trí như sau: trên trục dọc từ cửa vào có hai nếp nhà song song cách nhau một khoảng sân, ở hai bên hồi của nhà thứ nhất có hai nhà ngang nhỏ. Đằng sau, nơi giáp với cửa đối diện có hai nếp nhà hình vuông như hai tòa tháp nhỏ.
+            </p>
+            <p>Mặc dù bốn vạt tường và những căn nhà đều là những phiến đất nung, có thể dễ gây nhầm lẫn rằng đây là những nếp nhà có tường xây, nhưng quan sát kỹ, ta sẽ thấy rằng toàn bộ cụm kiến trúc thể hiện những tòa nhà làm bằng khung gỗ. Đặc điểm này, có thể thấy ngay từ ngoài cổng bên trái. Cóng được dựng hai bên hai cột gỗ kê lên một chân tảng, mặt chân tảng có khoanh tròn. Chân cột được chạm hoa sẽ ở tăng dưới, tiếp đến là hai vạch chìm song song với nhau, trên những đường vạch này cũng là những cánh sen. Thân cột có bốn đường kẻ chìm từ đầu cột xuống chân cột. Trên đầu cột là các đấu kế, trên đấu kẻ lại có một lần cột nhỏ đội đầu.
+            </p><p>Một thanh xà lớn, nối liền hai cột trụ lại, đầu xà ấn mộng qua thân cột, phần nhô ra tạo nên hai tai cột cong như một áng mây. Thân xà được soi bằng những đường chỉ nối. Khoảng giữa xà, cũng có một cột đội đầu đỡ mái. Khoảng trống giữa ba cột đội, được lấp kín bằng hai lá để chạm hoa cúc nở.
+            </p>
+            <p>Mi cửa được viên lấy thân cột. Ở góc mi cửa, có cả đường ghép mộng. Cửa vào đang được đóng kín. Mỗi cánh được chạm một nửa hình lá để. Trên mỗi nửa có một con rồng và một nửa mật nguyệt. Khi cánh cửa đóng lại, sẽ tạo nên một lá đề hoàn chỉnh, trên bề mặt nổi lên một đôi rồng chầu mặt nguyệt. Dưới hình lá để, mỗi bên cánh có thêm một hình mặt trời mây lửa.
+            </p>
+            <p>Cửa ra vào có mái lợp ngói, kiểu bốn mái, ngói lợp cũng là ngói mũi hài.
+            </p>
+            <p>Cống có chiều cao toàn bộ 27cm, rộng 25cm. Cánh cửa của mô hình này là một hình ảnh thu nhỏ sống động của kiểu thức cánh cửa chùa Phổ Minh (Nam Định) thời Trần.
+            </p>
+            <p>Tương tự như kỹ thuật xây dựng cổng, chúng ta quan sát tất cả các dây nhà làm trong đều thấy: sáu gian nhà bên trong đều làm kiểu bốn mái có góc đao và "vị ruồi" ở đầu hồi mái, ngói lợp kiểu mũi hài. Các dãy nhà trên trục chính, cũng như nhà ngang đều thấy có diễn tả các cột có đầu kê. “Tường” nhà có in hoa canh. Có một điều rất lý thú là cả hai khối mô hình nhà cửa chúng ta thấy đều có kích thước tương tự (1×1,04 và 1mx0.95m).
+            </p><p>Những hình ảnh được miêu tả trên, tự nó đã cho thấy, chúng ta lại gặp lại một hình thức truyền thống - nhà có kết cấu khung gỗ được phản ánh bằng mô hình.
+            </p>
+            <h2 id="2.3">3. MỘT PHÁC THẢO VỀ KIẾN TRÚC NHÀ CỬA THỜI TRẤN 
+            </h2><p>Các kiến trúc thường có tường hoa xây bằng gạch vây bọc (nhưng cũng không ngoại trừ loại nhà có tường). Mặt tường đều trổ hoa chanh. Giữa các vạt tường đều có trổ cửa. Đổ cửa, mi cửa, cánh cửa làm bằng gỗ, có chân tảng đỡ đố cửa. Cánh cửa được chạm trổ. Bên trong chùa chiền bố trí hình chữ tam theo trục chính, có hai tháp nhỏ phía trước, có nhà ngang. Nhà ở có kiểu chữ công. Sân lát bằng gạch hoa cỡ lớn 40×40cm. Trên sân có cống thoát nước bằng đất nung. Những căn nhà đều làm theo kiểu bốn mái, mái được thể hiện có góc dao cong lợp ngói mũi hài, khác hẳn với kiểu dao giả.
+            </p>
+            <p>Có thể nói, tuyệt đại đa số nhà cửa, chùa chiền đều áp dụng chung một hệ thống kỹ thuật khung nhà bằng gỗ, không có tường chịu lực. Đây là một đặc điểm chủ yếu của kiến trúc nhà cửa thời Trần. Điều này còn được thể hiện rất rõ ở Lam Kinh. Cũng như kinh đô Huế sau này - gần như toàn bộ các kiến trúc ở hai nơi này đều là khung gỗ, không có tường chịu lực.
+            </p>
+            <p>Việc sử dụng nhà khung gỗ tuy là một biểu hiện của tính dân tộc trong kiến trúc nhà cửa thời Trần, nhưng nhà khung gỗ ta thấy cũng có mặt ở Trung Quốc, ở Nhật Bản và nhiều nơi khác. Để  minh định được sắc thái riêng biệt của kiến trúc cổ nước ta, còn cần phải có những đặc trưng kỹ thuật về bộ mái và bộ khung. Ở cả hai nguồn tài liệu khảo cổ học chúng ta đều thấy mái nhà thời Trần lợp ngói mũi hài, và không thấy việc sử dụng ngói ống. Các kiến trúc hiện còn, cũng như các tài liệu mô hình đều phản ánh mái nhà được sử dụng hình thức đầu đao, không thấy xuất hiện “tàu hộp” - một đặc điểm thường thấy trong các kiến trúc Trung Hoa và Nhật Bản. Về bộ khung nhà, chúng ta chưa có được những tài liệu chắc chắn. Nhưng dựa trên những tài liệu hiện có, chúng tôi xin nêu những đoán định như sau: Nếu như theo cách phân loại tương đối chi tiết thì một vì nhà có thể chia phần từ quá giang trở lên là vì nóc, thì vì nóc thượng điện của cả ba ngôi chùa làm từ thời Trần còn lại đều kết cấu giống nhau. Khẩu độ mở của vì hẹp, hai trụ “giá chiêng” ngắn và mập. Thân trụ phình giữa, hai đầu thon, cả hai đầu đều đội đấu. Trên thân cột gần như được phủ kín bằng các đồ án trang trí, lòng giá chiêng - khoảng không ở giữa được che bằng một tấm ván chạm lá đề. Trên mặt lá để thường được chạm từng đôi rồng phượng hoặc tiên nữ.
+            </p><p>Ngoài phần vì nóc ra chỉ còn phân liên kết các cột ngoài quá giang ra là còn phải bàn. Nhìn vì kèo chùa Thái Lạc ta thấy rõ ràng là người trùng tu không tôn trọng kích thước nguyên thủy của nó. Hiện tượng các cốn bị cắt xén và lắp đặt lệch lạc đã nói rõ điều đó.
+            </p>
+            <p>Trong cả ba tòa thượng điện kể trên chỉ có vì kèo tòa thượng điện chùa Dâu là chặt chẽ hơn cả. Dẫu rằng, những thành phần ngoài vì nóc có trùng tu, nhưng những người trùng tu đã tôn trọng kích thước nguyên thủy của ngày khởi tạo. Vì vậy, mới tạo nên được cấu trúc chặt chẽ cho những vì kèo ở đây, nó khác hẳn với tinh thần của những người trùng tu thượng điện chùa Thái Lạc. Nhà có kết cấu khung gỗ, bao giờ cũng có chiếc sào mực làm bằng một thanh tre dài gác trên quá giang, có ghi đầy đủ các chỉ số kỹ thuật của các thành phần kiến trúc. Khi có một bộ phận nào hỏng, người trùng tu chỉ việc lấy sào mực xuống, xem kích thước của bộ phận bị hỏng, làm một cái y hệt như vậy để thay thế vào. Nhờ hệ thống liên kết bằng mộng mà người thợ có thể tháo dỡ bất cứ thành phần nào trong vì một cách dễ dàng. 
+            </p>
+            <p>Trở lại vì kèo tòa thượng điện của chùa Dâu, ta thấy đây là một loại vì dùng kẻ để liên kết các cột lại. Như vậy, nếu như chấp nhận việc người xưa trùng tu vì kèo chùa Dâu theo nguyên mẫu thời Trần thì vì kèo trong kiến trúc nhà cửa thời Trần sẽ là kiểu vì: “kẻ chuyên, giá chiêng”. Cái kẻ chuyên về mặt kỹ thuật làm nhiệm vụ của cái kèo, hay hai cái chỉ là hai tên gọi của một bộ phận. Và, như vậy, vì kèo nhà cửa thời Trần có: cột - xà - kẻ mang đầy đủ cái thức của nền kiến trúc cổ Việt Nam' - là tinh thần dân tộc, tính truyền thống - là kết tinh những tinh hoa của trí tuệ Việt Nam mở ra trong ký nguyên tràn đầy khí phách anh hùng vậy. 
+            </p>
+            <hr/>
+            <p><sup><a id="ct4" href="#c2-ct4">4</a></sup>Bài đăng trên Tạp chí Khảo cổ học. Số 4/1978.
+            </p><p><a id="ct5" href="#c2-ct5"><sup>5</sup></a>Từ Minh Thiện. Thiên nam hành ký. Tư liệu dịch của trường Đại học Tổng hợp Hà Nội.</p>
+            <p><a id="ct6" href="#c2-ct6"><sup>6</sup></a>Trần Quốc Vượng và Vũ Tấn Sán. Hà Nội nghìn xưa. Hà Nội 1975.
+            </p><p><a id="ct7" href="#c2-ct7"><sup>7</sup></a>Thơ Trần Nhân Tông.
+            </p><p><a id="ct8" href="#c2-ct8"><sup>8</sup></a>Đỗ Văn Ninh và Trịnh Cao Tướng: Chùa Lấm (Quảng Ninh) một phế tích thời Trần mới được khai quật, trong Khảo cổ học số 15 năm 1974. tr.53.
+            </p><p><a id="ct9" href="#c2-ct9"><sup>9</sup></a>Nguyễn Duy Hinh- Trần Đình Luyện và Nguyễn Duy Chiến: Đào chùa Lạng (Hái Hưng) lần thứ hai. Khảo cổ học. Số 16, 1974. Xem thêm: Nguyễn Duy Hình: Suy nghĩ về những lớp kiến trúc chùa Lạng (Hải Hưng). Khảo cổ học. Số 2, 1977.
+            </p><p><a id="ct10" href="#c2-ct10"><sup>10</sup></a>Nguyễn Duy Hinh - Trần Đình Luyện và Nguyễn Duy Chiến.
+            </p>
+
+        </div>
+    </main>
+    
+    <button onclick="topFunction()" id="btn-btt" title="Go to top"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+    <button onclick="bottomFunction()" id="btn-btb" title="Go to bottom"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const playPauseButtons = document.querySelectorAll(".play-pause");
+
+    playPauseButtons.forEach(button => {
+        const audioId = button.parentElement.getAttribute("data-audio");
+        const audio = document.getElementById(audioId);
+        audio.volume = 0.1;
+        button.addEventListener("click", function() {
+            if (audio.paused) {
+                audio.play();
+                this.classList.remove("play");
+                this.classList.add("pause");
+            } else {
+                audio.pause();
+                this.classList.remove("pause");
+                this.classList.add("play");
+            }
+        });
+    });
+});
+
+
+</script>
+<script>
+    let btnTop = document.getElementById("btn-btt");
+    let btnBottom = document.getElementById("btn-btb");
+
+    window.onscroll = function() {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        } else {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        }
+
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            btnBottom.style.display = "block";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function bottomFunction() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+</script>
+<script>
+    function toggleTable(tableId) {
+        var table = document.getElementById(tableId);
+        if (table.style.display === 'none' || table.style.display === '') {
+            table.style.display = 'block';
+        } else {
+            table.style.display = 'none';
+        }
+    }
+
+    function changeColor(textColor, bgColor) {
+        document.getElementById('content').style.color = textColor;
+        document.getElementById('content').style.backgroundColor = bgColor;
+    }
+
+    function changeFontSize(size) {
+        var content = document.getElementById('content');
+        if (size.startsWith('+')) {
+            var currentSize = parseInt(window.getComputedStyle(content).fontSize);
+            var increment = parseInt(size.substring(1));
+            content.style.fontSize = (currentSize + increment) + 'px';
+        } else {
+            content.style.fontSize = size;
+        }
+    }
+    function changeFont(font) {
+            document.getElementById('content').style.fontFamily = font;
+        }
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const contentText = document.getElementById("content");
+        const highlightBtn = document.getElementById("highlight");
+        const removeHighlightBtn = document.getElementById("remove-highlight");
+
+        let highlighting = false;
+
+        const highlightCursor = document.createElement("div");
+        highlightCursor.classList.add("highlight-cursor");
+        document.body.appendChild(highlightCursor);
+
+        highlightBtn.addEventListener("click", function () {
+            if (!highlighting) {
+                highlighting = true;
+                highlightCursor.style.display = "block";
+                document.body.style.cursor = "crosshair";
+                document.addEventListener("mouseup", endHighlight);
+            } else {
+                highlighting = false;
+                highlightCursor.style.display = "none";
+                document.body.style.cursor = "auto";
+            }
+        });
+
+        removeHighlightBtn.addEventListener("click", function () {
+            let removingHighlight = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            document.addEventListener("mousemove", activateRemoveHighlight);
+
+            function activateRemoveHighlight(event) {
+                if (!removingHighlight) {
+                    highlightCursor.style.left = event.clientX + "px";
+                    highlightCursor.style.top = event.clientY + "px";
+                    highlightCursor.style.display = "block";
+                    document.body.style.cursor = "pointer";
+                    removingHighlight = true;
+                }
+            }
+
+            contentText.addEventListener("click", function (event) {
+                if (removingHighlight) {
+                    const target = event.target;
+                    if (target.classList.contains("highlighted")) {
+                        target.classList.remove("highlighted");
+                    }
+                    highlightCursor.style.display = "none";
+                    document.body.style.cursor = "auto";
+                    removingHighlight = false;
+                    document.removeEventListener("mousemove", activateRemoveHighlight);
+                }
+            });
+        });
+
+
+        document.addEventListener("mousemove", moveHighlightCursor);
+
+        function moveHighlightCursor(event) {
+            if (highlighting) {
+                highlightCursor.style.left = event.clientX + "px";
+                highlightCursor.style.top = event.clientY + "px";
+            }
+        }
+
+        function endHighlight() {
+            highlighting = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            const selection = window.getSelection();
+            const range = selection.getRangeAt(0);
+            if (range) {
+                if (contentText.contains(range.commonAncestorContainer)) {
+                    const span = document.createElement("span");
+                    span.className = "highlighted";
+                    range.surroundContents(span);
+                    selection.removeAllRanges();
+                }
+            }
+        }
+    });
+</script>
+</html>

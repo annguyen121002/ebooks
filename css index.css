@@ -1,0 +1,325 @@
+header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 150px;
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+#logo1{
+    width: 90px;
+    height: auto;
+    margin-left:200px ;
+    
+}
+.search-box {
+    width: 600px;
+    height: 42px;
+    flex-shrink: 0;
+    
+    border: 1px solid rgba(150, 150, 150, 0.50);
+    background: #FFF;
+}
+
+.search-button {
+    background: #A80000;
+    border: none;
+    color: white;
+    
+}
+.form-control{
+    width: 550px;
+    height: 40px;
+    flex-shrink: 0;
+    
+    border: none;
+    background: #FFF;
+}
+.search-icon {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #A80000;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#avt{
+    width: 85px;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+.menu{
+    width: 1200px;
+    display: block;
+    margin: auto;
+}
+.main-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+.main-menu a {
+    color: #212121;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    
+}
+
+.main-menu a:hover {
+    color: #A80000;
+    text-decoration: none;
+}
+
+.dropdowns {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    
+}
+
+.center-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dropdowns li {
+    cursor: pointer;
+    position: relative;
+    background-color: #fff;
+    color: black;
+    padding: 5px 25px;
+    text-align: left;
+    width: 400px;
+}
+
+.textmucluc {
+    color: #000000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.textmucluc a,
+a.textmucluc {
+    text-overflow: ellipsis;
+    white-space: nowrap !important;
+    overflow: hidden;
+    display: block;
+}
+
+.dropdowns ul {
+    display: none;
+    border-radius: 15px;
+    box-shadow: 0px 8px 10px 10px rgba(0, 0, 0, 0.1);
+    left: 0;
+    position: absolute;
+    top: 100%;
+    text-align: left;
+    width: 400px;
+    z-index: 100;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.dropdowns ul ul {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+.dropdowns li:hover {
+    background-color: rgba(246, 229, 229, 1);
+    color: #a80000;
+    z-index: 100;
+}
+.dropdowns li:hover>ul {
+    display: block;
+}
+
+.dropdowns__item {
+    background-color: transparent;
+}
+
+.dropdowns>li {
+    background-color: transparent;
+}
+
+.dropdowns>li:hover {
+    background-color: transparent;
+}
+
+
+/*noi-dung-chinh*/
+.noi-dung-chinh{
+    
+    width: 1400px;
+    height: 1700px;
+    background-color: #f8f8f8;
+    margin: 50px auto;
+    border-radius: 40px;
+    box-shadow: 10px 20px 30px rgb(158, 158, 161);
+}
+.main1{
+    display: flex;
+}
+#bia1{
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 20px;
+    box-shadow: 5px 10px 15px rgb(101, 101, 103);
+    border-radius: 15px;
+}
+.thong-tin-sach{
+    display: block;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#danh-gia{
+    width: 380px;
+    margin-top: 20px;
+}
+#thong-tin-chinh{
+    margin-top: 20px;
+    width: 750px;
+    line-height: 27px;
+    font-size: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#loai-sach{
+    margin-top: 20px;
+    width: 550px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#chon-loaisach{
+    width: 300px;
+    background-color: #8d8b8b;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 5px 10px 15px rgb(68, 68, 70);
+}
+#chon-noidung{
+    width: 300px;
+    background-color: #8d8b8b;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 5px 10px 15px rgb(68, 68, 70);
+}
+.doc-sach{
+    margin-top: 20px;
+    width: 700px;
+    
+}
+main button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #A80000;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 5px 8px 15px rgb(68, 68, 70);
+    
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+button:hover{
+    background-color: #fe0e0e;
+}
+.mota{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.binh-luan{
+    margin: 50px auto;
+    width: 1300px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#bang-binh-luan{
+    width: 350px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #8d8b8b;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 5px 5px 10px rgb(68, 68, 70);
+}
+.cmt{
+    margin: 20px auto;
+    width: 1200px;
+    height: 200px;
+    background-color: #cac9c9;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(68, 68, 70);
+}
+.noidung-cmt{
+    box-shadow: 5px 5px 10px rgb(68, 68, 70);
+}
+#avt-cmt{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 50px;
+}
+#nguoi-cmt{
+    text-align: left;
+}
+.noi-dung-phu{
+    width: 1400px;
+    height: 1100px;
+    background-color: #f8f8f8;
+    margin: 50px auto;
+    border-radius: 40px;
+    box-shadow: 10px 20px 30px rgb(158, 158, 161);
+}
+.co-the-ban-thich{
+    padding-top: 20px;
+}
+#img-co-the-ban-thich{
+    width: 1300px;
+    margin: auto;
+    text-align: center;
+}
+#minhhoa{
+    width: 250px;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(158, 158, 161);
+}
+#img-cung-tac-gia{
+    width: 1300px;
+    margin: auto;
+    text-align: center;
+}

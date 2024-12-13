@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-noidung.css">
+    <script src="js/toan man hinh.js"></script>
+    
+    <title>KIẾN TRÚC CỔ VIỆT NAM</title>
+</head>
+<body>
+    <div><button id="pre-page" style="transform: rotate(-90deg);"><a href="Chương 2.html"><img id="muiten-do" src="icon/muiten do.png" alt=""></a></button></div>
+	<div><button id="next-page" style="transform: rotate(90deg);"><a href="Chương 4.html"><img id="muiten-do" src="icon/muiten do.png" alt=""></a></button></div>
+    <header>
+            <div id="btn-trangchu" style="padding: 30px 20px;">
+            <a id="a-header" href="index.html"><img id="icon-header" src="icon/iocn index.png" alt=""></a>
+            </div>
+            <div id="btn-mucluc" style="padding: 35px 10px;">
+                <button id="btn-header" onclick="toggleTable('muc-luc')"><img id="icon-header" src="icon/icon mucluc.png" alt=""></button>
+            </div>
+            <div id="muc-luc">
+                <span class="close-btn" onclick="toggleTable('muc-luc')">&#9746;</span>
+                <br>
+                <br>
+                <nav>
+                    <ul id="menu1" style="list-style: none;padding: 0px;">
+                        <li><a href="Bìa sách.html">BÌA SÁCH</a></li>
+                        <li><a href="Trang trách nhiệm.html">TRANG TRÁCH NHIỆM</a></li>
+                        <li><a href="Lời nói đầu.html">LỜI NÓI ĐẦU</a></li>
+                        <li><a href="Chương 1.html">CHƯƠNG I: PHỤC DỰNG THÁP TƯỜNG LONG - ĐỒ SƠN, HẢI PHÒNG TỪ CÁI NHÌN KHẢO CỔ HỌC</a>
+                            <ul id="menu2">
+                                <li><a href="Chương 1.html#1.1">1. NHỮNG ĐIỀU ĐÃ BIẾT</a></li>
+                                <li><a href="Chương 1.html#1.2">2. DẤU VẾT CỦA THÁP TƯỜNG LONG</a></li>
+                                <li><a href="Chương 1.html#1.3">3. ĐI TÌM NHỮNG ĐIỀU CÒN CHƯA BIẾT VỀ THÁP TƯỜNG LONG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 2.html">CHƯƠNG II: KIẾN TRÚC NHÀ CỬA THỜI TRẦN</a>
+                            <ul id="menu3">
+                                <li><a href="Chương 2.html#2.1">1. NHỮNG MÔ HÌNH NHÀ TÌM THẤY TRONG CÁC MỘ CỔ.</a></li>
+                                <li><a href="Chương 2.html#2.2">2. TÊN GỌI CỦA VÌ ĐƯỢC GỌI THEO ĐẶC TRƯNG LIÊN KẾT CỘT. </a></li>
+                                <li><a href="Chương 2.html#2.3">3. MỘT PHÁC THẢO VỀ KIẾN TRÚC NHÀ CỬA THỜI TRẤN </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 3.html">CHƯƠNG III: CHÙA VĨNH NGHIÊM - MỘT TRUNG TÂM PHẬT GIÁO ĐÃ 700 TUỔI</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 3.html#3.1">1. ĐẤT BIÊN ẢI CỦA MỘT DÒNG SỬ THI VÀ HUYỀN THOẠI VIỆT</a></li>
+                                <li><a href="Chương 3.html#3.2">2. MỘT TRUNG TÂM PHẬT GIÁO 700 NĂM TRƯỚC</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 4.html">CHƯƠNG IV: ĐÌNH LÀNG - ĐIỂM LẠI BƯỚC ĐI BAN ĐẦU.</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 4.html#4.1">1. VẤN ĐỀ NIÊN ĐẠI</a></li>
+                                <li><a href="Chương 4.html#4.2">2. ĐẤT DỰNG ĐÌNH</a></li>
+                                <li><a href="Chương 4.html#4.3">3. MẶT BẰNG TỔNG THỂ</a></li>
+                                <li><a href="Chương 4.html#4.4">4. KẾT CẤU BÊN NGOÀI: BỘ MÁI</a></li>
+                                <li><a href="Chương 4.html#4.5">5. KẾT CẤU BÊN TRONG: BỘ KHUNG</a></li>
+                                <li><a href="Chương 4.html#4.6">6. ĐIÊU KHẮC ĐÌNH LÀNG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 5.html">CHƯƠNG V: ĐÌNH LÀNG - HÌNH TƯỢNG</a>
+                            <ul id="menu4">
+                                <li><a href="Chương 5.html#5.1">1. CÁC TƯ TƯỞNG CHỦ ĐẠO ĐẶC THÙ CỦA NGÀNH KIẾN TRÚC. </a></li>
+                                <li><a href="Chương 5.html#5.2">2. LÀNG NITA TRÊN ĐẢO FLORES VÀ LÀNG HỒI QUAN </a></li>
+                                <li><a href="Chương 5.html#5.3">3. CÂY THƯỚC TẦM TRONG NỀN KIẾN TRÚC CỔ VIỆT NAM</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chương 6.html">CHƯƠNG VI: THẨM ĐỊNH LẠI GIÁ TRỊ KIẾN TRÚC VĂN MIẾU - HÀ NỘI</a></li>
+                        <li><a href="Thư mục tham khảo.html">THƯ MỤC THAM KHẢO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="btn-gioithieu" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="Giới thiệu.html">Giới thiệu</a></button>
+            </div>
+            <div id="btn-lienhe" style="padding: 35px 20px;">
+                <button id="btn-header"><a id="a-header" href="Liên hệ.html">Liên hệ</a></button>
+            </div>
+            <div id="tensach">
+                <h1 id="h1-header">KIẾN TRÚC CỔ VIỆT NAM<br/>Từ cái nhìn khảo cổ học</h1>
+            </div>
+            <div id="btn-cochu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('sizeTable')" style="font-size: 35px;">Aa</button>
+            </div>
+            <div id="btn-mauchu" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('colorTable')"><img id="icon-header" src="icon/icon mau.png" alt=""></button>
+            </div>
+            <div id="btn-nhac" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleTable('nhac')" ><img id="icon-header" src="icon/icon nhac.png" alt=""></button>
+            </div>
+            <div id="btn-tmh" style="padding: 30px 20px;">
+                <button id="btn-header" onclick="toggleFullScreen()"><img id="icon-header" src="icon/icon tmh.png" alt=""></button>
+            </div>
+            <div id="colorTable">
+                <span class="close-btn" onclick="toggleTable('colorTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn btn-default" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', 'white')">Mặc định</button></td>
+                        <td><button class="btn btn-white-black" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#000', '#BEB6F2')">Đen - Tím</button></td>
+                        <td><button class="btn btn-white-purple" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('#7B2924', '#edb561')">Đỏ - Cam</button></td>
+                        <td><button class="btn btn-black-yellow" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('black', '#FEFFC8')">Đen - Vàng</button></td>
+                        <td><button class="btn btn-white-green" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeColor('Black', '#0CC0DF')">Đen - Xanh</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="sizeTable">
+                <span class="close-btn" onclick="toggleTable('sizeTable')">&#9746;</span>
+                <table>
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFontSize('18px')">Aa</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('18.5px')"><span style="font-size: 18.5px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('19px')"><span style="font-size: 19px;">Aa</span></button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;margin-left: 20px;" onclick="changeFontSize('20px')"><span style="font-size: 20px;">Aa</span></button></td>
+                    </tr>
+                </table>
+                <table style="margin: 20px 0;">
+                    <tr>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Times New Roman')">Times New Roman</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Arial')">Arial</button></td>
+                        <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" onclick="changeFont('Courier New')">Courier New</button></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <tr>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="highlight">Đánh dấu</button></td>
+                            <td><button class="btn" style="padding: 10px 20px;border-radius: 15px;font-weight: bold;" id="remove-highlight">Bỏ đánh dấu</button></td>
+                        </tr>
+                    </tr>
+                </table>
+            </div>
+            <div id="nhac">
+                <span class="close-btn" onclick="toggleTable('nhac')">&#9746;</span>
+                <div id="box-nhac">
+                <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                <div class="audio-player" data-audio="audio1">
+                    <button class="play-pause play"></button>
+                    <audio id="audio1" loop src="mp3/Nhạc đồng quê nhẹ nhàng - nhạc nền video.mp3"></audio>
+                </div>
+                </div> 
+                <div id="box-nhac">
+                    <img id="icon-playmusic" src="icon/play nhac.png"   alt="">
+                    <div class="audio-player" data-audio="audio2">
+                        <button class="play-pause play"></button>
+                        <audio id="audio2" loop src="mp3/Thịnh Vượng Việt Nam Sáng Ngời - Buitruonglinh.mp3"></audio>
+                    </div> 
+                    </div> 
+                
+            </div>
+    </header>
+    <main>
+        <div id="content">
+            <img id="anh-dau-chuong" src="IMG/anhtrencungcuasach.png" alt="">
+            <h1>CHƯƠNG III: CHÙA VĨNH NGHIÊM - </h1><h1>MỘT TRUNG TÂM PHẬT GIÁO ĐÃ 700 TUỔI</h1>
+
+<p style="text-align: center;">“Ai qua An Tử Quỳnh Lâm
+</p><p style="text-align: center;"> Vĩnh Nghiêm chưa đến Thiền tâm chưa đành”
+</p><p style="text-align: right; margin-right: 380px;"><i>Ca dao</i>
+</p>
+<h2 id="3.1">1. ĐẤT BIÊN ẢI CỦA MỘT DÒNG SỬ THI VÀ HUYỀN THOẠI VIỆT
+</h2>
+<p>Bạn hãy giở tấm bản đồ Hà Bắc (nay là hai tỉnh Bắc Ninh và Bắc Giang) xuôi dòng sông Thương rồi dừng lại ở một ngã ba của dòng sông - nơi sông Thương gặp sông Lục Nam hòa vào cùng dòng và êm ả hành trình về Lục Đầu. Ngã ba ấy có tên là ngã ba Phượng Nhỡn nổi tiếng trong sử thi và huyền thoại Việt. Hãy dừng lại đây, vì ngôi chùa mà chúng ta tìm đến ở chỗ này. Đứng ở nơi đây, bạn hãy mở một tầm nhìn bao quát hơn: xuôi dòng chút nữa là tới Lục Đầu giang - chỗ gặp gỡ của sáu con sông chở nặng phù sa cho vùng châu thổ rồi hợp lại để ra biển lớn.
+</p>
+<p>Nhìn về bên kia sông - đấy là địa phận Hải Dương - trông rất rõ đền Kiếp Bạc, nơi đây, các nhà khảo cổ đã tìm thấy sân gạch và nền phủ đệ của Hưng Đạo Vương Trần Quốc Tuấn. Dãy núi xanh lơ sau dãy đồi đất đỏ phía Đông ấy là Côn Sơn, nơi mà nhà thơ, nhà chính trị, nhà quân sự lỗi lạc Nguyễn Trãi, chán ghét cảnh đời thối nát, đi ở ẩn. Xa hơn chút nữa, phía chân trời là dây Yên Tử - đất thánh của Thiền phái Trúc Lâm đời Trần. Từ mảnh đất chúng ta đang đứng, xuôi dòng hơn chục cây số nữa là tới Phả Lại, bạn có thể đi ô tô thẳng tới Quỳnh Lâm - Yên Tử.
+</p>
+<p>Nếu mở một cuộc hành trình xuôi theo các dòng sông về tới Lục Đầu - vùng đất trời mênh mang sông nước này - bạn sẽ thấy rằng, những dòng sông ấy chở nặng huyền thoại và sử thi vùng châu thổ để rồi về đây, dừng lại, tụ hội và thăng hoa, hòa cùng trong trời đất trước khi ra ngoài biển cả. Đây là điểm chót của của một chặng hành trình tư tưởng Việt cổ.
+</p><p>Người đôi bờ sông Cầu, người dân xứ Bắc nào mà không biết những người anh hùng thần thoại Trương Hồng - Trương Hát. Hơn 300 làng" lưỡng biên giang" thờ những người cai quản từ “ngã ba Xà - tới ngã ba Phượng Nhôn” hay “thượng chí Đu Đuổm - hạ chí Lục Đầu”. Từ lâu, các nhà nghiên cứu đã nhận thấy rằng cái "hồn" của hai người anh hùng này là tín ngưỡng thờ Thần Rắn đã được lịch sử hóa. Các thời đại sau đã không ngừng phủ dày lên huyền thoại gốc, rồi trao cho các anh hùng văn hóa một nhiệm vụ mới mè - chống ngoại xâm.
+</p>
+<p>Với một đất nước luôn năm có giặc ngoại xâm, con người đã huy động cả thần linh đi đánh giặc. Lịch sử đi theo một lộ trình đẹp, con người cũng ứng xử kịp thời với cái đẹp của chính họ tạo ra. Tục thờ Thần Rắn đã bị khúc xạ, nay chỉ còn là bóng dáng, nhưng sự tích Trương Hống - Trương Hát mà người dân xứ Bắc gìn giữ, chính là thế kiêu hùng của những người giữ nước.
+</p>
+<p>Lục Đầu đã tự nhận là đất phên giậu. Vì, giặc tới đây, đóng ở đây và nếu giặc bị đánh tan cũng ở đây. Thế mà, một đôi lần, nhà sưu tầm còn bắt gặp mô hình Lục Đầu, đất để đô. Điều đó, chắc hẳn là không có gì mâu thuẫn, vì đây là vị trí được xem như “gương mặt” đất Việt, lại còn là nơi hội tụ mọi sự kiện. Sự thừa nhận đó không thể xem như là một hiện tượng “địa phương chủ nghĩa”, chính là vì  nó đã đề cao - trước lúc thăng hoa - những kết tinh của truyền thống tốt đẹp.
+</p>
+<p>Lục Đầu, nơi hiển hách chiến công, nhưng còn là chặng nghỉ chân của những bước đi vấp váp trong lịch sử. Chuyện kể, sau cái bi kịch - mà sơ xuất là kẻ tòng phạm của tội ác - Thục Phán đã về Lục Đầu, cưỡi ngựa rẽ sóng xuống Thủy cung. Lối thoát của một người lầm lỡ được giải quyết như vậy quả là tuyệt vời. Từ trong đó, ngời sáng bản chất người Việt là: nhân hậu, bao dung, công bình với người lầm lỡ, một khi đã nhận ra tội lỗi của mình. Nhưng, không phải chỉ có thế. Sự tồn tại của Đất - Nước vĩnh hằng, lại như một lối so sánh nhắc nhở: đây là bài học không thể quên, tồn tại mãi cùng đất nước.
+</p><p>Đến ngày đất Đại Việt mở kỷ nguyên mới, dẫu sự việc đã có ghi vào chính sử, những huyền sử - thế ứng xử của dân gian - lại không vì thế mà không tiếp tục được sáng tạo. Chính sử có một chiến tuyến sông Cầu chống quân xâm lược Tống của Lý Thường Kiệt, thì cạnh đó, ở Lục Đầu còn bao câu chuyện tô đẹp cho trang sử chống ngoại xâm thời kỳ lịch sử này. Ở đâu cũng vậy, ta đều gặp những anh hùng lịch sử và anh hùng văn hóa luôn luôn đi sát để âm phù cho người anh hùng thời hiện tại đánh giặc.
+</p>
+<p>Sau triều đại Trân, kỷ nguyên Đại Việt chống đế quốc Nguyên Mông hiển hách, vùng Lục Đầu trở thành quan yếu. Hội nghị Bình Than quyết định đường lối của cuộc chiến tranh giữ nước đã diễn ra ở đây. Những cuộc chiến đấu, dìm thuyền giặc xuống đáy sông Lục Đầu còn vang mãi trong sóng nước. Sử cũ đã từng ngợi ca các đạo quân của huyện Phượng Nhỡn can trường, không bao giờ chịu lùi bước. Chỉ cần một lần gọi, trai Phượng Nhỡn không một ai ở nhà'.
+</p>
+<p>Và, dường như đã trở thành một quy luật, bên cạnh chính sử lại vẫn có huyền sử. Người ta chỉ các vết lõm trên dãy Nham Biển, cả đó là dấu chân của Trần Thủ Độ, của Hưng Đạo Vương Trần Quốc Tuấn lên núi điểm quân. Những sự tích về cánh đồng kéo thuyền - biểu hiện quân dân sát cánh đã thành ký ức truyền đời. Qua cửa Vũ Trụ, còn có đồng Đổ Quân - nơi quân Trần rút lên bộ tránh giặc; ngược dòng sông Lục còn bắt gặp bãi Voi Thụt - sự tích gắn liền với các đội tượng binh thiện chiến; những đống mũi tên đồng - gây nên nỗi khiếp sợ cho quân thù... Lục Đầu, đất quê ta thế đó. Như những dòng sông từ muôn ngả trở về đây những dòng tư duy Việt, những dòng sử thi Việt cũng được chở đến, hội tụ lại thành một dòng lớn.
+</p>
+<p>Trên mảnh đất biên ải của huyền thoại và sử thi này, đạo Phật 700 năm trước đây đã chọn một vùng đất mà hai dòng sông Thương, sông Lục ôm bọc lấy - nhìn ra ngã ba Phượng Nhỡn để dựng lên một trung tâm hành đạo của mình - chùa Vĩnh Nghiêm - mảnh đất ấy trên bản đồ tên xã đề là Trí Yên, thuộc huyện Yên Dũng.
+</p><h2 id="3.2">2. MỘT TRUNG TÂM PHẬT GIÁO 700 NĂM TRƯỚC
+</h2>
+<p>Trên con đường xâm nhập vào Việt Nam, Phật giáo đã khéo léo tìm đến mảnh đất lắng đọng tín ngưỡng Việt cổ này để dựng lên ở đây "thánh đường” của mình. Để dễ dàng được những người chủ của đất này chấp nhận, đạo Phật đã không bê nguyên giáo lý của mình đến, mà đã cố tìm ra những nét dung hòa giữa giáo lý của mình với tín ngưỡng Việt cổ.
+</p>
+<p>Vĩnh Nghiêm tự là một trung tâm Phật giáo nổi tiếng dưới thời Trần ở Kinh Bắc. Vị trí đặt Vĩnh Nghiêm tự khiến cho chùa trở thành một trạm dừng chân cho khách hành hương trước khi vượt sông, leo núi về "đất thánh" của Thiền phái Trúc Lâm - Yên Tử. Tầm quan trọng của chùa Vĩnh Nghiêm thời Trần đã phần nào được thể hiện trong câu ca:
+</p>
+<p style="text-align: center;">“Ai qua An Tử - Quỳnh Lâm
+</p><p style="text-align: center;"> Vĩnh Nghiêm chưa đến Thiền tâm chưa đành”.
+</p><p>Về vai trò một thời của chùa Vĩnh Nghiêm, ta chỉ được thấy thấp thoáng qua một số thư tịch cổ. Sách Thiền uyển tập anh cho hay: Vào năm Hưng Long thứ 21 (1313), đại sư Pháp Loa đã về chùa Vĩnh Nghiêm trụ trì để định chức các tăng đồ trong toàn quốc. Như vậy là, từ đây đánh dấu việc thống nhất tổ chức chặt chẽ trong toàn quốc của Phật giáo. Sau đó - vẫn theo thư tịch - cứ ba năm, nhà Trần lại định chức các tăng đồ một lần. Vậy thì, vai trò quan yếu đầu tiên của chùa này chính là trung tâm đào luyện các tăng ni và ban hành các “pháp chế” của Phật đạo trong toàn quốc.
+</p>
+<p>Nhưng chùa Vĩnh Nghiêm còn có một ý nghĩa mà nhiều người dã từng cho là quan trọng đối với lịch sử riêng của Phật giáo Việt Nam - vì Vĩnh Nghiêm là nơi gặp gỡ của ba nhân vật đã sáng lập ra Thiền phái Trúc Lâm một dòng Thiền rất thịnh hành ở Việt Nam mà lịch sử vẫn quen gọi là “Trúc Lâm tam tổ”: Trần Nhân Tông, Pháp Loa, Huyền Quang. Thư tịch cho biết, trạng nguyên Huyền Quang “một hôm theo vua đến huyện Phượng Nhỡn, vào chùa Vĩnh Nghiêm nghe Pháp Loa giảng kinh, bèn dâng biểu xin xuất gia tu đạo, vua ưng cho, bèn làm thụ giáo với Pháp Loa, lấy pháp hiệu là Huyền Quang”.
+</p><p>
+</p><p>Những soạn giả của lược sử Phật giáo Việt Nam đã gọi “Trúc Lâm tam tổ” là “những bậc giáo hoàng thời ấy. Vì, ngoài sự đắc đạo tu hành, thuyết pháp độ sinh, các ngài còn được đặc quyền cẩm số tăng tịch trong nước. thống lãnh hết thảy tăng đồ”. Chính vì là nơi đào luyện tăng đổ, nên Vĩnh Nghiêm tự còn là nơi tàng trữ nhiều bộ ván in kinh quý giá như: Hoa Nghiêm sớ. Di Đà sớ sao. Đại Thừa chỉ quán. Giới kinh ni. Sa Di kinh... Tương truyền, nhà nho để ván kinh của chùa xưa rộng tới hơn mười gian nhà. Trải qua nhiều biến động, ván kinh đá bị mất mát nhiều, nay chỉ còn chừng hai kệ lớn đặt ở bên trái của chùa Phật. 700 năm xưa, với vai trò quan yếu như vậy, chắc hẳn Vĩnh Nghiêm phải là một công trình to lớn. Nhưng đáng tiếc rằng, ngày nay, chẳng đến tay chúng ta một chút vật liệu nào của công trình kiến trúc ngày mới khởi tạo.
+</p><p>Sang thời Lê, mặc dù Phật giáo không còn ở vị trí quốc giáo nữa. Nho giáo ngày càng chiếm vị thế độc tôn, nhưng không vì thế mà chùa Vĩnh Nghiêm bị hoang phế. Vẫn theo tấm bia ở chùa, thì từ thời Lê đến nay, chùa Vĩnh Nghiêm vẫn không ngừng được sửa chữa.
+</p><p>Điểm qua vài nét về quá trình xây dựng và tu tạo chùa Vĩnh Nghiêm để thấy tính chất phức tạp của công trình kiến trúc này. Có thể nói, không còn một thành phần nào của ngôi chùa này giữ được nguyên vẹn các vật liệu của thời đại sinh ra nó. Nhưng, nếu nhìn một cách khái quát thì có thể thấy rằng. Đây là một kiến trúc thời Nguyễn còn lưu lại một số thành phần kiến trúc thời Lê như: nhà Tổ đệ nhất mà niên đại có thể vào thế kỉ XVII.
+</p><p>Trước đây, một số tài liệu lưu trữ ở một số cơ quan lập hồ sơ về chùa Vĩnh Nghiêm đã dựa vào câu ca:
+</p><p style="text-align: center;">“Bia đá Lê xây còn đứng đó
+</p><p style="text-align: center;">Cột lim Trần dựng vẫn còn kia”. 
+</p><p>mà suy đoán rằng: nhà Tam bảo với những cột lim to đã được xây dựng từ thời nhà Trần. Bên cạnh đó, một số người còn cho chùa Đức La hoàn toàn là một kiến trúc thời Nguyễn. Những tài liệu khảo cổ học điền dã gần đây đã cho phép chúng ta kết luận, cả hai loại ý kiến đó đều không có những cơ sở khoa học vững chắc. Dấu vết xưa nhất trong các thành phần kiến trúc chùa Vĩnh Nghiêm mà ta hiện thấy - như chúng tôi đã nói - không thể vượt quá thế kỉ XVII. Vì thế, nó cũng hoàn toàn không phải chỉ là kiến trúc thời Nguyễn.
+</p><p>Phần trình bày dưới đây của chúng tôi là những điều hiện có ở chùa Vĩnh Nghiêm. Chùa Vĩnh Nghiêm nằm trên một quả đồi thấp, đó là bậc thềm có của sông Thiên Đức thuộc xã Đức La (vì vậy còn có tên là Đức La, nay thuộc về xã Trí Yên, huyện Yên Dũng). Diện tích của toàn bộ khu chùa chiếm 1 vạn mét vuông. Giữa một vùng đất bằng, ven sông, chùa Vĩnh Nghiêm như một hòn đảo xanh im ắng nổi bật trên một vùng rộng lớn. Hòn đảo xanh này, được hai con sông Thương và Lục Nam ôm bọc lấy. Đằng sau chùa là dãy núi Cô Tiên nằm ngửa mình giữa bầu trời xanh lồng lộng. Núi sông đã thực sự tô điểm cho công trình quy mô to lớn này.
+</p>
+<p>Trước cửa chùa là một sân đất rộng rãi, ra tới sát những thửa ruộng trũng của thôn Thanh Long... Kiến trúc đầu tiên của khu chùa là tam quan xây bằng gạch. Theo các tài liệu cũ để lại, tam quan chùa xây kiểu đầu hồi bít đốc, có bốn vì kèo, kết cấu vì theo kiểu ba hàng chân cột. Nền nhà tam quan dài 7m, rộng 5m. Lới cửa giữa (trung quan) rộng chừng 2m (sau này có xây thêm một cổng gạch lớn bên cạnh cho nhân dân đi lại).
+</p>
+<p>Từ tam quan đi khoảng hơn 100m nữa mới tới bậc thềm chùa Hộ. Xưa trên con đường dài, rộng dẫn vào chùa có hai hàng thông cao vút, có cây đường kính gần 1m. Tương truyền rằng, đây là những cây thông trống từ ngày khởi dựng chùa, nay khoảng 700 tuổi. Hàng thông của chùa Vĩnh Nghiêm đã gây một ấn tượng sâu sắc cho bất cứ ai tới đây, đã ca ngợi “những cây thủy tùng từ đời vua Trần Nhân Tông vẫn vươn mình xanh tốt, ngạo nghễ với thời gian”... “thực sự là một nơi sơn thủy hữu tình”.
+</p><p>Trên sân chùa ta còn gặp một bia đá sáu mặt dựng trên bộ bệ sen, thân bia cao 1,18m, mỗi mặt rộng 0,32m. Mỗi mặt bia là một khung hình chữ nhật, trên dần khung có một ô chạm rồng, bên dưới dùng để khắc chữ. Những nghệ sĩ điêu khắc đá dựng bia này dùng năm mặt mỗi mặt chạm 1 con rồng. còn mặt thứ 6 chạm đôi rồng chầu mặt nguyệt. Rồng trên bia đá Vĩnh Nghiêm mình trơn, không vảy, mũi thú, sừng có chạc, bờm bốc lửa dang bay lượn tròn trên nền mây cụm, đó là những con rồng điển hình trong nghệ thuật điêu khắc thời Lê. Bia dựng năm Hoằng Định thứ 7 (1606), nội dung ghi lại công cuộc tu sửa chùa năm đó. Đối diện với tấm bia này, phía bên trái sân chùa giáp gần sông Lục Nam, cao vọt lên năm cây bảo tháp xây gạch lớn quần tụ bên nhau, là nơi cất thi hài các thế hệ sư tăng trụ trì ở đây. Được biết rằng, đó là tháp của hòa thượng Phù Lãng Trung, pháp hiệu Sa Môn - Thông Duệ - Ứng Duyên; trước tháp hòa thượng là ba cây tháp nhỏ hơn, tháp phía đông là của sư Thanh Quý; trong hai tháp còn lại là của nhà sư Tịnh Phương Sa Môn, pháp húy Tâm Viên.
+</p><p>Cây tháp lớn nhất phía trước là của nhà sư Thanh Hanh, từng làm Phó giám ở chùa Vĩnh Nghiêm thời vua Thành Thái. Năm cây tháp này là một tập hợp khá tiêu biểu cho phong cách kiến trúc tháp thời Nguyễn trong kiến trúc tôn giáo Việt Nam.
+</p><p>Cụm kiến trúc chính của chùa nằm trên một trục chính dọc, quay mặt về hướng đông- nam gồm bốn khối lớn. Khối thứ nhất gồm ba nếp chùa: chùa Hộ - nhà Thiêu hương - chùa Phật kết cấu hình chữ "công". Khối thứ hai nhỏ hơn một chút là nhà Tổ đệ nhất, cũng kết cấu tương tự. Khối thứ ba là gác chuông hai tầng mái. Khối thứ tư là nhà Tổ đệ nhị và nhà trai kết cấu kiểu chuôi vỗ. Các khối nhà đều xây cách nhau một khoảng sân hẹp. Mặt bằng kiến trúc có sự chênh nhau về độ cao, cao nhất là nếp chùa chính, còn ba khối kiến trúc sau cùng nằm trên một mặt phẳng, có nền cao hơn sân 30cm. Nghe nói, xưa hai bên còn có hai dãy nhà tả vu và hữu vu rộng rãi, cả thảy 36 gian là nơi ở cho nhà sư về hạ hằng năm. Ngoài ra còn có nhà bếp, nhà xay lúa giã gạo và chuồng trâu, nay những kiến trúc ấy đã mất cả.
+</p><p>Bọc lấy toàn bộ khu mặt bằng kiến trúc trên là những lũy tre ken dày. Trong khu vực nhà chùa còn trồng nhiều cây ăn quả và lấy bóng mát. Vì vậy, không khí chùa Vĩnh Nghiêm thanh u và tịch mịch.
+</p><p>Bây giờ chúng ta bắt đầu hành hương vào đất Phật, khởi đầu từ chùa Hộ - chùa Hộ là một kiến trúc to lớn và khang trang. Nền chùa cao hơn mặt sân 60cm, toàn bộ mặt trước nên được bó vỉa bằng đá, ba mặt khác đều dùng gạch xây. Bộ mái cao rộng của nó được lợp hoàn toàn bằng ngói mũi hài. Kết cấu mái theo kiểu bốn tàu mái, để trống đầu hồi lắp vỉ ruồi. Các bờ nóc và bờ rải đều gắn hoa chanh hộp rỗng, nếu nhìn từ trên xuống, các đường bờ nóc và bờ dái của ba nếp chùa nổi nhau tạo nên chữ "công" với đầu của các đường nét ngang nở xòe ra rất đẹp mắt. Trên bờ nóc của chùa Hộ, người ta dùng vữa đắp một mảng trang trí kiểu cuốn thư với ba chữ hình kỷ hà được bao quanh bởi những đường viền hồi văn và hoa lá.
+</p>
+<p>Bộ mái của chùa Hộ cũng làm kiểu tàu đao lá mái với bốn góc dao cong. Nhưng ở cả bốn góc người ta đều phải dùng bốn cột đá hình lục lăng kê trên các đấu vại bằng vữa, hỗ trợ cho câu đầu. Kết cấu bộ khung chùa Hộ giống với kết cấu nhà gỗ cổ truyền Việt Nam - liên kết các vì kèo lại bằng các hàng xà.
+</p><p>Chùa Hộ có cả thảy 8 vì kèo, trong mỗi vì có 4 hàng chân cột, các cột chùa đều có kích thước lớn, cao tới 4,75m.
+</p><p>Vì kèo chùa Hộ làm kiểu chồng rường - bẩy hiên. Hoành rải kiểu thượng ngũ - hạ ngũ. Các thành phần kiến trúc đều bằng gỗ lim, bào trơn, đóng bén, xoi gờ thẳng tắp, không thấy được chạm khắc trang trí. Ngay cả hệ thống bẩy ở cả bốn mặt đều chỉ chạm lá cách điệu đơn sơ, các bẩy góc vẫn để trơn. Gián cách chiều sâu của gian khá rộng, gian giữa rộng tới 4,35m, mà quá giang thanh mảnh. Rõ ràng trong việc xây dựng đã có sự tính toán kỹ lưỡng.
+</p><p>So với các kiến trúc thời Lê, thì chùa Vĩnh Nghiêm đã tốn ít gỗ hơn nhiều. Các con đường nhỏ, nhẹ, hệ thống bẩy cũng kém đồ sộ hẳn so với các bẩy trong kiến trúc đình làng. Tuy thanh nhẹ vậy, nhưng chùa Hộ không phải là thấp...
+</p><p>Phần Thiêu hương của chùa làm theo kiểu 3 vì kèo đặt quay mặt ra phía ngoài. Bộ khung của nhà Thiêu hương được nối với chùa Hộ bằng hệ thống kẻ góc ăn qua trụ con đặt trên các xà nách ở cột góc. Nhà Thiều hương cũng kết cấu vì kèo có tốn hàng chân cột kiểu chồng rường bấy hiên, lấp các khoảng trống trên vì bằng các cốn mê, toàn bộ cột ở gian này đều là “đấu vại”.
+</p><p>Nếp chùa cuối của khối kiến trúc thứ nhất là chùa Phật, diện tích chùa Phật được mở rộng hơn nhà Thiêu hương gần hai gian nữa. Chùa Phật có 4 vì kèo với bốn hàng chân cột mỗi vì và cũng liên kết kiểu chồng rường - bẩy hiên... Riêng hai vì giữa có bốn chiếc cột to lớn lực lưỡng, màu gỗ xám mốc, khác hẳn với màu gỗ lim đen bóng của chùa Hộ. Nhìn bề mặt ngoài so sánh với các kiến trúc thời Lê, có thể đoán rằng đây là hàng cột của kiến trúc chùa Vĩnh Nghiêm thời Lê còn sót lại.
+</p><p>Chùa Phật cũng được bưng ván ba mặt, trổ hai cửa ra vào ở sát góc tường hậu :. Chùa để lại một hiên sau rộng. Bộ mái có cột hỗ trợ ở hai góc đã vươn rộng ra xa, che kín hàng hiện này, trên hai đầu hiện ta gặp hai tấm bia nhỏ, dòng chữ khắc trên mặt bia này đã mờ, không rõ năm khởi tạo. Một số người cho rằng bia này dựng năm Hoằng Định thứ 8 (1607).
+</p><p>Nền của ba lớp chùa trên không bằng phẳng, mà cứ tăng dần từ chùa Hộ cho tới bậc kê tượng Tam thế sát ván hậu của chùa Phật.
+</p><p>Theo tấm bia dựng năm Bảo Đại thứ 7 cho biết, do thấy chùa xưa đã hư nát nên hòa thượng Thích Thanh Hanh đã cho sửa chữa lại toàn bộ tòa Tam bảo. Như vậy, dấu xưa nay không còn nữa, những vật chất mà ta hiện thấy là công quả của Phật tử tăng ni đầu thế kỷ này.
+</p><p>Rời khối kiến trúc thứ nhất, qua một khoảng sân hẹp, thì tới nhà Tổ đệ nhất. Nhà Tổ đệ nhất kết cấu hình khối kiểu chữ "công" như khối kiến trúc chùa, nhưng quy mô nhỏ bé hơn nhiều. Và, mặc dù cũng là kiểu thức bốn mái, với tàu đao nhưng phong cách hai khối kiến trúc này khác nhau rất rõ. Nếu như kiến trúc chùa cố gắng phát triển theo chiều cao, thì nhà tổ lại có xu hướng phát triển theo chiều ngang, và đặc biệt rìa mái vươn ra thấp, khoảng cách giọt nước thấp, sự khác nhau còn dễ nhận ra bởi màu sắc của vật liệu kiến trúc, nếu như chùa Hộ màu sắc còn tươi, thì nhà Tổ đã ngả màu rêu mốc.
+</p><p>Nếp nhà đầu tiên của nhà Tổ đệ nhất có kích thước 12,65m chiều ngang, 7,05m chiều dọc. Căn nhà này được dựng bằng 6 vì kèo, năm gian chính và một khoảng hẹp từ cột và hồi, không phải là gian xép. Vì kèo của nhà này cũng bốn hàng chân, các vì kèo gian giữa kiểu kẻ suốt có vì nóc kiểu kèo cây cột nóc, hai vì hồi kiểu chồng rường, có trụ non đặt trên xà nách, đỡ hệ thống kẻ góc. Lòng nhà rất hẹp, vì người ta dành cả một gian trước làm hiên nhà. Ở đây có dựng một tấm bia đá lớn của hòa thượng Thích Thiện Hòa soạn vào mùa đông 1934.
+</p><p>Ở chỗ bắt đầu vào gian chuôi vỗ, ta gặp một phương án làm kiểu chân quỳ dạ cá. Những hình hoa dây, rồng chầu dùng trang trí hương án này mang những đặc điểm rõ nét của phong cách nghệ thuật thế kỉ XVII, cho phép ta khẳng định rằng: đó là sản phẩm điêu khắc thời Lê Trung hưng còn sót lại.
+</p><p>Gian chuôi vồ có chiều rộng bằng hai gian giữa đình, sâu 3,50m. Nếp nhà cuối của khối kiến trúc thứ hai này dài 8,80m, bằng ba gian của nếp nhà đầu tiên, rộng 6,80m. Căn nhà này có bốn vì kèo, với bốn hàng chân cột mỗi vì. Các khoảng trống trên xà nách nối cột cái và cột quân, nơi các kiến trúc thế kỉ XVII - dùng lắp hệ thống con rường, nay thay bằng các cốn mê chạm kỷ hà. Các cốn mê này có màu sắc chất liệu mới, có lẽ nó mới được lắp thêm vào khoảng thế kỷ XIX đầu thế kỷ XX. Trong hệ thống của khối kiến trúc thứ hai này, ta cần lưu ý tới một yếu tố kỹ thuật ở nếp nhà đầu, đó là các ván giong. Ván giọng ở nếp nhà này được trang trí các cụm mây nhỏ, rời rạc (có người gọi là cỏ linh chỉ) và các đầu bẩy được chạm lá cuộn có đuôi uốn sóng, nét mập, bay chếch ngang. Hình trang trí mây và lá ở các bộ phận kiến trúc này hoàn toàn giống với nghệ thuật điêu khắc gỗ thế kỷ XVII, ở những địa điểm có niên đại được xác định chắc chắn như đình Thắng (Hiệp Hòa), đình Cao Thượng (Tân Yên)...
+</p><p>Khối kiến trúc thứ ba của Vĩnh Nghiêm là gác chuông, cao hai tầng mái. đây là kiến trúc phối hợp giữa kết cấu gỗ và gạch. Theo văn bia chùa, gác chuông dựng vào thế kỷ XIX, nhưng cho tới nay nó đã trải qua nhiều lần tu sửa. Từ sau hòa bình lập lại, Ty Văn hóa Hà Bắc hai lần cho sửa chữa cơ bản các thành phần gỗ. Tầng trên của gác chuông treo một quả chuông lớn, tầng dưới dùng làm nơi tiếp khách.
+</p>
+<p>Nền gác chuông có hình gần vuông (7,25 ×7,40m) các thành phần kết cấu bên trong cũng theo kiểu khung gỗ với bốn cột giữa vươn dài lên tận nóc mái, bốn cột còn được chồng thêm dấu, đội những cột của tầng trên, các cột ấy được liên kết với nhau kiểu trên kẻ dưới bẩy và nhờ các hàng xà tạo thành một bộ khung khá chắc. Trong lối kết cấu gác chuông, không phải cột gỗ chịu lực toàn bộ vì hai đầu hồi được xây bằng gạch. Rìa đầu hồi làm lối bậc thang dật cấp, mép có gắn hoa chanh, ở bốn góc lại xây thêm bốn trụ gạch vuông kiểu đầu quả rành rành Tầng trên thực chất chỉ là phần nâng cao của lòng gian giữa tầng dưới, nên lòng nhà dài và hẹp. Để tăng thêm sự vững chắc của bộ khung, người ta không gác sàn lên các xà liên kết, mà bên trên xà làm thêm một tầng dẩm để lát ván.
+</p>
+Bộ “khung nhà” tầng trên làm theo kiểu vì kèo tam giác với kiểu thức có bốn mái đao cong. Riêng bốn góc đao nhô ra, được hỗ trợ thêm bằng bốn cột nhỏ ngắn đặt trên đầu hồi, hàng bấy tiền và hậu được chạm khắc đơn giản, chủ yếu là hình lá cuộn. Riêng mặt trong của gian giữa, bốn bẩy được chạm bốn rồng lá cách điệu. Các đầu bẩy đều có treo những quả chuông đồng nhỏ, mỗi khi có gió thổi, chuông rung, phát ra những âm thanh thánh thót, phá bớt cảnh chùa u tịch. Tầng dưới của gác chuông để trống cả hai mặt, còn trên tầng hai được bưng đố và lát ván.
+
+<p>Nếp nhà cuối cùng của kiến trúc chùa Vĩnh Nghiêm là nhà Tổ đệ nhị, hình dạng kiểu chuỗi vỗ, tòa nhà này dài 27,80m, rộng 14m (cả hậu đường). Kết cấu bên trong cũng là khung gỗ, nhưng hai đầu hồi và tường hậu đã được xây gạch. Căn nhà này mới được làm lại vài mươi năm nay. Cấu trúc khung gỗ kiểu vì kèo kẻ suốt có vì nóc kiểu kèo cầu cột nóc như nhà Tổ độ nhất, với bốn hàng chân cột. Các thành phần trong vì đều gầy guộc, mảnh, nhỏ, chỉ được bào trơn, đóng bén, không có điêu khắc trang trí. Hai đầu hồi nhà xây nhô hẳn ra, che kín cả hai đầu hiên. Đầu tường cũng được xây trụ gạch hộp vuông đầu quả rành rành.
+</p>
+<p>Bên trong nhà Tổ đệ nhị có cả thảy 11 gian, cộng ba gian chuôi vô là 14 gian. Năm gian giữa và phần chuôi vỗ dành riêng làm nhà thờ Tổ, đặt tượng các hòa thượng trụ trì tại chùa. Còn lại hai đầu nhà, mỗi bên ba gian dùng làm nhà trai. Ngăn cách phần thờ và nhà trai bằng thuận lát ván.
+</p>
+<p>Khác hẳn với kiến trúc một số chùa vùng đồng quê Bắc Bộ như Bút Tháp, chùa Dâu, chùa Hàm Long, chùa Tam Sơn... chùa Vĩnh Nghiêm có một dáng vẻ đặc biệt. Chúng ta đều biết rằng, đặc điểm cơ bản của nền kiến trúc Việt Nam là nhà kết cấu khung gỗ, tường không là cơ sở chịu lực. Trong gần ba thế kỷ trước - XVI, XVII, XVIII (theo tài liệu hiện có), cái "thức" của nền kiến trúc này được hoàn toàn tôn trọng.
+</p>
+<p>Tới đây, bước sang thế kỷ XIX (tôi cho rằng, về sau này, cuối thế kỷ XIX, đầu thế kỷ XX có sửa chữa chùa, nhưng vẫn cố gắng phỏng theo kiến trúc đầu thế kỷ XIX), các kiến trúc sư dựng chùa Vĩnh Nghiêm đã có sự cố gắng vươn tới những kết cấu bền vững hơn, nhẹ nhàng hơn tuy không vượt ra khỏi "thức" của kiến trúc gỗ, mà tiêu biểu là chùa Hộ.
+</p>
+<p>Hệ thống vì kèo ở đây chỉ có 4 cột, các thành phần kiến trúc khác như quá giang, con rường... đều nhẹ nhàng mà vẫn tạo được độ rộng và chiều cao cân thiết, không thua kém các công trình với các vì kèo 6 hàng chân cột, kích thước cột to và các thành phần kiến trúc rất nặng nề. Đặc biệt là những chiếc bẩy không lớn mà tác dụng có hiệu quả không thua gì các bẩy làm bằng cả thân cây gỗ lớn ở các kiến trúc xây dựng trong hai thế kỷ trước.
+</p>
+<p>Một số thành phần khác, như nhà Tổ đệ nhất, gác chuông đã dùng cột gạch và tường gạch hỗ trợ thêm cho việc chịu lực của các cột gỗ (phần nhà Tổ là do trùng tu: gác chuông là xây mới) đã thay đổi hẳn diện mạo cổ truyền kiến trúc Việt Nam, tạo nên một đặc điểm riêng biệt của kiến trúc đầu thời Nguyễn, trên cơ sở của bộ khung gỗ bên trong, có thêm tường gạch (thường ở đầu hồi), nhằm hỗ trợ cho bộ khung, kiểu thức kiến trúc của chùa Vĩnh Nghiêm ở vào một giao điểm mà "thức" của nền kiến trúc cổ Việt Nam không còn giữ vai trò quyết định, nhưng vẫn còn được bảo lưu, nó chưa bị giai cấp phong kiến nhắm mắt tiếp thu một cách lố lăng kiến trúc của nước ngoài, đẩy nền nghệ thuật kiến trúc đến chỗ suy đồi.
+</p>
+<p>Bên cạnh các công trình kiến trúc thời Nguyễn các nhà Tổ đệ nhất, đệ nhị đều có vì kèo kiểu kẻ suốt với vì nóc kiểu kèo cầu cột nóc là dạng vì cổ nhất - dân tộc nhất trong lịch sử phát triển của nền kiến trúc gỗ cổ truyền Việt Nam, là một bộ phận đáng quý nhất của chùa Đức La.
+</p>
+<p>Như trên chúng tôi đã nói, ở chùa Vĩnh Nghiêm còn tồn tại song song kiểu thức kiến trúc cuối thế kỷ XIX, đầu thế kỷ XX và kiến trúc ở vào giai đoạn cuối thế kỷ XVII (sau này có trùng tu thêm). Sự tồn tại của hai kiểu thức này cùng ở một chỗ, chẳng những đã mang tính chất đa dạng của công trình, mà còn là một ví dụ tốt cho việc so sánh các giai đoạn phát triển của nền kiến trúc cổ truyền Việt Nam.
+</p>
+<p>Những đặc điểm kiến trúc của chùa Vĩnh Nghiêm đã có biến đổi tuy là nhỏ bé, nhưng nó đã đánh dấu một quá trình phát triển của kỹ thuật xây dựng Việt Nam. Chùa Vĩnh Nghiêm được bảo vệ, giữ gìn chu đáo, chẳng những đã tỏ rõ chính sách tự do tín ngưỡng sáng ngời của Đảng và Chính phủ ta, mà còn có ý nghĩa - như Ty Văn hóa Hà Bắc lâu nay đã quan niệm rất đúng đần - nó là một kiến trúc tiêu biểu cho một thời điểm trên một hành trình lâu dài của nền kiến trúc Việt Nam. Chùa Vĩnh Nghiêm sẽ có ý nghĩa quan trọng trong việc nghiên cứu lịch sử kiến trúc của dân tộc ta.
+</p>
+<p>Bên cạnh giá trị về mặt kiến trúc, ở chùa Vĩnh Nghiêm còn có một bộ sưu tập điêu khắc lớn, bao gồm tượng Phật, tượng chân dung mà niên đại đã được khẳng định rõ ràng vào thời Nguyễn - như bia chùa đã nói tới. Toàn bộ tượng Phật đều được bày ở khối kiến trúc thứ nhất: gồm chùa Hộ, nhà Thiêu hương, chùa Phật.
+</p><p>Tượng ở chùa Hộ được bài trí như sau: hai đầu hồi nhà có tượng Thiên Vương vận võ phục, tượng trưng cho tướng nhà Phật. Trên phần hậu của chùa, tượng được đặt thành một dãy hàng ngang, các khối tượng xếp từng cặp đối xứng nhau. Hai gian đầu hồi có đắp hai động Thập điện: nhưng chính giữa động lại là bà Chúa Mẫu, bao quanh động là hình quỷ sứ, quân lính của Diêm Vương. Sự hiện diện của Chúa Mẫu, một biến tướng của Đạo Giáo đã chứng tỏ tính chất không thuần nhất của chùa Phật Việt Nam. Liên với hai động Chúa Mẫu là hai tượng Hộ pháp: bên tả là Khuyến Thiện, bên hữu là Trừng ác. Hai pho tượng này có quy mô to lớn, đầu tượng gần chạm nóc chùa, bên cạnh tượng Hộ pháp có hai pho tượng ngồi trên bệ, một người vận áo tu hành, một người vận kiểu văn quan, có lẽ đây là tượng Đức Ông và Địa Tạng. Gian giữa nhìn thẳng vào Thiêu hương, bên trên có một tấm hoành phi lớn để bốn chữ “A Di Đà Phật”.
+</p>
+<p>Nhà Thiêu hương được trang hoàng lộng lẫy nhất trong ba nếp chùa, tất cả ba gian đều có cửa võng chạm trổ trang trí hoa lá, chim chóc cầu kỳ, bên ngoài lại sơn son thếp vàng choáng lộn, bên trên cửa võng đều có hoành phi đề chữ lớn, lần lượt từ ngoài vào: "Tam Giới Đại Sư", "Pháp Vương Vô Thượng", "A Di Đà Phật".
+</p>
+<p>Gian đầu tiên của nhà Thiêu hương là nơi tụng kinh của nhà sư, ở đây có đặt một bàn thờ dài, rộng, trên đặt những cây "đèn" nến gỗ và bát nhang có kích thước lớn. Chiếc mõ nhà sư sử dụng mỗi khi tụng kinh rất ít chùa có: mô có kích thước lớn, dài gần nửa thước, được sơn đen bóng, lỗ thoát âm có để hai dòng chữ Phạn.
+</p>
+<p>Bắt đầu từ gian thứ hai vào đến tận cùng của chùa Phật là thế giới tượng Phật bày tầng tầng, lớp lớp. Hai bên dãy tượng Phật có đặt những cây “đèn” nến có kích thước lớn. Hai bên rìa tường của nhà Thiêu hương, ta còn gặp mỗi bên tám tượng La Hán. Những pho tượng này đều có kích thước nhỏ và đắp khá tùy tiện, cẩu thả.
+</p>
+<p>Tượng Phật ở chùa Vĩnh Nghiêm đều có quy mô lớn, phủ màu sơn nâu cánh gián rất trang nghiêm. Các tượng đều đặt ngồi thập định trên tòa sen, hoặc đang thuyết pháp trong khi phần lớn các chùa dụng vào thời Nguyễn, tượng Phật thường có quy mô nhỏ, tạo hình tùy tiện. Những tượng ở chùa Vĩnh Nghiêm đã tuân thủ những quy pháp của phép tạo tượng, nên rõ ràng là những tác phẩm điêu khắc mang ít nhiều giá trị nhất định.
+</p>
+<p>Ngoài tượng Phật, từ nhà Tổ trở đi, chúng ta còn gặp một số tượng chân dung.
+</p>
+<p>Ở nhà Tổ đệ nhất, dưới tấm hoành phi "Trúc Lâm Hội Thượng" là ba tượng chân dung Trúc Lâm tam tổ. Bên ngoài là tượng Pháp Loa và Huyền Quang, trong khám là tượng Trần Nhân Tông. 
+</p>
+<p>Hai pho tượng ngoài tạc mang ít nhiều tính chân dung, nhưng mang nặng công thức, ít cá tính. Duy chỉ có tượng sư tổ cần chú ý, nhà sư đang ngồi trong tư thế "tham Thiền nhập định". Sư tổ có gương mặt bầu, đầy đặn, đôi mắt dài và đẹp, cặp lông mày thanh mảnh, môi đỏ tươi. Người tạc như có ý nhấn mạnh, dẫu có quy y, nhưng ông vua này không mất đi những nét quý phái của người trần tục trên gương mặt. Sư tổ mình vận áo cà sa phủ kín, hai tay đặt trên đùi, bàn tay trái úp, tay phải lần tràng hạt. Để tránh những ấn tượng nghi ngờ nào đó về lòng chân tu của nhà vua, tác giả kín đáo để lộ ra một khoảng ngực trái, lộ rõ xương sườn, biểu thị tính chất khổ luyện của ông ta.
+</p>
+<p>Pho tượng này, mặc dầu hoàn toàn có tính chất tượng trưng, nhưng nhờ "tạo dáng" tương đối tốt, gương mặt có cá tính, đặc biệt là đã thỏa mãn được điều muốn biểu đạo về đặc tính của nhân vật như đã nói trên, nên pho tượng Trần Nhân Tông là tác phẩm đáng được chú ý ở chùa Vĩnh Nghiêm. Ở nhà Tổ đệ nhị còn có hai tượng chân dung khác. Đáng tiếc là, chúng tôi chỉ được biết một cách chắc chắn là pho tượng của hòa thượng Thính Thanh Hanh. Hòa thượng đang ngồi nhập định, mình mặc áo cà sa màu cánh gián, dáng người rất khắc khổ với gương mặt gầy, cầm đưa rộng, má hõm sâu, lưỡng quyền cao, tai dài, cổ nhiều nếp nhăn.
+</p><p>Người tạc pho tượng này chắc chắn đã nhìn trực tiếp gương mặt hòa thượng để tạc. Dẫu không phải là những tác phẩm quý, nhưng pho tượng này, cũng như những tượng chân dung khác ở chùa Vĩnh Nghiêm, là tiêu biểu cho một giai đoạn lịch sử nhất định, nó sẽ là tài liệu cho các nhà nghiên cứu lịch sử điêu khắc nước ta. 
+</p>
+<p>Hơn 700 năm qua, từ ngày khởi tạo đến nay, đã biết bao thế hệ sư tăng trụ trì tại ngôi chùa nổi tiếng này. Đáng tiếc rằng, chúng ta chưa thể có một danh sách đầy đủ về những lớp người đó. Tấm bia ở chùa Đức La đã giúp cho ta biết được một số hòa thượng và nhà sư, trong những năm tháng ở đây đã có công lao gìn giữ công trình kiến trúc này và không ngừng tô đẹp cho cảnh chùa. Vài mươi năm trở lại đây, trong một hoàn cảnh mới của lịch sử đất nước, các thế hệ sư tăng chùa Vĩnh Nghiêm đã biểu lộ được một sắc thái mới của những người tu hành Việt Nam yêu nước.
+</p><p>Vào khoảng những năm 30 của thế kỷ này, người trụ trì chùa Vĩnh Nghiêm là hòa thượng Thích Thanh Hanh. Sư tổ Hành lúc còn sống là một nhà sư có tiếng tăm, có uy tín lớn đối với Phật giáo Bắc kỳ lúc đó. Thực dân Pháp có âm mưu lợi dụng Phật giáo để mê hoặc nhân dân làm công cụ cho việc cai trị của chúng. Hội Phật giáo Việt Nam được người Pháp giúp đỡ với âm mưu thâm độc đó. Thấy hòa thượng chùa Vĩnh Nghiêm có uy tín, nên tên Việt gian Nguyễn Năng Quốc nhiều lần mời cụ ra làm Hội trưởng Hội Phật giáo cho hội thêm uy tín. Nguyễn Năng Quốc còn nhiều lần cho người mang áo vào ve vãn, lôi kéo hòa thượng, nhưng hòa thượng Thanh đã nhiều lần từ chối lời mời của Nguyễn Năng Quốc với lý do người tu hành không ham phú quý và danh vọng.
+</p>
+<p>Cách mạng tháng Tám thành công, cùng với đất nước thay da đổi thịt, cửa Thiền nay đã mở rộng, đón những người bụng thật từ bi, dạ thật yêu nước. Hòa bình không được bao lâu, toàn quốc bùng nổ kháng chiến. Vĩnh Nghiêm tự nằm trong vùng địa điểm chiến lược quan trọng, mảnh đất này án ngữ một vùng đường thủy quan trọng thọc sâu vào chiến khu Đông Bắc của ta. Ở địa đầu của vùng căn cứ địa cách mạng, Vĩnh Nghiêm tự đứng đối diện với kẻ thù, vọng gác tiền tiêu của kháng chiến, vì vậy, thực dân Pháp nhìn mảnh đất này thèm muốn, bực tức. Thế rồi, năm 1947 chúng theo đường thủy tấn công vào mấy xã quanh Vĩnh Nghiêm tự, đại bác của địch từ Đông Triều bắn sang, từ tàu thủy bắn lên, lấy ngôi chùa làm mục tiêu, đạn pháo của giặt đã bắn gãy thượng lương, sập mái nhà Tổ, nhà Trai trúng 4 quả đạn, bị phá hủy hoàn toàn.
+</p>
+<p>Sau khi đổ quân lên đất liền, chúng liền xông ngay vào chùa. Việc đầu  tiên là chúng bắt gà lợn của nhà chùa, đốt dãy nhà tả vu 18 gian, 5 gian chuồng trâu, nhà làm gạo và bếp. Sợ quân dân ta đánh trả, một bộ phận quân Pháp đã ra đào hào chung quanh khu vực chùa.
+</p>
+<p>Không để cho quân giặc mặc sức cướp phá, quân dân Đức La với hào khí “Đông A” xưa đã đánh cho chúng tơi tả, canô giặc bị nhấn chìm trên sông 40 Lục Nam, du kích tấn công liên tục bọn giặc đóng ở trong chùa. Trước sức mạnh của quân dân ta, thực dân Pháp chỉ dám ở một đêm, rồi hốt hoảng xuống tàu thủy chuồn mất. Chùa Đức La trở lại thanh vắng, dân làng được sự giúp đỡ của chính quyền đã mang bộ cánh cửa của chùa Hộ giấu xuống ao khi giặc đến về lắp lại như xưa.
+</p>
+<p>Sau trận cần này của giặc, cụ sư Tứ và những người tu hành ở chùa Vĩnh Nghiêm đã nhận ra một điều mới mẻ là: thực dân Pháp là những tên quỷ sa tăng của đời, chính chúng phá chùa chiền, chà đạp đạo thánh, giết người cướp của. Phải giết chúng nó mới giữ được đất nước, chùa chiền và người tu hành mới được tự do tín ngưỡng.
+</p>
+<p>Một người du kích già năm ấy kể lại với tôi rằng, sư Tứ còn nói: Phật dạy là phải từ bi, nhưng Phật không dạy từ bi với quỷ. Phải giết quỷ - bọn Pháp- mới tỏ rõ được giáo lý nhà Phật, mới hợp với lẽ đời.
+</p>
+<p>Trước kia sư Tứ đã cho phép dùng chùa làm nơi huấn luyện cán bộ Việt Minh, thì nay cửa chùa lại mở rộng hơn, đón các lớp huấn luyện du kích. Có lần 200 du kích các xã đã tập trung trong chùa huấn luyện. Suốt trong những năm đầu của cuộc kháng chiến, chùa đã giúp đỡ nhiều khóa huấn luyện chính trị và quân sự.
+</p>
+<p>Bất kỳ khóa huấn luyện nào, sư Tứ và nhà chùa đều hết lòng giúp đỡ nơi ăn chốn ở, chu đáo tận tình. Ngoài việc giúp đỡ củi, rơm, có đợt anh em gặp khó khăn về lương thực, nhà chùa cũng sẵn sàng ủng hộ. Sự ủng hộ nhiệt thành của sư tăng chùa Vĩnh Nghiêm lúc đó, xuất phát từ lòng yêu nước, căm thù giặc, còn vì chính anh em rất tôn trọng tự do tín ngưỡng, tôn trọng sư tăng và quy định của nhà chùa.
+</p>
+<p>Những người tu hành ở chùa Vĩnh Nghiêm không chỉ ủng hộ kháng chiến bằng sự tiếp nhận các lớp huấn luyện, mà còn hưởng ứng lời kêu gọi "tăng gia sản xuất" của Chủ tịch Hồ Chí Minh, nên có nhiều cố gắng trong việc trồng cấy và chăn nuôi. Ngay sau hòa bình lập lại, nhà sư Thanh Duyệt (tức hòa thượng Thích Quảng Duyệt) trụ trì chùa tuy già yếu nhưng vẫn rất chăm lo việc tăng gia sản xuất... Mọi người chắc vẫn còn nhớ hòa thượng già này, trong cuộc kháng chiến chống thực dân Pháp đã từng cuộn áo cà sa chở đò đưa cán bộ và du kích qua sông, tránh cuộc truy lùng của giặc. Từ khi về trụ trì tại chùa Vĩnh Nghiêm, hòa thượng đã không ngừng truyền đạt nội dung đúng đắn của người tu hành dưới chế độ ta cho Phật tử - tăng ni và ra sức làm đẹp cảnh chùa. Những số tiền tăng gia sản xuất thu được, hòa thượng đem ủng hộ hàng ngàn đồng góp phần tu sửa chùa. Và, đặc biệt là những đợt quyên góp tiền gửi giúp đồng bào miền Nam, hòa thượng tỏ ra hết sức nhiệt tâm.
+</p>
+<p>Với tất cả hoạt động tích cực trên, hòa thượng Thích Quảng Duyệt đã được nhân dân bầu vào Hội đồng nhân dân tỉnh. Nay tuổi đã già, công việc của Hội đồng nhân dân nhiều, hòa thượng đã được nghỉ, nhưng cụ lại hoạt động tích cực trong Ủy ban Mặt trận Tổ quốc tỉnh. Sư Tứ, hòa thượng Quảng Duyệt và rất nhiều sư tăng - phật tử đã làm nên cái sắc diện đúng của người tu hành Việt Nam.
+</p>
+<p>Khi chúng tôi đang viết những dòng chữ này, được biết rằng tại chùa Vĩnh Nghiêm, cán bộ phòng Bảo tồn Bảo tàng, Ty Văn hóa Hà Bắc đang ngày đêm sát cánh cùng các nghệ nhân nổi tiếng của Phù Khê sửa chữa chùa Đức La. Lần tu sửa này, làm lại tòa gác chuông đã bị hư hỏng, thay các thành phần kiến trúc gỗ bị gãy, mọt ở nhà Tổ, nhà Trai, đảo lại ngói và đắp trang trí trên bờ nóc bị hỏng sau cơn mưa đá tháng 5/1974, đóng thêm nhiều tủ kệ để cất giữ kinh sách và ván kinh.
+</p>
+<p>Trung tâm Phật giáo hơn 700 tuổi này đang được gìn giữ và tu bổ. Những điều đang thấy được ở chùa Vĩnh Nghiêm hôm nay chẳng phải chỉ có người tu hành, mà tất cả chúng ta đều nhận thấy bản chất tốt đẹp của chế độ xã hội chủ nghĩa đối với Tôn giáo và Văn hóa. 
+</p>
+<img id="img1" src="IMG/h4.png" alt="">
+    
+</img>
+        </div>
+    </main>
+    
+    <button onclick="topFunction()" id="btn-btt" title="Go to top"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+    <button onclick="bottomFunction()" id="btn-btb" title="Go to bottom"><img id="muiten-trang" src="icon/muiten trang.png" alt=""></button>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const playPauseButtons = document.querySelectorAll(".play-pause");
+
+    playPauseButtons.forEach(button => {
+        const audioId = button.parentElement.getAttribute("data-audio");
+        const audio = document.getElementById(audioId);
+        audio.volume = 0.1;
+        button.addEventListener("click", function() {
+            if (audio.paused) {
+                audio.play();
+                this.classList.remove("play");
+                this.classList.add("pause");
+            } else {
+                audio.pause();
+                this.classList.remove("pause");
+                this.classList.add("play");
+            }
+        });
+    });
+});
+
+
+</script>
+<script>
+    let btnTop = document.getElementById("btn-btt");
+    let btnBottom = document.getElementById("btn-btb");
+
+    window.onscroll = function() {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        } else {
+            btnTop.style.display = "block";
+            btnBottom.style.display = "block";
+        }
+
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            btnBottom.style.display = "block";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function bottomFunction() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+</script>
+<script>
+    function toggleTable(tableId) {
+        var table = document.getElementById(tableId);
+        if (table.style.display === 'none' || table.style.display === '') {
+            table.style.display = 'block';
+        } else {
+            table.style.display = 'none';
+        }
+    }
+
+    function changeColor(textColor, bgColor) {
+        document.getElementById('content').style.color = textColor;
+        document.getElementById('content').style.backgroundColor = bgColor;
+    }
+
+    function changeFontSize(size) {
+        var content = document.getElementById('content');
+        if (size.startsWith('+')) {
+            var currentSize = parseInt(window.getComputedStyle(content).fontSize);
+            var increment = parseInt(size.substring(1));
+            content.style.fontSize = (currentSize + increment) + 'px';
+        } else {
+            content.style.fontSize = size;
+        }
+    }
+    function changeFont(font) {
+            document.getElementById('content').style.fontFamily = font;
+        }
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const contentText = document.getElementById("content");
+        const highlightBtn = document.getElementById("highlight");
+        const removeHighlightBtn = document.getElementById("remove-highlight");
+
+        let highlighting = false;
+
+        const highlightCursor = document.createElement("div");
+        highlightCursor.classList.add("highlight-cursor");
+        document.body.appendChild(highlightCursor);
+
+        highlightBtn.addEventListener("click", function () {
+            if (!highlighting) {
+                highlighting = true;
+                highlightCursor.style.display = "block";
+                document.body.style.cursor = "crosshair";
+                document.addEventListener("mouseup", endHighlight);
+            } else {
+                highlighting = false;
+                highlightCursor.style.display = "none";
+                document.body.style.cursor = "auto";
+            }
+        });
+
+        removeHighlightBtn.addEventListener("click", function () {
+            let removingHighlight = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            document.addEventListener("mousemove", activateRemoveHighlight);
+
+            function activateRemoveHighlight(event) {
+                if (!removingHighlight) {
+                    highlightCursor.style.left = event.clientX + "px";
+                    highlightCursor.style.top = event.clientY + "px";
+                    highlightCursor.style.display = "block";
+                    document.body.style.cursor = "pointer";
+                    removingHighlight = true;
+                }
+            }
+
+            contentText.addEventListener("click", function (event) {
+                if (removingHighlight) {
+                    const target = event.target;
+                    if (target.classList.contains("highlighted")) {
+                        target.classList.remove("highlighted");
+                    }
+                    highlightCursor.style.display = "none";
+                    document.body.style.cursor = "auto";
+                    removingHighlight = false;
+                    document.removeEventListener("mousemove", activateRemoveHighlight);
+                }
+            });
+        });
+
+
+        document.addEventListener("mousemove", moveHighlightCursor);
+
+        function moveHighlightCursor(event) {
+            if (highlighting) {
+                highlightCursor.style.left = event.clientX + "px";
+                highlightCursor.style.top = event.clientY + "px";
+            }
+        }
+
+        function endHighlight() {
+            highlighting = false;
+            highlightCursor.style.display = "none";
+            document.body.style.cursor = "auto";
+
+            const selection = window.getSelection();
+            const range = selection.getRangeAt(0);
+            if (range) {
+                if (contentText.contains(range.commonAncestorContainer)) {
+                    const span = document.createElement("span");
+                    span.className = "highlighted";
+                    range.surroundContents(span);
+                    selection.removeAllRanges();
+                }
+            }
+        }
+    });
+</script>
+</html>
